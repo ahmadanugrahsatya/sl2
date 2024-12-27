@@ -1,0 +1,73 @@
+armors_rendering:
+  starlightarmor:
+    color: '#532424'
+    layer_1: armor/starlight_armor_layer_1
+    layer_2: armor/starlight_armor_layer_2
+    use_color: false
+info:
+  namespace: starlight
+items:
+  starlighthelmet:
+    display_name: Star Light Helmet
+    permission: starlight.helmet
+    resource:
+      generate: true
+      textures:
+      - armor/starlight_helmet_icon.png
+    specific_properties:
+      armor:
+        custom_armor: starlightarmor
+        slot: head
+    attribute_modifiers:
+      head:
+        armor: 2
+    durability:
+      max_custom_durability: 165
+  starlightchestplate:
+    display_name: Star Light Chestplate
+    permission: starlight.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/starlight_chestplate_icon.png
+    specific_properties:
+      armor:
+        custom_armor: starlightarmor
+        slot: chest
+    attribute_modifiers:
+      chest:
+        armor: 6
+    durability:
+      max_custom_durability: 240
+  starlightleggings:
+    display_name: Star Light Leggings
+    permission: starlight.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/starlight_leggings_icon.png
+    specific_properties:
+      armor:
+        custom_armor: starlightarmor
+        slot: legs
+    attribute_modifiers:
+      legs:
+        armor: 5
+    durability:
+      max_custom_durability: 225
+  starlightboots:
+    display_name: Star Light Boots
+    permission: starlight.boots
+    resource:
+      generate: true
+      textures:
+      - armor/starlight_boots_icon.png
+    specific_properties:
+      armor:
+        custom_armor: starlightarmor
+        slot: feet
+    attribute_modifiers:
+      feet:
+        armor: 2
+    durability:
+      max_custom_durability: 195

@@ -1,0 +1,48 @@
+doombringer_axe_satan_slash_1:
+  Id: paper
+  Display: "&6"
+  Model: 511
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_satan_slash_2:
+  Id: paper
+  Display: "&6"
+  Model: 521
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_satan_slash_3:
+  Id: paper
+  Display: "&6"
+  Model: 531
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_satan_slash_4:
+  Id: paper
+  Display: "&6"
+  Model: 541
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_satan_slash_5:
+  Id: paper
+  Display: "&6"
+  Model: 551
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_satan_slash_6:
+  Id: paper
+  Display: "&6"
+  Model: 561
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_satan_slash_7:
+  Id: paper
+  Display: "&6"
+  Model: 571
+  Hide:
+  - ATTRIBUTES

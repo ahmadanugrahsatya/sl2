@@ -1,0 +1,1 @@
+{"textures":{"3":"modelengine:entity/main"},"elements":[{"from":[11.161325,22.828047,7.2375813],"to":[14.404565,24.681326,7.2375813],"faces":{"south":{"uv":[0.0,1.0,1.75,2.0],"tintindex":0,"rotation":0,"texture":"#3"},"north":{"uv":[0.0,0.0,1.75,1.0],"tintindex":0,"rotation":0,"texture":"#3"}}}],"display":{"gui":{"rotation":[30,225,0]}}}

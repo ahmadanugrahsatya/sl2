@@ -1,0 +1,34 @@
+display:
+    name: '&9Dragon Warrior'
+    lore:
+    - '&5Choose the Dragon Warrior Class'
+    item: STONE_SWORD:2025 # Supports custom model data/texture by durability
+
+# Must match an existing exp curve filename from the 'expcurves' folder
+exp-curve: levels
+
+# The maximum level players can reach
+max-level: 100
+
+exp-table: class_exp_table
+
+skills:
+    DRAGON_SLASH:
+        level: 1
+        max-level: 30
+    DRAGON_DASH:
+        level: 1
+        max-level: 30
+    DRAGON_SKIN:
+        level: 1
+        max-level: 30
+    DRAGON_ZONE:
+        level: 1
+        max-level: 30
+    DRAGON_BREATH:
+        level: 1
+        max-level: 30
+    DRAGONBORN:
+        level: 1
+        max-level: 20
+

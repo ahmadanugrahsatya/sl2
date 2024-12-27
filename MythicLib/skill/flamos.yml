@@ -1,0 +1,22 @@
+FLAME_SLASH:
+    mythicmobs-skill-id: Flame_Slash
+    modifiers:
+    - damage
+
+INFERNO_ORBS:
+    mythicmobs-skill-id: Inferno_Orbs
+    modifiers:
+    
+INFERNO_WHEEL:
+    mythicmobs-skill-id: Inferno_Wheel
+    modifiers:
+    - damage
+    
+BLAZING_LEAP:
+    mythicmobs-skill-id: Blazing_Leap
+    modifiers:
+    
+HELLFIRE_SCYTHE:
+    mythicmobs-skill-id: Hellfire_Scythe
+    modifiers:
+    - damage

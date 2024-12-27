@@ -1,0 +1,81 @@
+# Created and Remake by Lenathaa #
+  
+# Black Slash #
+
+Black_Slash_1:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=dragon_slash_1:0;delay=3} ~onSpawn
+  - equip{item=dragon_slash_2:0;delay=5} ~onSpawn
+  - equip{item=dragon_slash_3:0;delay=7} ~onSpawn
+  - equip{item=dragon_slash_4:0;delay=9} ~onSpawn
+  - equip{item=dragon_slash_5:0;delay=11} ~onSpawn
+  - equip{item=dragon_slash_6:0;delay=13} ~onSpawn
+  - remove{delay=15} @self ~onSpawn
+  
+Black_Slash_2:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,180
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=dragon_slash_1:0;delay=3} ~onSpawn
+  - equip{item=dragon_slash_2:0;delay=5} ~onSpawn
+  - equip{item=dragon_slash_3:0;delay=7} ~onSpawn
+  - equip{item=dragon_slash_4:0;delay=9} ~onSpawn
+  - equip{item=dragon_slash_5:0;delay=11} ~onSpawn
+  - equip{item=dragon_slash_6:0;delay=13} ~onSpawn
+  - remove{delay=15} @self ~onSpawn
+  
+Black_Slash_3:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,25
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=dragon_slash_1:0;delay=3} ~onSpawn
+  - equip{item=dragon_slash_2:0;delay=5} ~onSpawn
+  - equip{item=dragon_slash_3:0;delay=7} ~onSpawn
+  - equip{item=dragon_slash_4:0;delay=9} ~onSpawn
+  - equip{item=dragon_slash_5:0;delay=11} ~onSpawn
+  - equip{item=dragon_slash_6:0;delay=13} ~onSpawn
+  - remove{delay=15} @self ~onSpawn
+  
+Black_Slash_4:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,155
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=dragon_slash_1:0;delay=3} ~onSpawn
+  - equip{item=dragon_slash_2:0;delay=5} ~onSpawn
+  - equip{item=dragon_slash_3:0;delay=7} ~onSpawn
+  - equip{item=dragon_slash_4:0;delay=9} ~onSpawn
+  - equip{item=dragon_slash_5:0;delay=11} ~onSpawn
+  - equip{item=dragon_slash_6:0;delay=13} ~onSpawn
+  - remove{delay=15} @self ~onSpawn
+
+# Created and Remake by Lenathaa #

@@ -1,0 +1,11 @@
+# created and remake by Lenathaa
+LACERATION:
+    mythicmobs-skill-id: Laceration
+    modifiers:
+    - damage
+    
+FORBIDDEN_ART:
+    mythicmobs-skill-id: Forbidden_Art
+    modifiers:
+    - damage
+# Lenathaa #

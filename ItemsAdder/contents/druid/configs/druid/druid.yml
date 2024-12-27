@@ -1,0 +1,171 @@
+info:
+  namespace: druid
+items:
+  druid_staff:
+    display_name: "druid_staff"
+    permission: druid_staff
+    resource:
+      material: STONE_SWORD
+      model_id: 2027
+      generate: false
+      model_path: druid_model/druid_staff
+  druid_staff_shiny:
+    display_name: "druid_staff_shiny"
+    permission: druid_staff_shiny
+    resource:
+      material: STONE_SWORD
+      model_id: 2028
+      generate: false
+      model_path: druid_model/druid_staff_shiny
+  icon_bear_form:
+    display_name: "icon_bear_form"
+    permission: icon_bear_form
+    resource:
+      material: COAL
+      model_id: 2082
+      generate: false
+      model_path: druid_model/icon_bear_form
+  icon_hawk_form:
+    display_name: "icon_hawk_form"
+    permission: icon_hawk_form
+    resource:
+      material: COAL
+      model_id: 2083
+      generate: false
+      model_path: druid_model/icon_hawk_form
+  icon_healing_wisp:
+    display_name: "icon_healing_wisp"
+    permission: icon_healing_wisp
+    resource:
+      material: COAL
+      model_id: 2084
+      generate: false
+      model_path: druid_model/icon_healing_wisp
+  icon_poison_thorns:
+    display_name: "icon_poison_thorns"
+    permission: icon_poison_thorns
+    resource:
+      material: COAL
+      model_id: 2085
+      generate: false
+      model_path: druid_model/icon_poison_thorns
+  icon_vine_wave:
+    display_name: "icon_vine_wave"
+    permission: icon_vine_wave
+    resource:
+      material: COAL
+      model_id: 2086
+      generate: false
+      model_path: druid_model/icon_vine_wave
+  icon_wolf_form:
+    display_name: "icon_wolf_form"
+    permission: icon_wolf_form
+    resource:
+      material: COAL
+      model_id: 2087
+      generate: false
+      model_path: druid_model/icon_wolf_form
+  crack_1:
+    display_name: "crack_1"
+    permission: crack_1
+    resource:
+      material: PAPER
+      model_id: 2366
+      generate: false
+      model_path: druid_model/crack_1
+  crack_2:
+    display_name: "crack_2"
+    permission: crack_2
+    resource:
+      material: PAPER
+      model_id: 2367
+      generate: false
+      model_path: druid_model/crack_2
+  crack_3:
+    display_name: "crack_3"
+    permission: crack_3
+    resource:
+      material: PAPER
+      model_id: 2368
+      generate: false
+      model_path: druid_model/crack_3
+  crack_4:
+    display_name: "crack_4"
+    permission: crack_4
+    resource:
+      material: PAPER
+      model_id: 2369
+      generate: false
+      model_path: druid_model/crack_4
+  crack_5:
+    display_name: "crack_5"
+    permission: crack_5
+    resource:
+      material: PAPER
+      model_id: 2370
+      generate: false
+      model_path: druid_model/crack_5
+  crack_6:
+    display_name: "crack_6"
+    permission: crack_6
+    resource:
+      material: PAPER
+      model_id: 2371
+      generate: false
+      model_path: druid_model/crack_6
+  scratch_1:
+    display_name: "scratch_1"
+    permission: scratch_1
+    resource:
+      material: PAPER
+      model_id: 2372
+      generate: false
+      model_path: druid_model/scratch_1
+  scratch_2:
+    display_name: "scratch_2"
+    permission: scratch_2
+    resource:
+      material: PAPER
+      model_id: 2373
+      generate: false
+      model_path: druid_model/scratch_2
+  scratch_3:
+    display_name: "scratch_3"
+    permission: scratch_3
+    resource:
+      material: PAPER
+      model_id: 2374
+      generate: false
+      model_path: druid_model/scratch_3
+  scratch_4:
+    display_name: "scratch_4"
+    permission: scratch_4
+    resource:
+      material: PAPER
+      model_id: 2375
+      generate: false
+      model_path: druid_model/scratch_4
+  scratch_5:
+    display_name: "scratch_5"
+    permission: scratch_5
+    resource:
+      material: PAPER
+      model_id: 2376
+      generate: false
+      model_path: druid_model/scratch_5
+  scratch_6:
+    display_name: "scratch_6"
+    permission: scratch_6
+    resource:
+      material: PAPER
+      model_id: 2377
+      generate: false
+      model_path: druid_model/scratch_6
+  scratch_7:
+    display_name: "scratch_7"
+    permission: scratch_7
+    resource:
+      material: PAPER
+      model_id: 2378
+      generate: false
+      model_path: druid_model/scratch_7

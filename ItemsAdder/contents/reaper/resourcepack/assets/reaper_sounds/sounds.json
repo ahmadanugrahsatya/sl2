@@ -1,0 +1,122 @@
+{
+  "samus.claw_pull": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/claw_pull"
+    ]
+  },
+  "samus.cross_slash": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/cross_slash"
+    ]
+  },
+  "samus.death_spin": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/death_spin"
+    ]
+  },
+  "samus.drain_heal": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/drain_heal"
+    ]
+  },
+  "samus.god_of_death_slash": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/god_of_death_slash"
+    ]
+  },
+  "samus.god_of_death_smash": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/god_of_death_smash"
+    ]
+  },
+  "samus.soul_scythe_slash": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/soul_scythe_slash"
+    ]
+  },
+  "samus.soul_slice_1": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/soul_slice_1"
+    ]
+  },
+  "samus.soul_slice_2": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/soul_slice_2"
+    ]
+  },
+  "samus.summon_claw": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/summon_claw"
+    ]
+  },
+  "samus.summon_scythe": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/summon_scythe"
+    ]
+  },
+  "samus.blood_cut": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/blood_cut"
+    ]
+  },
+  "samus.blood_pierce": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/blood_pierce"
+    ]
+  },
+  "samus.blood_slash_1": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/blood_slash_1"
+    ]
+  },
+  "samus.blood_slash_2": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/blood_slash_2"
+    ]
+  },
+  "samus.death_charge_spin_1": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/death_charge_spin_1"
+    ]
+  },
+  "samus.death_charge_spin_2": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/death_charge_spin_2"
+    ]
+  },
+  "samus.death_symbol": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/death_symbol"
+    ]
+  },
+  "samus.flow_state_stack": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/flow_state_stack"
+    ]
+  },
+  "samus.laceration": {
+    "category": "master",
+    "sounds": [
+      "reaper:samus/reaper/laceration"
+    ]
+  }
+}

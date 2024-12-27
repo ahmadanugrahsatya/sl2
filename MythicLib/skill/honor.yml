@@ -1,0 +1,14 @@
+GRAPH_SLASH:
+    mythicmobs-skill-id: Graph_Slash
+    modifiers:
+    - damage
+
+AETHER_STRIKE:
+    mythicmobs-skill-id: Aether_Strike_1
+    modifiers:
+    - damage
+
+ESOTERIC_DASH:
+    mythicmobs-skill-id: Esoteric_Dash
+    modifiers:
+    - damage

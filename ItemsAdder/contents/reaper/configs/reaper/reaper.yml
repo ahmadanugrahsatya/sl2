@@ -1,0 +1,1021 @@
+# Downloaded from https://nullforums.net/resources/samus2002-rpg-class-series-reaper.5258
+info:
+  namespace: reaper
+items:
+  reaper:
+    display_name: "reaper"
+    permission: reaper
+    resource:
+      material: DIAMOND_HOE
+      model_id: 1
+      generate: false
+      model_path: reaper_model/ancient_sky_scythe
+  avarice_scythe_evo:
+    display_name: "avarice_scythe_evo"
+    permission: avarice_scythe_evo
+    resource:
+      material: DIAMOND_HOE
+      model_id: 2
+      generate: false
+      model_path: reaper_model/avarice_scythe_evo
+  icon_death_spin:
+    display_name: "icon_death_spin"
+    permission: icon_death_spin
+    resource:
+      material: COAL
+      model_id: 2153
+      generate: false
+      model_path: reaper_model/icon_death_spin
+  icon_god_of_death:
+    display_name: "icon_god_of_death"
+    permission: icon_god_of_death
+    resource:
+      material: COAL
+      model_id: 2154
+      generate: false
+      model_path: reaper_model/icon_god_of_death
+  icon_reaping_claw:
+    display_name: "icon_reaping_claw"
+    permission: icon_reaping_claw
+    resource:
+      material: COAL
+      model_id: 2155
+      generate: false
+      model_path: reaper_model/icon_reaping_claw
+  icon_soul_collector:
+    display_name: "icon_soul_collector"
+    permission: icon_soul_collector
+    resource:
+      material: COAL
+      model_id: 2156
+      generate: false
+      model_path: reaper_model/icon_soul_collector
+  icon_soul_scythe:
+    display_name: "icon_soul_scythe"
+    permission: icon_soul_scythe
+    resource:
+      material: COAL
+      model_id: 2157
+      generate: false
+      model_path: reaper_model/icon_soul_scythe
+  icon_soul_slice:
+    display_name: "icon_soul_slice"
+    permission: icon_soul_slice
+    resource:
+      material: COAL
+      model_id: 2158
+      generate: false
+      model_path: reaper_model/icon_soul_slice
+  icon_surge:
+    display_name: "icon_surge"
+    permission: icon_surge
+    resource:
+      material: COAL
+      model_id: 2159
+      generate: false
+      model_path: reaper_model/icon_surge
+  death_slice_1:
+    display_name: "death_slice_1"
+    permission: death_slice_1
+    resource:
+      material: PAPER
+      model_id: 2840
+      generate: false
+      model_path: reaper_model/death_slice_1
+  death_slice_2:
+    display_name: "death_slice_2"
+    permission: death_slice_2
+    resource:
+      material: PAPER
+      model_id: 2841
+      generate: false
+      model_path: reaper_model/death_slice_2
+  death_slice_3:
+    display_name: "death_slice_3"
+    permission: death_slice_3
+    resource:
+      material: PAPER
+      model_id: 2842
+      generate: false
+      model_path: reaper_model/death_slice_3
+  death_slice_4:
+    display_name: "death_slice_4"
+    permission: death_slice_4
+    resource:
+      material: PAPER
+      model_id: 2843
+      generate: false
+      model_path: reaper_model/death_slice_4
+  death_slice_5:
+    display_name: "death_slice_5"
+    permission: death_slice_5
+    resource:
+      material: PAPER
+      model_id: 2844
+      generate: false
+      model_path: reaper_model/death_slice_5
+  death_slice_6:
+    display_name: "death_slice_6"
+    permission: death_slice_6
+    resource:
+      material: PAPER
+      model_id: 2845
+      generate: false
+      model_path: reaper_model/death_slice_6
+  death_slice_7:
+    display_name: "death_slice_7"
+    permission: death_slice_7
+    resource:
+      material: PAPER
+      model_id: 2846
+      generate: false
+      model_path: reaper_model/death_slice_7
+  death_slice_8:
+    display_name: "death_slice_8"
+    permission: death_slice_8
+    resource:
+      material: PAPER
+      model_id: 2847
+      generate: false
+      model_path: reaper_model/death_slice_8
+  death_spin:
+    display_name: "death_spin"
+    permission: death_spin
+    resource:
+      material: PAPER
+      model_id: 2848
+      generate: false
+      model_path: reaper_model/death_spin
+  soul_cross_1:
+    display_name: "soul_cross_1"
+    permission: soul_cross_1
+    resource:
+      material: PAPER
+      model_id: 2849
+      generate: false
+      model_path: reaper_model/soul_cross_1
+  soul_cross_2:
+    display_name: "soul_cross_2"
+    permission: soul_cross_2
+    resource:
+      material: PAPER
+      model_id: 2850
+      generate: false
+      model_path: reaper_model/soul_cross_2
+  soul_cross_3:
+    display_name: "soul_cross_3"
+    permission: soul_cross_3
+    resource:
+      material: PAPER
+      model_id: 2851
+      generate: false
+      model_path: reaper_model/soul_cross_3
+  soul_cross_4:
+    display_name: "soul_cross_4"
+    permission: soul_cross_4
+    resource:
+      material: PAPER
+      model_id: 2852
+      generate: false
+      model_path: reaper_model/soul_cross_4
+  soul_cross_5:
+    display_name: "soul_cross_5"
+    permission: soul_cross_5
+    resource:
+      material: PAPER
+      model_id: 2853
+      generate: false
+      model_path: reaper_model/soul_cross_5
+  soul_cross_6:
+    display_name: "soul_cross_6"
+    permission: soul_cross_6
+    resource:
+      material: PAPER
+      model_id: 2854
+      generate: false
+      model_path: reaper_model/soul_cross_6
+  soul_cross_7:
+    display_name: "soul_cross_7"
+    permission: soul_cross_7
+    resource:
+      material: PAPER
+      model_id: 2855
+      generate: false
+      model_path: reaper_model/soul_cross_7
+  soul_cross_8:
+    display_name: "soul_cross_8"
+    permission: soul_cross_8
+    resource:
+      material: PAPER
+      model_id: 2856
+      generate: false
+      model_path: reaper_model/soul_cross_8
+  soul_slice_1:
+    display_name: "soul_slice_1"
+    permission: soul_slice_1
+    resource:
+      material: PAPER
+      model_id: 2857
+      generate: false
+      model_path: reaper_model/soul_slice_1
+  soul_slice_2:
+    display_name: "soul_slice_2"
+    permission: soul_slice_2
+    resource:
+      material: PAPER
+      model_id: 2858
+      generate: false
+      model_path: reaper_model/soul_slice_2
+  soul_slice_3:
+    display_name: "soul_slice_3"
+    permission: soul_slice_3
+    resource:
+      material: PAPER
+      model_id: 2859
+      generate: false
+      model_path: reaper_model/soul_slice_3
+  soul_slice_4:
+    display_name: "soul_slice_4"
+    permission: soul_slice_4
+    resource:
+      material: PAPER
+      model_id: 2860
+      generate: false
+      model_path: reaper_model/soul_slice_4
+  soul_slice_5:
+    display_name: "soul_slice_5"
+    permission: soul_slice_5
+    resource:
+      material: PAPER
+      model_id: 2861
+      generate: false
+      model_path: reaper_model/soul_slice_5
+  soul_slice_6:
+    display_name: "soul_slice_6"
+    permission: soul_slice_6
+    resource:
+      material: PAPER
+      model_id: 2862
+      generate: false
+      model_path: reaper_model/soul_slice_6
+  soul_slice_7:
+    display_name: "soul_slice_7"
+    permission: soul_slice_7
+    resource:
+      material: PAPER
+      model_id: 2863
+      generate: false
+      model_path: reaper_model/soul_slice_7
+  soul_slice_8:
+    display_name: "soul_slice_8"
+    permission: soul_slice_8
+    resource:
+      material: PAPER
+      model_id: 2864
+      generate: false
+      model_path: reaper_model/soul_slice_8
+  soul_spin:
+    display_name: "soul_spin"
+    permission: soul_spin
+    resource:
+      material: PAPER
+      model_id: 2865
+      generate: false
+      model_path: reaper_model/soul_spin
+  soul_wave_1:
+    display_name: "soul_wave_1"
+    permission: soul_wave_1
+    resource:
+      material: PAPER
+      model_id: 2866
+      generate: false
+      model_path: reaper_model/soul_wave_1
+  soul_wave_2:
+    display_name: "soul_wave_2"
+    permission: soul_wave_2
+    resource:
+      material: PAPER
+      model_id: 2867
+      generate: false
+      model_path: reaper_model/soul_wave_2
+  soul_wave_3:
+    display_name: "soul_wave_3"
+    permission: soul_wave_3
+    resource:
+      material: PAPER
+      model_id: 2868
+      generate: false
+      model_path: reaper_model/soul_wave_3
+  soul_wave_4:
+    display_name: "soul_wave_4"
+    permission: soul_wave_4
+    resource:
+      material: PAPER
+      model_id: 2869
+      generate: false
+      model_path: reaper_model/soul_wave_4
+  soul_wave_5:
+    display_name: "soul_wave_5"
+    permission: soul_wave_5
+    resource:
+      material: PAPER
+      model_id: 2870
+      generate: false
+      model_path: reaper_model/soul_wave_5
+  soul_wave_6:
+    display_name: "soul_wave_6"
+    permission: soul_wave_6
+    resource:
+      material: PAPER
+      model_id: 2871
+      generate: false
+      model_path: reaper_model/soul_wave_6
+  soul_wave_7:
+    display_name: "soul_wave_7"
+    permission: soul_wave_7
+    resource:
+      material: PAPER
+      model_id: 2872
+      generate: false
+      model_path: reaper_model/soul_wave_7
+  blood_cut_1:
+    display_name: "blood_cut_1"
+    permission: blood_cut_1
+    resource:
+      material: PAPER
+      model_id: 2873
+      generate: false
+      model_path: reaper_model/blood_cut_1
+  blood_cut_2:
+    display_name: "blood_cut_2"
+    permission: blood_cut_2
+    resource:
+      material: PAPER
+      model_id: 2874
+      generate: false
+      model_path: reaper_model/blood_cut_2
+  blood_cut_3:
+    display_name: "blood_cut_3"
+    permission: blood_cut_3
+    resource:
+      material: PAPER
+      model_id: 2875
+      generate: false
+      model_path: reaper_model/blood_cut_3
+  blood_cut_4:
+    display_name: "blood_cut_4"
+    permission: blood_cut_4
+    resource:
+      material: PAPER
+      model_id: 2876
+      generate: false
+      model_path: reaper_model/blood_cut_4
+  blood_cut_5:
+    display_name: "blood_cut_5"
+    permission: blood_cut_5
+    resource:
+      material: PAPER
+      model_id: 2877
+      generate: false
+      model_path: reaper_model/blood_cut_5
+  blood_cut_6:
+    display_name: "blood_cut_6"
+    permission: blood_cut_6
+    resource:
+      material: PAPER
+      model_id: 2878
+      generate: false
+      model_path: reaper_model/blood_cut_6
+  blood_cut_7:
+    display_name: "blood_cut_7"
+    permission: blood_cut_7
+    resource:
+      material: PAPER
+      model_id: 2879
+      generate: false
+      model_path: reaper_model/blood_cut_7
+  blood_cut_8:
+    display_name: "blood_cut_8"
+    permission: blood_cut_8
+    resource:
+      material: PAPER
+      model_id: 2880
+      generate: false
+      model_path: reaper_model/blood_cut_8
+  death_mark_1:
+    display_name: "death_mark_1"
+    permission: death_mark_1
+    resource:
+      material: PAPER
+      model_id: 2881
+      generate: false
+      model_path: reaper_model/death_mark_1
+  death_mark_2:
+    display_name: "death_mark_2"
+    permission: death_mark_2
+    resource:
+      material: PAPER
+      model_id: 2882
+      generate: false
+      model_path: reaper_model/death_mark_2
+  death_mark_3:
+    display_name: "death_mark_3"
+    permission: death_mark_3
+    resource:
+      material: PAPER
+      model_id: 2883
+      generate: false
+      model_path: reaper_model/death_mark_3
+  death_mark_4:
+    display_name: "death_mark_4"
+    permission: death_mark_4
+    resource:
+      material: PAPER
+      model_id: 2884
+      generate: false
+      model_path: reaper_model/death_mark_4
+  death_mark_5:
+    display_name: "death_mark_5"
+    permission: death_mark_5
+    resource:
+      material: PAPER
+      model_id: 2885
+      generate: false
+      model_path: reaper_model/death_mark_5
+  ground_pound_1:
+    display_name: "ground_pound_1"
+    permission: ground_pound_1
+    resource:
+      material: PAPER
+      model_id: 2886
+      generate: false
+      model_path: reaper_model/ground_pound_1
+  ground_pound_2:
+    display_name: "ground_pound_2"
+    permission: ground_pound_2
+    resource:
+      material: PAPER
+      model_id: 2887
+      generate: false
+      model_path: reaper_model/ground_pound_2
+  ground_pound_3:
+    display_name: "ground_pound_3"
+    permission: ground_pound_3
+    resource:
+      material: PAPER
+      model_id: 2888
+      generate: false
+      model_path: reaper_model/ground_pound_3
+  ground_pound_4:
+    display_name: "ground_pound_4"
+    permission: ground_pound_4
+    resource:
+      material: PAPER
+      model_id: 2889
+      generate: false
+      model_path: reaper_model/ground_pound_4
+  ground_pound_5:
+    display_name: "ground_pound_5"
+    permission: ground_pound_5
+    resource:
+      material: PAPER
+      model_id: 2890
+      generate: false
+      model_path: reaper_model/ground_pound_5
+  ground_pound_6:
+    display_name: "ground_pound_6"
+    permission: ground_pound_6
+    resource:
+      material: PAPER
+      model_id: 2891
+      generate: false
+      model_path: reaper_model/ground_pound_6
+  ground_pound_7:
+    display_name: "ground_pound_7"
+    permission: ground_pound_7
+    resource:
+      material: PAPER
+      model_id: 2892
+      generate: false
+      model_path: reaper_model/ground_pound_7
+  laceration_dash_1:
+    display_name: "laceration_dash_1"
+    permission: laceration_dash_1
+    resource:
+      material: PAPER
+      model_id: 2893
+      generate: false
+      model_path: reaper_model/laceration_dash_1
+  laceration_dash_2:
+    display_name: "laceration_dash_2"
+    permission: laceration_dash_2
+    resource:
+      material: PAPER
+      model_id: 2894
+      generate: false
+      model_path: reaper_model/laceration_dash_2
+  laceration_dash_3:
+    display_name: "laceration_dash_3"
+    permission: laceration_dash_3
+    resource:
+      material: PAPER
+      model_id: 2895
+      generate: false
+      model_path: reaper_model/laceration_dash_3
+  laceration_dash_4:
+    display_name: "laceration_dash_4"
+    permission: laceration_dash_4
+    resource:
+      material: PAPER
+      model_id: 2896
+      generate: false
+      model_path: reaper_model/laceration_dash_4
+  laceration_dash_5:
+    display_name: "laceration_dash_5"
+    permission: laceration_dash_5
+    resource:
+      material: PAPER
+      model_id: 2897
+      generate: false
+      model_path: reaper_model/laceration_dash_5
+  laceration_dash_6:
+    display_name: "laceration_dash_6"
+    permission: laceration_dash_6
+    resource:
+      material: PAPER
+      model_id: 2898
+      generate: false
+      model_path: reaper_model/laceration_dash_6
+  laceration_slash_1:
+    display_name: "laceration_slash_1"
+    permission: laceration_slash_1
+    resource:
+      material: PAPER
+      model_id: 2899
+      generate: false
+      model_path: reaper_model/laceration_slash_1
+  laceration_slash_2:
+    display_name: "laceration_slash_2"
+    permission: laceration_slash_2
+    resource:
+      material: PAPER
+      model_id: 2900
+      generate: false
+      model_path: reaper_model/laceration_slash_2
+  laceration_slash_3:
+    display_name: "laceration_slash_3"
+    permission: laceration_slash_3
+    resource:
+      material: PAPER
+      model_id: 2901
+      generate: false
+      model_path: reaper_model/laceration_slash_3
+  laceration_slash_4:
+    display_name: "laceration_slash_4"
+    permission: laceration_slash_4
+    resource:
+      material: PAPER
+      model_id: 2902
+      generate: false
+      model_path: reaper_model/laceration_slash_4
+  laceration_slash_5:
+    display_name: "laceration_slash_5"
+    permission: laceration_slash_5
+    resource:
+      material: PAPER
+      model_id: 2903
+      generate: false
+      model_path: reaper_model/laceration_slash_5
+  ninja_shadow_1_1:
+    display_name: "ninja_shadow_1_1"
+    permission: ninja_shadow_1_1
+    resource:
+      material: PAPER
+      model_id: 2939
+      generate: false
+      model_path: reaper_model/ninja_shadow_1_1
+  ninja_shadow_1_2:
+    display_name: "ninja_shadow_1_2"
+    permission: ninja_shadow_1_2
+    resource:
+      material: PAPER
+      model_id: 2940
+      generate: false
+      model_path: reaper_model/ninja_shadow_1_2
+  ninja_shadow_1_3:
+    display_name: "ninja_shadow_1_3"
+    permission: ninja_shadow_1_3
+    resource:
+      material: PAPER
+      model_id: 2904
+      generate: false
+      model_path: reaper_model/ninja_shadow_1_3
+  ninja_shadow_1_4:
+    display_name: "ninja_shadow_1_4"
+    permission: ninja_shadow_1_4
+    resource:
+      material: PAPER
+      model_id: 2905
+      generate: false
+      model_path: reaper_model/ninja_shadow_1_4
+  ninja_shadow_2_1:
+    display_name: "ninja_shadow_2_1"
+    permission: ninja_shadow_2_1
+    resource:
+      material: PAPER
+      model_id: 2906
+      generate: false
+      model_path: reaper_model/ninja_shadow_2_1
+  ninja_shadow_2_2:
+    display_name: "ninja_shadow_2_2"
+    permission: ninja_shadow_2_2
+    resource:
+      material: PAPER
+      model_id: 2907
+      generate: false
+      model_path: reaper_model/ninja_shadow_2_2
+  ninja_shadow_2_3:
+    display_name: "ninja_shadow_2_3"
+    permission: ninja_shadow_2_3
+    resource:
+      material: PAPER
+      model_id: 2908
+      generate: false
+      model_path: reaper_model/ninja_shadow_2_3
+  ninja_shadow_2_4:
+    display_name: "ninja_shadow_2_4"
+    permission: ninja_shadow_2_4
+    resource:
+      material: PAPER
+      model_id: 2909
+      generate: false
+      model_path: reaper_model/ninja_shadow_2_4
+  ninja_shadow_3_1:
+    display_name: "ninja_shadow_3_1"
+    permission: ninja_shadow_3_1
+    resource:
+      material: PAPER
+      model_id: 2910
+      generate: false
+      model_path: reaper_model/ninja_shadow_3_1
+  ninja_shadow_3_2:
+    display_name: "ninja_shadow_3_2"
+    permission: ninja_shadow_3_2
+    resource:
+      material: PAPER
+      model_id: 2911
+      generate: false
+      model_path: reaper_model/ninja_shadow_3_2
+  ninja_shadow_3_3:
+    display_name: "ninja_shadow_3_3"
+    permission: ninja_shadow_3_3
+    resource:
+      material: PAPER
+      model_id: 2912
+      generate: false
+      model_path: reaper_model/ninja_shadow_3_3
+  ninja_shadow_3_4:
+    display_name: "ninja_shadow_3_4"
+    permission: ninja_shadow_3_4
+    resource:
+      material: PAPER
+      model_id: 2913
+      generate: false
+      model_path: reaper_model/ninja_shadow_3_4
+  ninja_shadow_4_1:
+    display_name: "ninja_shadow_4_1"
+    permission: ninja_shadow_4_1
+    resource:
+      material: PAPER
+      model_id: 2914
+      generate: false
+      model_path: reaper_model/ninja_shadow_4_1
+  ninja_shadow_4_2:
+    display_name: "ninja_shadow_4_2"
+    permission: ninja_shadow_4_2
+    resource:
+      material: PAPER
+      model_id: 2915
+      generate: false
+      model_path: reaper_model/ninja_shadow_4_2
+  ninja_shadow_4_3:
+    display_name: "ninja_shadow_4_3"
+    permission: ninja_shadow_4_3
+    resource:
+      material: PAPER
+      model_id: 2916
+      generate: false
+      model_path: reaper_model/ninja_shadow_4_3
+  ninja_shadow_4_4:
+    display_name: "ninja_shadow_4_4"
+    permission: ninja_shadow_4_4
+    resource:
+      material: PAPER
+      model_id: 2917
+      generate: false
+      model_path: reaper_model/ninja_shadow_4_4
+  shadow_cut_1:
+    display_name: "shadow_cut_1"
+    permission: shadow_cut_1
+    resource:
+      material: PAPER
+      model_id: 2918
+      generate: false
+      model_path: reaper_model/shadow_cut_1
+  shadow_cut_2:
+    display_name: "shadow_cut_2"
+    permission: shadow_cut_2
+    resource:
+      material: PAPER
+      model_id: 2919
+      generate: false
+      model_path: reaper_model/shadow_cut_2
+  shadow_cut_3:
+    display_name: "shadow_cut_3"
+    permission: shadow_cut_3
+    resource:
+      material: PAPER
+      model_id: 2920
+      generate: false
+      model_path: reaper_model/shadow_cut_3
+  shadow_cut_4:
+    display_name: "shadow_cut_4"
+    permission: shadow_cut_4
+    resource:
+      material: PAPER
+      model_id: 2921
+      generate: false
+      model_path: reaper_model/shadow_cut_4
+  shadow_cut_5:
+    display_name: "shadow_cut_5"
+    permission: shadow_cut_5
+    resource:
+      material: PAPER
+      model_id: 2922
+      generate: false
+      model_path: reaper_model/shadow_cut_5
+  shadow_cut_6:
+    display_name: "shadow_cut_6"
+    permission: shadow_cut_6
+    resource:
+      material: PAPER
+      model_id: 2923
+      generate: false
+      model_path: reaper_model/shadow_cut_6
+  shadow_cut_7:
+    display_name: "shadow_cut_7"
+    permission: shadow_cut_7
+    resource:
+      material: PAPER
+      model_id: 2924
+      generate: false
+      model_path: reaper_model/shadow_cut_7
+  shadow_cut_8:
+    display_name: "shadow_cut_8"
+    permission: shadow_cut_8
+    resource:
+      material: PAPER
+      model_id: 2925
+      generate: false
+      model_path: reaper_model/shadow_cut_8
+  shadow_slash_1:
+    display_name: "shadow_slash_1"
+    permission: shadow_slash_1
+    resource:
+      material: PAPER
+      model_id: 2926
+      generate: false
+      model_path: reaper_model/shadow_slash_1
+  shadow_slash_2:
+    display_name: "shadow_slash_2"
+    permission: shadow_slash_2
+    resource:
+      material: PAPER
+      model_id: 2927
+      generate: false
+      model_path: reaper_model/shadow_slash_2
+  shadow_slash_3:
+    display_name: "shadow_slash_3"
+    permission: shadow_slash_3
+    resource:
+      material: PAPER
+      model_id: 2928
+      generate: false
+      model_path: reaper_model/shadow_slash_3
+  shadow_slash_4:
+    display_name: "shadow_slash_4"
+    permission: shadow_slash_4
+    resource:
+      material: PAPER
+      model_id: 2929
+      generate: false
+      model_path: reaper_model/shadow_slash_4
+  shadow_slash_5:
+    display_name: "shadow_slash_5"
+    permission: shadow_slash_5
+    resource:
+      material: PAPER
+      model_id: 2930
+      generate: false
+      model_path: reaper_model/shadow_slash_5
+  shadow_slash_6:
+    display_name: "shadow_slash_6"
+    permission: shadow_slash_6
+    resource:
+      material: PAPER
+      model_id: 2931
+      generate: false
+      model_path: reaper_model/shadow_slash_6
+  shadow_slash_7:
+    display_name: "shadow_slash_7"
+    permission: shadow_slash_7
+    resource:
+      material: PAPER
+      model_id: 2932
+      generate: false
+      model_path: reaper_model/shadow_slash_7
+  shadow_spin:
+    display_name: "shadow_spin"
+    permission: shadow_spin
+    resource:
+      material: PAPER
+      model_id: 2933
+      generate: false
+      model_path: reaper_model/shadow_spin
+  shadow_pierce_1:
+    display_name: "shadow_pierce_1"
+    permission: shadow_pierce_1
+    resource:
+      material: PAPER
+      model_id: 2934
+      generate: false
+      model_path: reaper_model/shadow_pierce_1
+  shadow_pierce_2:
+    display_name: "shadow_pierce_2"
+    permission: shadow_pierce_2
+    resource:
+      material: PAPER
+      model_id: 2935
+      generate: false
+      model_path: reaper_model/shadow_pierce_2
+  shadow_pierce_3:
+    display_name: "shadow_pierce_3"
+    permission: shadow_pierce_3
+    resource:
+      material: PAPER
+      model_id: 2936
+      generate: false
+      model_path: reaper_model/shadow_pierce_3
+  shadow_pierce_4:
+    display_name: "shadow_pierce_4"
+    permission: shadow_pierce_4
+    resource:
+      material: PAPER
+      model_id: 2937
+      generate: false
+      model_path: reaper_model/shadow_pierce_4
+  shadow_pierce_5:
+    display_name: "shadow_pierce_5"
+    permission: shadow_pierce_5
+    resource:
+      material: PAPER
+      model_id: 2938
+      generate: false
+      model_path: reaper_model/shadow_pierce_5
+  death_slice_evo_1:
+    display_name: "death_slice_evo_1"
+    permission: death_slice_evo_1
+    resource:
+      material: PAPER
+      model_id: 3000
+      generate: false
+      model_path: reaper_model/death_slice_evo_1
+  death_slice_evo_2:
+    display_name: "death_slice_evo_2"
+    permission: death_slice_evo_2
+    resource:
+      material: PAPER
+      model_id: 3001
+      generate: false
+      model_path: reaper_model/death_slice_evo_2
+  death_slice_evo_3:
+    display_name: "death_slice_evo_3"
+    permission: death_slice_evo_3
+    resource:
+      material: PAPER
+      model_id: 3002
+      generate: false
+      model_path: reaper_model/death_slice_evo_3
+  death_slice_evo_4:
+    display_name: "death_slice_evo_4"
+    permission: death_slice_evo_4
+    resource:
+      material: PAPER
+      model_id: 3003
+      generate: false
+      model_path: reaper_model/death_slice_evo_4
+  death_slice_evo_5:
+    display_name: "death_slice_evo_5"
+    permission: death_slice_evo_5
+    resource:
+      material: PAPER
+      model_id: 3004
+      generate: false
+      model_path: reaper_model/death_slice_evo_5
+  death_slice_evo_6:
+    display_name: "death_slice_evo_6"
+    permission: death_slice_evo_6
+    resource:
+      material: PAPER
+      model_id: 3005
+      generate: false
+      model_path: reaper_model/death_slice_evo_6
+  death_slice_evo_7:
+    display_name: "death_slice_evo_8"
+    permission: death_slice_evo_7
+    resource:
+      material: PAPER
+      model_id: 3006
+      generate: false
+      model_path: reaper_model/death_slice_evo_7
+  death_slice_evo_8:
+    display_name: "death_slice_evo_8"
+    permission: death_slice_evo_8
+    resource:
+      material: PAPER
+      model_id: 3007
+      generate: false
+      model_path: reaper_model/death_slice_evo_8
+  soul_slice_evo_1:
+    display_name: "soul_slice_evo_1"
+    permission: soul_slice_evo_1
+    resource:
+      material: PAPER
+      model_id: 3008
+      generate: false
+      model_path: reaper_model/soul_slice_evo_1
+  soul_slice_evo_2:
+    display_name: "soul_slice_evo_2"
+    permission: soul_slice_evo_2
+    resource:
+      material: PAPER
+      model_id: 3009
+      generate: false
+      model_path: reaper_model/soul_slice_evo_2
+  soul_slice_evo_3:
+    display_name: "soul_slice_evo_3"
+    permission: soul_slice_evo_3
+    resource:
+      material: PAPER
+      model_id: 3011
+      generate: false
+      model_path: reaper_model/soul_slice_evo_3
+  soul_slice_evo_4:
+    display_name: "soul_slice_evo_4"
+    permission: soul_slice_evo_4
+    resource:
+      material: PAPER
+      model_id: 3012
+      generate: false
+      model_path: reaper_model/soul_slice_evo_4
+  soul_slice_evo_5:
+    display_name: "soul_slice_evo_5"
+    permission: soul_slice_evo_5
+    resource:
+      material: PAPER
+      model_id: 3013
+      generate: false
+      model_path: reaper_model/soul_slice_evo_5
+  soul_slice_evo_6:
+    display_name: "soul_slice_evo_6"
+    permission: soul_slice_evo_6
+    resource:
+      material: PAPER
+      model_id: 3014
+      generate: false
+      model_path: reaper_model/soul_slice_evo_6
+  soul_slice_evo_7:
+    display_name: "soul_slice_evo_7"
+    permission: soul_slice_evo_7
+    resource:
+      material: PAPER
+      model_id: 3015
+      generate: false
+      model_path: reaper_model/soul_slice_evo_7
+  soul_slice_evo_8:
+    display_name: "soul_slice_evo_8"
+    permission: soul_slice_evo_8
+    resource:
+      material: PAPER
+      model_id: 3016
+      generate: false
+      model_path: reaper_model/soul_slice_evo_8
+  avarice_scythe_evo_2:
+    display_name: "avarice_scythe_evo_2"
+    permission: avarice_scythe_evo_2
+    resource:
+      material: DIAMOND_HOE
+      model_id: 3
+      generate: false
+      model_path: reaper_model/avarice_scythe_evo_2
+# d6c5c201226340603acb09a02073aa9b92df8fe9 # 44687

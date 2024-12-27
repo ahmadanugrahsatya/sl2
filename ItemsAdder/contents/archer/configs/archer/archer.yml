@@ -1,0 +1,260 @@
+info:
+  namespace: archer
+items:
+  archer_bow:
+    display_name: "archer_bow"
+    permission: archer_bow
+    resource:
+      material: STONE_SWORD
+      model_id: 2019
+      generate: false
+      model_path: archer_model/archer_bow
+  archer_bow_shiny:
+    display_name: "archer_bow_shiny"
+    permission: archer_bow_shiny
+    resource:
+      material: STONE_SWORD
+      model_id: 2020
+      generate: false
+      model_path: archer_model/archer_bow_shiny
+  lighthole:
+    display_name: "lighthole"
+    permission: icon_backstep
+    resource:
+      material: wheat
+      model_id: 20
+      generate: false
+      model_path: archer_model/lighthole 
+  icon_deadly_javelin:
+    display_name: "icon_deadly_javelin"
+    permission: icon_deadly_javelin
+    resource:
+      material: COAL
+      model_id: 2059
+      generate: false
+      model_path: archer_model/icon_deadly_javelin
+  icon_dragon_piercer:
+    display_name: "icon_dragon_piercer"
+    permission: icon_dragon_piercer
+    resource:
+      material: COAL
+      model_id: 2060
+      generate: false
+      model_path: archer_model/icon_dragon_piercer
+  icon_hunters_focus:
+    display_name: "icon_hunters_focus"
+    permission: icon_hunters_focus
+    resource:
+      material: COAL
+      model_id: 2061
+      generate: false
+      model_path: archer_model/icon_hunters_focus
+  icon_quick_shot:
+    display_name: "icon_quick_shot"
+    permission: icon_quick_shot
+    resource:
+      material: COAL
+      model_id: 2062
+      generate: false
+      model_path: archer_model/icon_quick_shot
+  icon_windrazor:
+    display_name: "icon_windrazor"
+    permission: icon_windrazor
+    resource:
+      material: COAL
+      model_id: 2063
+      generate: false
+      model_path: archer_model/icon_windrazor
+  archer_bow_spirit_1:
+    display_name: "archer_bow_spirit_1"
+    permission: archer_bow_spirit_1
+    resource:
+      material: PAPER
+      model_id: 2220
+      generate: false
+      model_path: archer_model/archer_bow_spirit_1
+  archer_bow_spirit_2:
+    display_name: "archer_bow_spirit_2"
+    permission: archer_bow_spirit_2
+    resource:
+      material: PAPER
+      model_id: 2221
+      generate: false
+      model_path: archer_model/archer_bow_spirit_2
+  archer_bow_spirit_3:
+    display_name: "archer_bow_spirit_3"
+    permission: archer_bow_spirit_3
+    resource:
+      material: PAPER
+      model_id: 2222
+      generate: false
+      model_path: archer_model/archer_bow_spirit_3
+  archer_bow_spirit_4:
+    display_name: "archer_bow_spirit_4"
+    permission: archer_bow_spirit_4
+    resource:
+      material: PAPER
+      model_id: 2223
+      generate: false
+      model_path: archer_model/archer_bow_spirit_4
+  archer_bow_spirit_dragon_1:
+    display_name: "archer_bow_spirit_dragon_1"
+    permission: archer_bow_spirit_dragon_1
+    resource:
+      material: PAPER
+      model_id: 2224
+      generate: false
+      model_path: archer_model/archer_bow_spirit_dragon_1
+  archer_bow_spirit_dragon_2:
+    display_name: "archer_bow_spirit_dragon_2"
+    permission: archer_bow_spirit_dragon_2
+    resource:
+      material: PAPER
+      model_id: 2225
+      generate: false
+      model_path: archer_model/archer_bow_spirit_dragon_2
+  archer_bow_spirit_dragon_3:
+    display_name: "archer_bow_spirit_dragon_3"
+    permission: archer_bow_spirit_dragon_3
+    resource:
+      material: PAPER
+      model_id: 2226
+      generate: false
+      model_path: archer_model/archer_bow_spirit_dragon_3
+  archer_bow_spirit_dragon_4:
+    display_name: "archer_bow_spirit_dragon_4"
+    permission: archer_bow_spirit_dragon_4
+    resource:
+      material: PAPER
+      model_id: 2227
+      generate: false
+      model_path: archer_model/archer_bow_spirit_dragon_4
+  backstep_1:
+    display_name: "backstep_1"
+    permission: backstep_1
+    resource:
+      material: PAPER
+      model_id: 2228
+      generate: false
+      model_path: archer_model/backstep_1
+  backstep_2:
+    display_name: "backstep_2"
+    permission: backstep_2
+    resource:
+      material: PAPER
+      model_id: 2229
+      generate: false
+      model_path: archer_model/backstep_2
+  backstep_3:
+    display_name: "backstep_3"
+    permission: backstep_3
+    resource:
+      material: PAPER
+      model_id: 2230
+      generate: false
+      model_path: archer_model/backstep_3
+  backstep_4:
+    display_name: "backstep_4"
+    permission: backstep_4
+    resource:
+      material: PAPER
+      model_id: 2231
+      generate: false
+      model_path: archer_model/backstep_4
+  backstep_5:
+    display_name: "backstep_5"
+    permission: backstep_5
+    resource:
+      material: PAPER
+      model_id: 2232
+      generate: false
+      model_path: archer_model/backstep_5
+  dragon_arrow:
+    display_name: "dragon_arrow"
+    permission: dragon_arrow
+    resource:
+      material: PAPER
+      model_id: 2233
+      generate: false
+      model_path: archer_model/dragon_arrow
+  dragon_spirit_1:
+    display_name: "dragon_spirit_1"
+    permission: dragon_spirit_1
+    resource:
+      material: PAPER
+      model_id: 2234
+      generate: false
+      model_path: archer_model/dragon_spirit_1
+  dragon_spirit_2:
+    display_name: "dragon_spirit_2"
+    permission: dragon_spirit_2
+    resource:
+      material: PAPER
+      model_id: 2235
+      generate: false
+      model_path: archer_model/dragon_spirit_2
+  dragon_spirit_3:
+    display_name: "dragon_spirit_3"
+    permission: dragon_spirit_3
+    resource:
+      material: PAPER
+      model_id: 2236
+      generate: false
+      model_path: archer_model/dragon_spirit_3
+  dragon_spirit_4:
+    display_name: "dragon_spirit_4"
+    permission: dragon_spirit_4
+    resource:
+      material: PAPER
+      model_id: 2237
+      generate: false
+      model_path: archer_model/dragon_spirit_4
+  dragon_spirit_open:
+    display_name: "dragon_spirit_open"
+    permission: dragon_spirit_open
+    resource:
+      material: PAPER
+      model_id: 2238
+      generate: false
+      model_path: archer_model/dragon_spirit_open
+  hunters_focus_1:
+    display_name: "hunters_focus_1"
+    permission: hunters_focus_1
+    resource:
+      material: PAPER
+      model_id: 2239
+      generate: false
+      model_path: archer_model/hunters_focus_1
+  hunters_focus_2:
+    display_name: "hunters_focus_2"
+    permission: hunters_focus_2
+    resource:
+      material: PAPER
+      model_id: 2240
+      generate: false
+      model_path: archer_model/hunters_focus_2
+  hunters_focus_3:
+    display_name: "hunters_focus_3"
+    permission: hunters_focus_3
+    resource:
+      material: PAPER
+      model_id: 2241
+      generate: false
+      model_path: archer_model/hunters_focus_3
+  javelin:
+    display_name: "javelin"
+    permission: javelin
+    resource:
+      material: PAPER
+      model_id: 2242
+      generate: false
+      model_path: archer_model/javelin
+  quick_shot:
+    display_name: "quick_shot"
+    permission: quick_shot
+    resource:
+      material: PAPER
+      model_id: 2243
+      generate: false
+      model_path: archer_model/quick_shot
+  

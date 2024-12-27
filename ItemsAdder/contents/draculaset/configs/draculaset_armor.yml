@@ -1,0 +1,55 @@
+armors_rendering:
+  draculaarmor:
+    color: '#4e1946'
+    layer_1: armor/dracula_armor_layer_1
+    layer_2: armor/dracula_armor_layer_2
+    use_color: false
+info:
+  namespace: draculaset
+items:
+  draculaboots:
+    display_name: Dracula Boots
+    permission: dracula.boots
+    resource:
+      generate: true
+      textures:
+      - armor/dracula_boots_icon.png
+    specific_properties:
+      armor:
+        custom_armor: draculaarmor
+        slot: feet
+  draculachestplate:
+    display_name: Dracula Chestplate
+    permission: dracula.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/dracula_chestplate_icon.png
+    specific_properties:
+      armor:
+        custom_armor: draculaarmor
+        slot: chest
+  draculahelmet:
+    display_name: Dracula Helmet
+    permission: dracula.helmet
+    resource:
+      generate: true
+      textures:
+      - armor/dracula_helmet_icon.png
+    specific_properties:
+      armor:
+        custom_armor: draculaarmor
+        slot: head
+  draculaleggings:
+    display_name: Dracula Leggings
+    permission: dracula.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/dracula_leggings_icon.png
+    specific_properties:
+      armor:
+        custom_armor: draculaarmor
+        slot: legs
+
+# Gs/yj8AkFc3129Wj+jZWgqgSwT2KyR5p4nteYVTfnvrwJAvIF9v40BUIvkx+GWGMnCHw/9+k0aNXEKStcjPrO0DMmTsPlP4b4+CzdPV1840=

@@ -1,0 +1,29 @@
+info:
+    namespace: starlight
+categories:
+    starlight:
+        name: Star Light Tools And Weapons Set Pack
+        enabled: true
+        icon: starlight:starlight_wings
+        permission: ia.menu.starlight
+        items:
+        - starlight:starlighthelmet
+        - starlight:starlightchestplate
+        - starlight:starlightleggings
+        - starlight:starlightboots
+        - starlight:starlight_axe
+        - starlight:starlight_pickaxe
+        - starlight:starlight_shovel
+        - starlight:starlight_hoe
+        - starlight:starlight_sword
+        - starlight:starlight_shield
+        - starlight:starlight_bow
+        - starlight:starlight_staff
+        - starlight:starlight_spear
+        - starlight:starlight_chest
+        - starlight:starlight_key
+        - starlight:starlight_battle_axe
+        - starlight:starlight_blade
+        - starlight:starlight_dagger
+        - starlight:starlight_sickle
+        - starlight:starlight_wings

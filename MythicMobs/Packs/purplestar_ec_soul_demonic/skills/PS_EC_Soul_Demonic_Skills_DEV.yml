@@ -1,0 +1,232 @@
+# |
+# |     Made By  : ★ Purple Star
+# |
+# |     Pack Name: Soul Demonic
+# |     Pack Type: Exclusive Character
+# |
+
+
+#######################################################################################
+##                                                                                   ##
+##                                     SKILL DEV                                     ##
+##                                                                                   ##
+#######################################################################################
+
+
+#######################################################
+##                                                   ##
+##                  CONDITIONS CAST                  ##
+##                                                   ##
+#######################################################
+
+
+PS_EC_Soul_Demonic_Soul_Slash_Conditions:
+  Conditions:
+  - crouching false
+  Skills:
+  - skill{s=PS_EC_Soul_Demonic_Soul_Slash_Cooldown}
+
+PS_EC_Soul_Demonic_Soul_Capture_Conditions:
+  Conditions:
+  - crouching false
+  Skills:
+  - skill{s=PS_EC_Soul_Demonic_Soul_Capture_Cooldown}
+
+PS_EC_Soul_Demonic_Devastate_Conditions:
+  Conditions:
+  - crouching true
+  Skills:
+  - skill{s=PS_EC_Soul_Demonic_Devastate_Cooldown}
+
+PS_EC_Soul_Demonic_Death_Landing_Conditions:
+  Conditions:
+  - crouching true
+  Skills:
+  - skill{s=PS_EC_Soul_Demonic_Death_Landing_Cooldown}
+
+
+##################################################
+##                                              ##
+##                  Soul Slash                  ##
+##                                              ##
+##################################################
+
+
+PS_EC_Soul_Demonic_Soul_Slash:
+  Conditions:
+  - hasaurastacks{auraName=soul_slash_stack} castinstead PS_EC_Soul_Demonic_Soul_Slash_2
+  Skills:
+#
+  - sound{s=minecraft:entity.ravager.step;v=1;p=1} @self
+  - sound{s=minecraft:entity.ravager.attack;v=1;p=1.5} @self
+  - sound{s=minecraft:entity.warden.attack_impact;v=1;p=1} @self
+  - sound{s=minecraft:entity.player.attack.sweep;v=1;p=1} @self
+#
+  - totem{ch=1;md=1;oH=PS_EC_Soul_Demonic_Soul_Slash_1_Damage;hR=2;vR=1;hnp=true} @forward{f=1.5}
+  - delay 1
+  - summon{type=PS_EC_Soul_Demonic_Soul_Slash_1;os=true} @forward{f=0.5;y=0.5}
+  - Aura{auraName=soul_slash_stack;duration=60} @self
+  - skill{s=PS_EC_Soul_Demonic_Normal_Attack_Cooldown}
+
+PS_EC_Soul_Demonic_Soul_Slash_2:
+  Skills:
+#
+  - sound{s=minecraft:entity.ravager.step;v=1;p=1} @self
+  - sound{s=minecraft:entity.ravager.attack;v=1;p=1.5} @self
+  - sound{s=minecraft:entity.warden.attack_impact;v=1;p=1} @self
+  - sound{s=minecraft:entity.player.attack.sweep;v=1;p=1} @self
+#
+  - totem{ch=1;md=1;oH=PS_EC_Soul_Demonic_Soul_Slash_2_Damage;hR=2;vR=1;hnp=true} @forward{f=1.5}
+  - delay 1
+  - summon{type=PS_EC_Soul_Demonic_Soul_Slash_2;os=true} @forward{f=0.5;y=0.5}
+  - auraremove{aura=soul_slash_stack} @self
+  - skill{s=PS_EC_Soul_Demonic_Normal_Attack_Cooldown}
+
+PS_EC_Soul_Demonic_Soul_Slash_1_Damage:
+  TargetConditions:
+  - entitytype{t=ARMOR_STAND} false
+  Skills:
+  - sound{s=minecraft:entity.ender_dragon.shoot;v=1;p=1} @self
+  - sound{s=minecraft:block.mud.place;v=0.5;p=0}
+  - sound{s=minecraft:block.mud.place;v=0.25;p=0}
+  - skill{s=PS_EC_Soul_Demonic_Soul_Slash_DAMAGE}
+  - summon{type=PS_EC_Soul_Demonic_Soul_Slash_Impact_1;os=true} @EntitiesNearOrigin{r=3}
+
+PS_EC_Soul_Demonic_Soul_Slash_2_Damage:
+  TargetConditions:
+  - entitytype{t=ARMOR_STAND} false
+  Skills:
+  - sound{s=minecraft:entity.ender_dragon.shoot;v=1;p=1} @self
+  - sound{s=minecraft:block.mud.place;v=0.5;p=0}
+  - sound{s=minecraft:block.mud.place;v=0.25;p=0}
+  - skill{s=PS_EC_Soul_Demonic_Soul_Slash_DAMAGE}
+  - summon{type=PS_EC_Soul_Demonic_Soul_Slash_Impact_2;os=true} @EntitiesNearOrigin{r=3}
+
+PS_EC_Soul_Demonic_Normal_Attack_Cooldown:
+  Skills:
+  - delay 2
+  - actionmessage{m="&f&8□□□□□□□□□□"} @self
+  - delay 1
+  - actionmessage{m="&f■&8□□□□□□□□□"} @self
+  - delay 1
+  - actionmessage{m="&f■■&8□□□□□□□□"} @self
+  - delay 1
+  - actionmessage{m="&f■■■&8□□□□□□□"} @self
+  - delay 1
+  - actionmessage{m="&f■■■■&8□□□□□□"} @self
+  - delay 1
+  - actionmessage{m="&f■■■■■&8□□□□□"} @self
+  - delay 1
+  - actionmessage{m="&f■■■■■■&8□□□□"} @self
+  - delay 1
+  - actionmessage{m="&f■■■■■■■&8□□□"} @self
+  - delay 1
+  - actionmessage{m="&f■■■■■■■■&8□□"} @self
+  - delay 1
+  - actionmessage{m="&f■■■■■■■■■&8□"} @self
+  - delay 1
+  - actionmessage{m="&f■■■■■■■■■■&8"} @self
+  - delay 1
+  - actionmessage{m="<color:#00cdf9>■■■■■■■■■■&8"} @self
+
+
+####################################################
+##                                                ##
+##                  Soul Capture                  ##
+##                                                ##
+####################################################
+
+
+PS_EC_Soul_Demonic_Soul_Capture:
+  Skills:
+  - summon{type=PS_EC_Soul_Demonic_Soul_Capture_VFX;os=true}
+
+PS_EC_Soul_Demonic_Soul_Capture_Hit:
+  TargetConditions:
+  - owner{} false
+  - mythicmobtype{t=PS_EC_Soul_Demonic_Soul_Slash_1} false
+  - mythicmobtype{t=PS_EC_Soul_Demonic_Soul_Slash_2} false
+  - mythicmobtype{t=PS_EC_Soul_Demonic_Soul_Slash_Impact_1} false
+  - mythicmobtype{t=PS_EC_Soul_Demonic_Soul_Slash_Impact_2} false
+  Skills:
+  - delay 15
+  - skill{s=PS_EC_Soul_Demonic_Soul_Capture_DAMAGE}
+  - pull{velocity=5}
+  - delay 1
+  - pull{velocity=5}
+  - delay 1
+  - pull{velocity=5}
+  - delay 1
+  - pull{velocity=5}
+  - delay 1
+  - pull{velocity=5}
+
+
+#################################################
+##                                             ##
+##                  Devastate                  ##
+##                                             ##
+#################################################
+
+
+PS_EC_Soul_Demonic_Devastate:
+  Skills:
+  - totem{ch=1;md=1;oH=PS_EC_Soul_Demonic_Devastate_Damage;hR=1;vR=1;hnp=true} @Forward{f=1;lockpitch=true}
+  - totem{ch=1;md=1;oH=PS_EC_Soul_Demonic_Devastate_Damage;hR=1;vR=1;hnp=true} @Forward{f=2;lockpitch=true}
+  - totem{ch=1;md=1;oH=PS_EC_Soul_Demonic_Devastate_Damage;hR=1;vR=1;hnp=true} @Forward{f=3;lockpitch=true}
+  - totem{ch=1;md=1;oH=PS_EC_Soul_Demonic_Devastate_Damage;hR=1;vR=1;hnp=true} @Forward{f=4;lockpitch=true}
+#
+  - sound{s=minecraft:entity.ender_dragon.shoot;v=1;p=1} @self
+  - sound{s=minecraft:entity.ravager.step;v=1;p=1} @self
+  - sound{s=minecraft:entity.ravager.attack;v=1;p=2} @self
+  - sound{s=minecraft:entity.warden.attack_impact;v=1;p=2} @self
+  - sound{s=minecraft:item.trident.throw;v=1;p=0.8} @self
+  - sound{s=minecraft:entity.player.attack.sweep;v=1;p=1} @self
+#
+  - delay 1
+  - summon{type=PS_EC_Soul_Demonic_Devastate_Slash;os=true} @forward{f=0.5;y=0.5}
+  - summon{type=PS_EC_Soul_Demonic_Smoke_Ring_5;os=true} @forward{f=0.5;y=0.5}
+  - summon{type=PS_EC_Soul_Demonic_Devastate;os=true}
+PS_EC_Soul_Demonic_Devastate_Damage:
+  Skills:
+  - skill{s=PS_EC_Soul_Demonic_Devastate_DAMAGE}
+  - potion{type=LEVITATION;d=5;l=30;p=false;i=false}
+
+
+#####################################################
+##                                                 ##
+##                  Death Landing                  ##
+##                                                 ##
+#####################################################
+
+
+PS_EC_Soul_Demonic_Death_Landing:
+  Skills:
+  - potion{type=SLOW;duration=35;level=10;p=false} @self
+  - projectile{onEnd=PS_EC_Soul_Demonic_Death_Landing_Fly;v=50;i=1;hR=1;vR=1;mr=15;hnp=true;hO=0;vO=0;sE=false;sB=false;hs=true;hfs=1} @Forward{f=10;y=0}
+
+PS_EC_Soul_Demonic_Death_Landing_Fly:
+  Skills:
+  - summon{type=PS_EC_Soul_Demonic_Death_Landing;os=true} @origin{y=-2}
+  - orbital{bulletType=MOB;mob=PS_EC_Soul_Demonic_Death_Landing_Wing;hr=1;vr=1;hp=false;hnp=false;r=0;points=1;i=1;duration=45;oy=1.5;rx=0;ry=0;rz=0;avx=0;avy=0;avz=0} @self
+  - delay 30
+#
+  - sound{s=minecraft:entity.ender_dragon.flap;v=2;p=0.5} @self
+  - sound{s=minecraft:entity.ender_dragon.flap;v=2;p=0} @self
+  - sound{s=minecraft:entity.elder_guardian.death;v=2;p=1} @self
+  - sound{s=minecraft:entity.elder_guardian.death;v=2;p=1.25} @self
+#
+  - potion{type=LEVITATION;d=5;l=80;p=false;i=false} @self
+  - potion{type=RESISTANCE;d=80;l=255;p=false;i=false} @self
+  - summon{type=PS_EC_Soul_Demonic_Death_Landing_Fly_VFX;os=true} @self
+  - summon{type=PS_EC_Soul_Demonic_Smoke_Ring_1;os=true} @self
+  - effect:particles{particle=campfire_cosy_smoke;amount=10;speed=0.03;hS=0.5;vS=0.2} @self
+  - delay 30
+  - teleport{spreadh=0;spreadv=0} @origin{y=-2}
+  - effect:particles{particle=flash;amount=1;hS=0;vS=0} @origin{y=-2}
+  - totem{ch=1;md=1;oH=PS_EC_Soul_Demonic_Death_Landing_Damage;hR=9;vR=3;hnp=true} @origin{y=-2}
+
+PS_EC_Soul_Demonic_Death_Landing_Damage:
+  Skills:
+  - skill{s=PS_EC_Soul_Demonic_Death_Landing_DAMAGE}
+  - potion{type=LEVITATION;d=5;l=30;p=false;i=false}

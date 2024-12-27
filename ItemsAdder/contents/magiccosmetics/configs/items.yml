@@ -1,0 +1,453 @@
+info:
+  namespace: magiccosmetics
+items:
+  hotdog2:
+    display_name: hotdog
+    permission: hotdog.cosmetic
+    lore:
+    - '&f>>&6Free Magic Cosmetic'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/hotdog
+  balloon:
+    display_name: balloon
+    permission: balloon.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/balloon
+  magicstick:
+    display_name: Stick
+    permission: stick.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/stick
+  brush:
+    display_name: Brush
+    permission: brush.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/brush
+  color:
+    display_name: color
+    permission: brush2.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/tone
+  backpack:
+    display_name: backpack
+    permission: backpack.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/backpack
+  stand:
+    display_name: stand
+    permission: stand.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/stand
+  token:
+    display_name: token
+    permission: token.cosmetic
+    lore:
+    - ''
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/token
+  mexhat:
+    display_name: MexHat
+    permission: mex.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/mexhat
+  yonbag:
+    display_name: Yonbag
+    permission: yonbag.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: LEATHER_HORSE_ARMOR
+      generate: false
+      model_path: item/yonbag
+  yonyon:
+    display_name: Yonyon
+    permission: yonyon.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/yonyon
+      model_id: 5000
+  ajul:
+    display_name: Ajul Mask
+    permission: ajul.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/ajul
+      model_id: 5001
+  awan:
+    display_name: Awan Mask
+    permission: awan.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/awan
+      model_id: 5002
+  demon_aspect:
+    display_name: Demon Aspect Mask
+    permission: demonaspect.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/demon_aspect
+      model_id: 5003
+  febri:
+    display_name: Febri Mask
+    permission: febri.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/febri
+      model_id: 5004
+  garox:
+    display_name: Garox Mask
+    permission: garox.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/garox
+      model_id: 5005
+  gempita:
+    display_name: Gempita Mask
+    permission: gempita.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/gempita
+      model_id: 5006
+  ikan:
+    display_name: Ikan Mask
+    permission: ikan.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/ikan
+      model_id: 5007
+  ikan1:
+    display_name: Ikan Mask
+    permission: ikan1.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/ikan1
+      model_id: 5008
+  indra:
+    display_name: Indra Mask
+    permission: indra.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/indra
+      model_id: 5009
+  lucy:
+    display_name: Lucy Mask
+    permission: lucy.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/lucy
+      model_id: 5010
+  maji:
+    display_name: Maji Mask
+    permission: maji.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/maji
+      model_id: 5011
+  mata_indra:
+    display_name: Mata Indra Mask
+    permission: mataindra.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/mata_indra
+      model_id: 5012
+  mata:
+    display_name: Mata Mask
+    permission: mata.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/mata
+      model_id: 5013
+  misterius:
+    display_name: Misterius Mask
+    permission: misterius.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/misterius
+      model_id: 5014
+  omend:
+    display_name: Omend Mask
+    permission: omend.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/omend
+      model_id: 5015
+  peci_tinggi:
+    display_name: Peci Tinggi Mask
+    permission: peci_tinggi.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/peci_tinggi
+      model_id: 5016
+  purge:
+    display_name: Purge Mask
+    permission: purge.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/purge
+      model_id: 5017
+  ragnarok:
+    display_name: Ragnarok Mask
+    permission: ragnarok.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/ragnarok
+      model_id: 5018
+  tanduk_eles:
+    display_name: Tanduk Eles Mask
+    permission: tandukeles.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/tanduk_eles
+      model_id: 5019
+  tanduk_leviatan:
+    display_name: Tanduk Leviatan Mask
+    permission: tandukleviatan.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/tanduk_leviatan
+      model_id: 5020
+  tirta:
+    display_name: Tirta Mask
+    permission: tirta.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/tirta
+      model_id: 5021
+  topeng_mata_aspect:
+    display_name: Mata Aspect Mask
+    permission: aspectmata.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/topeng_mata_aspect
+      model_id: 5022
+  ubi:
+    display_name: Ubi Mask
+    permission: ubi.cosmetic
+    lore:
+    - '&f>>&6Free Cosmetics'
+    resource:
+      material: CARVED_PUMPKIN
+      generate: false
+      model_path: item/topeng/ubi
+      model_id: 5023
+  nova_ears:
+    display_name: nova
+    permission: cosmetic.nova
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 31
+      generate: false
+      model_path: item/topeng/nova_ears
+  michan_ears:
+    display_name: michan
+    permission: cosmetic.michan
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 24
+      generate: false
+      model_path: item/topeng/michan_ears
+  noya:
+    display_name: noya
+    permission: cosmetic.noya
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 25
+      generate: false
+      model_path: item/topeng/noya
+  kamen_rider:
+    display_name: Kamen Rider
+    permission: cosmetic.kamen
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 26
+      generate: false
+      model_path: item/topeng/kamen_rider
+  kepala_catur:
+    display_name: Kepala Catur
+    permission: cosmetic.catur
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 27
+      generate: false
+      model_path: item/topeng/kepala_catur
+  dezibabz:
+    display_name: beelzebub
+    permission: cosmetic.beelzebub
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 28
+      generate: false
+      model_path: item/topeng/dezibabz
+  ya_satan:
+    display_name: satan grr
+    permission: cosmetic.catan
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 29
+      generate: false
+      model_path: item/topeng/commander_horn
+  ubi_horn:
+    display_name: si imut
+    permission: cosmetic.ubih
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 30
+      generate: false
+      model_path: item/topeng/tanduk_grr
+  mata_ajul:
+    display_name: mata ajul
+    permission: cosmetic.ajul2
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 32
+      generate: false
+      model_path: item/topeng/mata_ajul
+  kedoy:
+    display_name: kedoy
+    permission: cosmetic.kedoy
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 33
+      generate: false
+      model_path: item/topeng/kedoy
+  true_leviathan:
+    display_name: true leviathan
+    permission: cosmetic.leviathan2
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 34
+      generate: false
+      model_path: item/topeng/true_leviathan
+  citem:
+    display_name: citem
+    permission: cosmetic.citem
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 35
+      generate: false
+      model_path: item/topeng/citem
+  greed_crown:
+    display_name: greed crown
+    permission: cosmetic.gempita2
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 36
+      generate: false
+      model_path: item/topeng/greed_crown
+  sayap_dewi:
+    display_name: sayap dewi
+    permission: cosmetic.lenatha
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 37
+      generate: false
+      model_path: item/topeng/lenatha
+  mokad:
+    display_name: moend_horn
+    permission: cosmetic.lenatha
+    resource:
+      material: CARVED_PUMPKIN
+      model_id: 38
+      generate: false
+      model_path: item/topeng/mokad

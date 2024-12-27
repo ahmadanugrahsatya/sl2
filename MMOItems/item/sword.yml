@@ -1,0 +1,1039 @@
+REAPER:
+  base:
+    material: DIAMOND_HOE
+    name: <gradient:#007F0B:#00C52E:#007F0B>ᴀᴠᴀʀɪᴄᴇ sᴄʏᴛʜᴇ
+    lore:
+    - Dosa ketamakan yang terkumpul
+    - menjadi satu dan berubah
+    - bentuk menjadi salah satu
+    - senjata kutukan.
+    - §
+    - Senjata yang tidak pernah
+    - merasakan puas dan keegoisan
+    - tinggi &2SIN OF GREED.
+    attack-damage: 11.0
+    attack-speed: 1.6
+    disable-attack-passive: true
+    ability:
+      ability1:
+        type: SOUL_SLICE
+        mode: LEFT_CLICK
+        damage: 3
+        cooldown: 0
+      ability2:
+        type: SOUL_SLICE
+        mode: ATTACK
+        damage: 3
+        cooldown: 0
+      ability3:
+        type: DEATH_SPIN
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 15.0
+      ability4:
+        type: REAPING_CLAW
+        mode: SNEAK
+        damage: 3
+        cooldown: 10.0
+      ability5:
+        type: SURGE
+        mode: SHIFT_RIGHT_CLICK
+        damage: 4
+        cooldown: 20.0
+      ability6:
+        type: SOUL_COLLECTOR
+        mode: TIMER
+        timer: 20
+      ability7:
+        type: SOUL_SCYTHE
+        mode: TIMER
+        timer: 10
+        damage: 5
+        heal: 4
+        duration: 12
+        cooldown: 15
+    displayed-type: |-
+      &2sin of greed
+
+      &f  Requires&c 50&f In Fighting
+      &f  Requires&c 27&f In Agility
+      &f  Requires&c 16&f In Sorcery
+    custom-model-data: 1.0
+    unbreakable: true
+    required-fighting: 50.0
+    required-agility: 27.0
+    required-sorcery: 16.0
+    item-particles:
+      particle: SCULK_SOUL
+      type: DOUBLE_RINGS
+      radius: 1.6
+      y-offset: 0.6
+      rotation-speed: 0.8
+# d6c5c201226340603acb09a02073aa9b92df8fe9 # 44687
+
+FLAMOS:
+  base:
+    material: DIAMOND_AXE
+    name: <gradient:#FB0000:#FD7900:#FB0000>ᴅᴏᴏᴍʙʀɪɴɢᴇʀ ᴀхᴇ
+    attack-damage: 13.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: FLAME_SLASH
+        mode: LEFT_CLICK
+      ability2:
+        type: INFERNO_WHEEL
+        cooldown: 15.0
+        mode: RIGHT_CLICK
+      ability4:
+        type: BLAZING_LEAP
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 20.0
+      ability5:
+        type: HELLFIRE_SCYTHE
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 90.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+    movement-speed: -0.03
+    lore:
+    - Senjata yang memiliki kekuatan
+    - kemarahan dan hasrat dosa manusia
+    - yang terkumpul dan menjadi satu
+    - membentuk senjata kutukan
+    - yang memiliki kekuatan dosa besar §cAmarah
+    item-particles:
+      particle: LAVA
+      type: OFFSET
+      amount: 3.0
+    displayed-type: |-
+      sin of wrath
+
+      &f  Requires&c 45&f In Foraging
+      &f  Requires&c 15&f In Defense
+      &f  Requires&c 15&f In Fighting
+    custom-model-data: 1.0
+    required-foraging: 45.0
+    required-fighting: 15.0
+    required-defense: 15.0
+
+FLAMOS_EVO:
+  base:
+    material: DIAMOND_AXE
+    name: §l<gradient:#d40000:#ffd700:#d40000>ᴅᴏᴏᴍʙʀɪɴɢᴇʀ ᴀxᴇ [ᴀᴡᴀᴋᴇɴᴇᴅ sᴛᴀɢᴇ]
+    attack-damage: 13.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: BRUTAL_STRIKE
+        mode: LEFT_CLICK
+      ability2:
+        type: INFERNO_WHEEL
+        cooldown: 15.0
+        mode: RIGHT_CLICK
+      ability3:
+        type: CHARGE
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 65.0
+      ability4:
+        type: BLAZING_LEAP
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 30.0
+      ability5:
+        type: WHIRLWIND
+        mode: SNEAK
+        cooldown: 30.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+    movement-speed: -0.03
+    lore:
+    - Senjata yang memiliki kekuatan
+    - kemarahan dan hasrat dosa manusia
+    - yang terkumpul dan menjadi satu
+    - membentuk senjata kutukan
+    - yang memiliki kekuatan dosa besar §cAmarah
+    item-particles:
+      particle: LAVA
+      type: OFFSET
+      amount: 3.0
+    displayed-type: |-
+      sin of wrath
+
+      &f  Requires&c 45&f In Foraging
+      &f  Requires&c 15&f In Defense
+      &f  Requires&c 15&f In Fighting
+    custom-model-data: 2.0
+    required-foraging: 45.0
+    required-fighting: 15.0
+    required-defense: 15.0
+
+REAPER_EVO:
+  base:
+    material: DIAMOND_HOE
+    name: <gradient:#007F0B:#00C52E:#007F0B>ᴀᴠᴀʀɪᴄᴇ sᴄʏᴛʜᴇ ᴇᴠᴏ
+    lore:
+    - Dosa ketamakan yang terkumpul
+    - menjadi satu dan berubah
+    - bentuk menjadi salah satu
+    - senjata kutukan.
+    - §
+    - Senjata yang tidak pernah
+    - merasakan puas dan keegoisan
+    - tinggi &2SIN OF GREED.
+    attack-damage: 11.0
+    attack-speed: 1.6
+    disable-attack-passive: true
+    ability:
+      ability1:
+        type: SOUL_SLICE_EVO
+        mode: LEFT_CLICK
+      ability2:
+        type: SOUL_SLICE
+        mode: ATTACK
+        damage: 3.0
+        cooldown: 0.0
+      ability3:
+        type: DEATH_SPIN
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 12.0
+      ability4:
+        type: FORBIDDEN_ART
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 35.0
+      ability5:
+        type: LACERATION
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 15.0
+      ability6:
+        type: SOUL_COLLECTOR
+        mode: TIMER
+        timer: 20.0
+      ability7:
+        type: SOUL_SCYTHE
+        mode: TIMER
+        timer: 10
+        damage: 10.0
+        heal: 4
+        duration: 12
+    displayed-type: |-
+      &2sin of greed
+
+      &f  Requires&c 50&f In Fighting
+      &f  Requires&c 27&f In Agility
+      &f  Requires&c 16&f In Sorcery
+    custom-model-data: 2.0
+    unbreakable: true
+    required-fighting: 50.0
+    required-agility: 27.0
+    required-sorcery: 16.0
+    item-particles:
+      particle: SCULK_SOUL
+      type: DOUBLE_RINGS
+      rotation-speed: 1.0
+      radius: 1.2
+      y-offset: 0.5
+    max-health: -10.0
+
+REAPER_EVOLUTION:
+  base:
+    material: DIAMOND_HOE
+    name: <gradient:#007F0B:#00C52E:#007F0B>ᴀᴠᴀʀɪᴄᴇ sᴄʏᴛʜᴇ ᴇᴠᴏ
+    lore:
+    - Dosa ketamakan yang terkumpul
+    - menjadi satu dan berubah
+    - bentuk menjadi salah satu
+    - senjata kutukan.
+    - §
+    - Senjata yang tidak pernah
+    - merasakan puas dan keegoisan
+    - tinggi &2SIN OF GREED.
+    attack-damage: 11.0
+    attack-speed: 1.6
+    disable-attack-passive: true
+    ability:
+      ability1:
+        type: SOUL_SLICE_EVO
+        mode: LEFT_CLICK
+      ability2:
+        type: SOUL_SLICE
+        mode: ATTACK
+        damage: 3.0
+        cooldown: 0.0
+      ability3:
+        type: DEATH_SPIN
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 12.0
+      ability4:
+        type: FORBIDDEN_ART
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 35.0
+      ability5:
+        type: LACERATION
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 0.0
+      ability6:
+        type: SOUL_COLLECTOR
+        mode: TIMER
+        timer: 20.0
+      ability7:
+        type: SOUL_SCYTHE
+        mode: TIMER
+        timer: 10
+        damage: 10.0
+        heal: 4
+        duration: 12
+    displayed-type: |-
+      &2sin of greed
+
+      &f  Requires&c 50&f In Fighting
+      &f  Requires&c 27&f In Agility
+      &f  Requires&c 16&f In Sorcery
+    custom-model-data: 3.0
+    unbreakable: true
+    required-fighting: 50.0
+    required-agility: 27.0
+    required-sorcery: 16.0
+    item-particles:
+      particle: SCULK_SOUL
+      type: DOUBLE_RINGS
+      rotation-speed: 1.0
+      radius: 1.2
+      y-offset: 0.5
+
+ASSASSIN_BLADE:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2011.0
+    name: <gradient:#A00000:#FF0000:#A00000>ʀᴀᴠᴇɴᴏᴜs ᴏғ ᴅᴀɢɢᴇʀ
+    lore:
+    - Senjata ini disebut-sebut sebagai
+    - manifestasi dari keinginan manusia
+    - delap dan §4nafsu bejat§f yang
+    - ditanamkan di dalamnya.
+    - ''
+    - Cita-cita dan keinginan tersembunyi
+    - yang merayap di dalam hati pemiliknya
+    - akan memperkuat sinar kegelapan
+    - senjata ini.
+    displayed-type: §4sin of gluttony
+    attack-damage: 5.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: BLADE_SLASH
+        mode: LEFT_CLICK
+        damage: 8.0
+      ability2:
+        type: DASH
+        mode: RIGHT_CLICK
+        damage: 3.0
+        cooldown: 14.0
+      ability3:
+        type: DAGGER_THROW
+        mode: SHIFT_RIGHT_CLICK
+        damage: 3.0
+        cooldown: 12.0
+      ability4:
+        type: SHADOW_WALK
+        mode: SNEAK
+        duration: 8.0
+        cooldown: 10.0
+      ability5:
+        type: BLADE_DANCE
+        mode: SHIFT_LEFT_CLICK
+        damage: 8.0
+        cooldown: 60.0
+    disable-attack-passive: true
+    perm-effects:
+      HUNGER: 3.0
+    attack-speed: 1.0
+
+ARCHMAGE:
+  base:
+    material: STICK
+    custom-model-data: 2043.0
+    name: <gradient:#FFC0CB:#FF10F0:#FFC0CB>ꜱᴏᴍɴᴜꜱ ᴀᴇᴛᴇʀɴᴀᴍ ꜱᴛᴀꜰꜰ
+    lore:
+    - terlalu malas menjelaskan..
+    displayed-type: §dsin of sloth
+    attack-damage: 6.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: ARCANE_SLASH
+        mode: LEFT_CLICK
+        damage: 3
+        cooldown: 0.5
+      ability2:
+        type: BLIZZARD_
+        mode: RIGHT_CLICK
+        damage: 4
+        duration: 2
+        cooldown: 15.0
+      ability3:
+        type: CHAINS_OF_VOID
+        mode: SHIFT_RIGHT_CLICK
+        damage: 5
+        cooldown: 20.0
+      ability4:
+        type: CLOAK_OF_HASTUR
+        mode: SNEAK
+        damage: 4
+        duration: 2
+        cooldown: 10.0
+      ability5:
+        type: ARCANE_SHIELD
+        mode: TIMER
+        timer: 20.0
+      ability6:
+        type: METEOR_STORM
+        mode: TIMER
+        timer: 10
+        damage: 7
+      ability7:
+        type: ARCANE_DEVASTATION
+        mode: SHIFT_LEFT_CLICK
+        damage: 5
+        duration: 4
+        cooldown: 60.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+
+CLERIC:
+  base:
+    material: DIAMOND_AXE
+    name: <gradient:#7F00FF:#5D3FD3:#7F00FF>ᴅᴇꜱᴘᴀɪʀ'ꜱ ᴅᴇʟɪɢʜᴛ ʜᴀᴍᴍᴇʀ
+    lore:
+    - Senjata terkutuk yang terobsesi
+    - dengan kekuatan §5cinta§f dan §5nafsu
+    - §5kegelapan§f dan kekuatan §5cinta§f
+    - yang tak terbatas, ia menciptakan
+    - senjata yang mampu mempesona
+    - dan memikat bahkan yang paling
+    - tegar hatinya sekalipun.
+    - §
+    - Senjata ini dihiasi dengan ukiran-
+    - ukiran yang memancarkan daya
+    - tarik dan keindahan yang memikat,
+    - menjadikannya barang yang
+    - mempesona tetapi berbahaya.
+    attack-damage: 11.0
+    attack-speed: 1.6
+    disable-attack-passive: true
+    ability:
+      ability1:
+        type: DIVINE_IMMOLATION
+        mode: LEFT_CLICK
+        damage: 3
+        cooldown: 0.5
+      ability2:
+        type: DIVINE_IMMOLATION
+        mode: ATTACK
+        damage: 3
+        cooldown: 0.5
+      ability3:
+        type: LUMINOUS_WAVE
+        mode: RIGHT_CLICK
+        damage: 4
+        cooldown: 15
+      ability4:
+        type: DIVINE_CROSS
+        mode: SHIFT_RIGHT_CLICK
+        damage: 4
+        heal: 3
+        cooldown: 30
+      ability5:
+        type: BLESSING_OF_THE_WHITE_LANTERN
+        mode: SNEAK
+        duration: 6
+        cooldown: 20
+      ability6:
+        type: DAWNBRINGER_ANGEL
+        mode: TIMER
+        timer: 30
+        heal: 2
+      ability7:
+        type: TEARS_OF_GOD
+        mode: TIMER
+        timer: 10
+        duration: 4
+        heal: 5
+      ability8:
+        type: DIVINE_PUNISHMENT
+        mode: SHIFT_LEFT_CLICK
+        damage: 6
+        duration: 7
+        heal: 5
+        cooldown: 65
+    displayed-type: |-
+      &5sin of lust
+
+      &f  Requires&c 60&f In Archery
+      &f  Requires&c 60&f In Defense
+      &f  Requires&c 55&f In Healing
+    custom-model-data: 3.0
+    unbreakable: true
+    item-particles:
+      particle: PORTAL
+      type: DOUBLE_RINGS
+      y-coord: 1.0
+      amount: 8.0
+      height: 0.2
+      rotation-speed: 2.0
+      y-offset: 0.3
+      speed: 0.2
+
+'null':
+  base:
+    material: COAL
+    name: <gradient:#c70fd4:#cc26d8:#c70fd4>ᴄʀᴏssʙᴏᴡ ᴏғ ᴇɴᴠɪᴏᴜs ᴡʜɪsᴘᴇʀ
+    attack-damage: 5.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: VOID_ARROW
+        mode: RIGHT_CLICK
+        cooldown: 1.0
+      ability2:
+        type: RETREAT
+        mode: LEFT_CLICK
+        cooldown: 15.0
+      ability3:
+        type: BLACKHOLE_SHOT
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 90.0
+      ability4:
+        type: VOID_RAIN
+        mode: SNEAK
+        cooldown: 30.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+    lore:
+    - Kutukan §5Sin of Envy§f tidak hanya
+    - terbatas pada efek fisik atau
+    - kekuatan magis, tetapi merasuki
+    - jiwa pemiliknya dengan cara yang
+    - lebih halus namun merusak.
+    - §
+    - Begitu seseorang menyentuh
+    - senjata ini, kecemburuan mulai
+    - menyelinap ke dalam hati mereka
+    - seperti angin malam yang tak
+    - terlihat.
+    displayed-type: |-
+      §5sin of envy
+
+      &f  Requires&c 55&f In Archery
+      &f  Requires&c 55&f In Endurance
+      &f  Requires&c 48&f In Agility
+    custom-model-data: 2009.0
+    required-archery: 55.0
+    required-endurance: 55.0
+    required-agility: 48.0
+    item-particles:
+      particle: REDSTONE
+      type: VORTEX
+      height: 1.3
+      rotation-speed: 0.8
+      radius: 2.0
+      y-speed: 1.4
+      amount: 3.0
+      color:
+        red: 249
+        green: 56
+        blue: 252
+
+BROKE:
+  base:
+    material: COAL
+    name: <gradient:#c70fd4:#cc26d8:#c70fd4>ᴄʀᴏssʙᴏᴡ ᴏғ ᴇɴᴠɪᴏᴜs ᴡʜɪsᴘᴇʀ [ʙʀᴏᴋᴇ]
+    attack-damage: 5.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: VOID_ARROW
+        mode: RIGHT_CLICK
+        cooldown: 1.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+    lore:
+    - Kutukan §5Sin of Envy§f tidak hanya
+    - terbatas pada efek fisik atau
+    - kekuatan magis, tetapi merasuki
+    - jiwa pemiliknya dengan cara yang
+    - lebih halus namun merusak.
+    - §
+    - Begitu seseorang menyentuh
+    - senjata ini, kecemburuan mulai
+    - menyelinap ke dalam hati mereka
+    - seperti angin malam yang tak
+    - terlihat.
+    displayed-type: |-
+      §5sin of envy
+
+      &f  Requires&c 55&f In Archery
+      &f  Requires&c 55&f In Endurance
+      &f  Requires&c 48&f In Agility
+    custom-model-data: 2019.0
+    required-archery: 55.0
+    required-endurance: 55.0
+    required-agility: 48.0
+    item-particles:
+      particle: REDSTONE
+      type: VORTEX
+      height: 1.3
+      rotation-speed: 0.8
+      radius: 2.0
+      y-speed: 1.4
+      amount: 3.0
+      color:
+        red: 249
+        green: 56
+        blue: 252
+
+ASSASSIN_BLADE_EVO:
+  base:
+    material: DIAMOND_SWORD
+    name: <gradient:#89CFF0:#7DF9FF:#89CFF0>ᴅᴀɢɢᴇʀ ᴏꜰ ʀᴀᴠᴇɴᴏᴜꜱ ᴇᴠᴏ
+    lore:
+    - Senjata ini disebut-sebut sebagai
+    - manifestasi dari keinginan manusia
+    - delap dan §4nafsu bejat§f yang
+    - ditanamkan di dalamnya.
+    - ''
+    - Cita-cita dan keinginan tersembunyi
+    - yang merayap di dalam hati pemiliknya
+    - akan memperkuat sinar kegelapan
+    - senjata ini.
+    attack-damage: 11.0
+    attack-speed: 1
+    disable-attack-passive: true
+    ability:
+      ability1:
+        type: BLADE_SLASH_EVO
+        mode: LEFT_CLICK
+        damage: 4
+      ability2:
+        type: SOUL_SURGE
+        mode: RIGHT_CLICK
+        damage: 10
+        cooldown: 12
+      ability3:
+        type: DEATH_CHARGE
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 60.0
+      ability4:
+        type: EVO_SHADOW_WALK
+        mode: SHIFT_RIGHT_CLICK
+        duration: 8.0
+        cooldown: 10.0
+      ability5:
+        type: PIERCING_SHURIKEN
+        mode: TIMER
+        timer: 1
+    displayed-type: |-
+      &4sin of gluttony
+
+      &f  Requires&c 50&f In Excavation
+      &f  Requires&c 60&f In Fighting
+      &f  Requires&c 60&f In Agility
+    custom-model-data: 2037.0
+    unbreakable: true
+    item-particles:
+      particle: SOUL_FIRE_FLAME
+      type: DOUBLE_RINGS
+      rotation-speed: 1.3
+      radius: 1.0
+
+PRIDE:
+  base:
+    material: STONE_SWORD
+    name: '&6sᴡᴏʀᴅ ᴏғ ʀᴇssᴜʀᴇᴄᴛɪᴏɴ (sᴛᴀɢᴇ 0/4)'
+    displayed-type: '&6sin of pride'
+    lore:
+    - Bagian dari &6cahaya &fyang
+    - jatuh ke lerung neraka.
+    - salah satu pangeran dosa
+    - dan yang paling angkuh diantara
+    - mereka semua.
+    ability: {}
+    custom-model-data: 2025.0
+    unbreakable: false
+PRIDESTAGE1:
+  base:
+    material: STONE_SWORD
+    name: '&6sᴡᴏʀᴅ ᴏғ ʀᴇssᴜʀᴇᴄᴛɪᴏɴ (sᴛᴀɢᴇ 1/4)'
+    custom-model-data: 2025.0
+    displayed-type: '&6sin of pride'
+    lore:
+    - bagian dari &6cahaya &fyang
+    - jatuh ke lerung neraka.
+    - salah satu pangeran dosa
+    - yang paling angkuh diantara
+    - mereka semua.
+    ability:
+      ability2:
+        type: BLACK_SLASH
+        mode: LEFT_CLICK
+    unbreakable: false
+PRIDESTAGE2:
+  base:
+    material: STONE_SWORD
+    name: '&6sᴡᴏʀᴅ ᴏғ ʀᴇssᴜʀᴇᴄᴛɪᴏɴ (sᴛᴀɢᴇ 2/4)'
+    custom-model-data: 2056.0
+    ability:
+      ability1:
+        type: BLACK_SLASH
+        mode: LEFT_CLICK
+      ability2:
+        type: SHADOW_CHARGE
+        mode: RIGHT_CLICK
+      ability3:
+        type: SUMMON_HORSE
+        mode: SHIFT_LEFT_CLICK
+      ability4:
+        type: DRAGON_BREATH
+        mode: SHIFT_RIGHT_CLICK
+      ability5:
+        type: MAGICAL_BLADES
+        mode: SNEAK
+    unbreakable: true
+    displayed-type: '&6sin of pride'
+    lore:
+    - bagian dari &6cahaya &fyang
+    - jatuh ke lerung neraka.
+    - salah satu pangeran dosa
+    - yang paling angkuh diantara
+    - mereka semua.
+PRIDESTAGE3:
+  base:
+    material: STONE_SWORD
+    name: '&6sᴡᴏʀᴅ ᴏғ ʀᴇssᴜʀᴇᴄᴛɪᴏɴ (sᴛᴀɢᴇ 3/4)'
+    custom-model-data: 130.0
+    ability:
+      ability1:
+        type: BLACK_SLASH
+        mode: LEFT_CLICK
+      ability2:
+        type: SHADOW_CHARGE
+        mode: RIGHT_CLICK
+      ability3:
+        type: DRAGON_BREATH
+        mode: SHIFT_LEFT_CLICK
+      ability4:
+        type: LAST_STAND
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 20.0
+    displayed-type: '&6sin of pride'
+    lore:
+    - bagian dari &6cahaya &fyang
+    - jatuh ke lerung neraka.
+    - salah satu pangeran dosa
+    - yang paling angkuh diantara
+    - mereka semua.
+PRIDESTAGE4:
+  base:
+    material: STONE_SWORD
+    name: <gradient:#910ee3:#370dbf:#910ee3>ʟɪɢʜᴛʙʀɪɴɢᴇʀ ꜰʟᴀᴍɪɴɢ ꜱᴡᴏʀᴅ
+    custom-model-data: 2062.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: BLACK_SLASH
+        mode: LEFT_CLICK
+        damage: 4
+        cooldown: 0.3
+      ability2:
+        type: SHADOW_CHARGE
+        mode: RIGHT_CLICK
+        cooldown: 8.0
+      ability3:
+        type: DRAGON_BREATH
+        mode: SHIFT_LEFT_CLICK
+        damage: 5.0
+        cooldown: 15.0
+      ability4:
+        type: MAGICAL_BLADES
+        mode: SNEAK
+      ability5:
+        type: DRAGONBORN
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 30.0
+        damage: 12.0
+    
+    displayed-type: <gradient:#910ee3:#370dbf:#910ee3>sin of pride
+    lore:
+    - bagian dari §5cahaya§f yang
+    - jatuh ke lerung neraka.
+    - salah satu pangeran dosa
+    - yang paling angkuh diantara
+    - mereka semua.
+NOYA:
+  base:
+    material: STONE_SWORD
+    name: §x§F§F§E§E§0§0ʟ§x§F§F§F§0§1§7ɪ§x§F§F§F§1§2§Eɢ§x§F§F§F§3§4§6ʜ§x§F§F§F§4§5§Dᴛ§x§F§F§F§6§7§4ʙ§x§F§F§F§7§8§Bʀ§x§F§F§F§9§A§2ɪ§x§F§F§F§A§B§9ɴ§x§F§F§F§C§D§1ɢ§x§F§F§F§D§E§8ᴇ§x§F§F§F§F§F§Fʀ
+      §x§F§F§F§F§F§Fʀ§x§F§F§F§E§E§Bᴀ§x§F§F§F§E§D§8ᴅ§x§F§F§F§D§C§4ɪ§x§F§F§F§D§B§1ᴀ§x§F§F§F§C§9§Dɴ§x§F§F§F§C§8§9ᴛ
+      §x§F§F§F§B§6§2s§x§F§F§F§A§4§Eᴇ§x§F§F§F§A§3§Bʀ§x§F§F§F§9§2§7ᴀ§x§F§F§F§9§1§4ᴘ§x§F§F§F§8§0§0ʜ
+    attack-damage: 11.0
+    skill-damage: 0.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: SWORD_SLASH
+        mode: LEFT_CLICK
+      ability2:
+        type: DEATH_LANDING
+        mode: SHIFT_LEFT_CLICK
+        damage: 10.0
+        cooldown: 30.0
+      ability3:
+        type: CROSS_BLADE
+        mode: RIGHT_CLICK
+        cooldown: 15.0
+      ability4:
+        type: BLADE_STORM
+        mode: SHIFT_RIGHT_CLICK
+        damage: 20.0
+        cooldown: 30.0
+    disable-attack-passive: true
+    attack-speed: 1.6
+    cooldown-reduction: 0.2
+    custom-model-data: 2035.0
+    lore:
+    - §x§F§F§E§E§0§0ʟ§x§F§F§F§0§1§7ɪ§x§F§F§F§1§2§Eɢ§x§F§F§F§3§4§6ʜ§x§F§F§F§4§5§Dᴛ§x§F§F§F§6§7§4ʙ§x§F§F§F§7§8§Bʀ§x§F§F§F§9§A§2ɪ§x§F§F§F§A§B§9ɴ§x§F§F§F§C§D§1ɢ§x§F§F§F§D§E§8ᴇ§x§F§F§F§F§F§Fʀ
+      §x§F§F§F§F§F§Fʀ§x§F§F§F§E§E§Bᴀ§x§F§F§F§E§D§8ᴅ§x§F§F§F§D§C§4ɪ§x§F§F§F§D§B§1ᴀ§x§F§F§F§C§9§Dɴ§x§F§F§F§C§8§9ᴛ
+      §x§F§F§F§B§6§2s§x§F§F§F§A§4§Eᴇ§x§F§F§F§A§3§Bʀ§x§F§F§F§9§2§7ᴀ§x§F§F§F§9§1§4ᴘ§x§F§F§F§8§0§0ʜ
+    displayed-type: §x§F§F§E§E§0§0ᴀ§x§F§A§E§F§4§Eɴ§x§F§6§F§0§9§Bɢ§x§F§1§F§1§E§9ᴇ§x§F§3§F§1§C§Cʟ
+      §x§F§6§F§0§9§2ᴏ§x§F§8§F§0§7§5ꜰ §x§F§C§E§F§3§Aʀ§x§F§D§E§E§1§Dɪ§x§F§F§E§E§0§0ɢ§x§F§F§E§F§0§0ʜ§x§F§F§F§0§0§0ᴛ§x§F§F§F§1§0§0ᴇ§x§F§F§F§2§0§0ᴏ§x§F§F§F§3§0§0ᴜ§x§F§F§F§4§0§0s§x§F§F§F§5§0§0ɴ§x§F§F§F§6§0§0ᴇ§x§F§F§F§7§0§0s§x§F§F§F§8§0§0s
+    disable-droping: true
+
+EVO:
+  base:
+    material: STONE_SWORD
+    name: §l<gradient:#d40000:#ffd700:#d40000>ᴅᴏᴏᴍʙʀɪɴɢᴇʀ ɢʀᴇᴀᴛsᴡᴏʀᴅ [ᴇᴠᴏʟᴀᴛɪᴏɴ sᴛᴀɢᴇ]
+    attack-damage: 13.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: BRUTAL_STRIKE
+        mode: LEFT_CLICK
+        cooldown: 0.5
+      ability2:
+        type: SOUL_STRIKE
+        mode: LEFT_CLICK
+        cooldown: 0.5
+      ability3:
+        type: WRATH
+        mode: RIGHT_CLICK
+      ability4:
+        type: SOUL_STRIKE
+        mode: LEFT_CLICK
+        cooldown: 0.5
+      ability5:
+        type: SPIRIT_GUARDIAN
+        mode: TIMER
+        timer: 2.0
+      ability6:
+        type: PERMAFROST_LANCE
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 30.0
+      ability7:
+        type: LOSTASSETS_REVENANT_SRC
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 30.0
+        damage: 35.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+    movement-speed: -0.03
+    lore:
+    - Senjata yang memiliki kekuatan
+    - kemarahan dan hasrat dosa manusia
+    - yang terkumpul dan menjadi satu
+    - membentuk senjata kutukan
+    - yang memiliki kekuatan dosa besar §cAmarah
+    item-particles:
+      particle: LAVA
+      type: OFFSET
+      amount: 3.0
+    displayed-type: |-
+      sin of wrath
+
+      &f  Requires&c 45&f In Foraging
+      &f  Requires&c 15&f In Defense
+      &f  Requires&c 15&f In Fighting
+    custom-model-data: 6021.0
+    required-foraging: 45.0
+    required-fighting: 15.0
+    required-defense: 15.0
+    disable-droping: true
+ZERO:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2027.0
+    name: <gradient:#A00000:#FF0000:#A00000>ᴅᴀʀᴋɴᴇss ʙʟᴏᴅᴅ
+    displayed-type: Darah kegelapan
+
+
+AVARICE_SCYTHE_EVO:
+  base:
+    material: DIAMOND_HOE
+    custom-model-data: 3.0
+    name: <gradient:#007F0B:#00C52E:#007F0B>ᴀᴠᴀʀɪᴄᴇ sᴄʏᴛʜᴇ (ᴇᴠᴏʟᴜᴛɪᴏɴ sᴛᴀɢᴇ)
+    displayed-type: '&2sɪɴ ᴏғ ɢʀᴇᴇᴅ'
+    attack-damage: 11.0
+    unbreakable: true
+    ability:
+      ability2:
+        type: DEATH_SPIN
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 15.0
+      ability3:
+        type: FORBIDDEN_ART
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 60.0
+      ability4:
+        type: LACERATION
+        mode: SHIFT_RIGHT_CLICK
+        damage: 10.0
+        cooldown: 0
+      ability6:
+        type: SOUL_COLLECTOR
+        mode: TIMER
+        timer: 20.0
+      ability7:
+        type: SOUL_SCYTHE
+        mode: TIMER
+        timer: 5.0
+      ability1:
+        type: SOUL_SLICE_EVO
+        mode: LEFT_CLICK
+    attack-speed: 1.6
+    lore:
+    - Dosa ketamakan yang terkumpul
+    - menjadi satu dan berubah
+    - bentuk menjadi salah satu
+    - senjata kutukan.
+    - §
+    - Senjata yang tidak pernah
+    - merasa puas dan keegoisan
+    - tinggi!. &2SIN OF GREED
+    item-particles:
+      type: DOUBLE_RINGS
+      particle: SCULK_SOUL
+      radius: 1.5
+      y-offset: 0.4
+    required-sorcery: 16.0
+    required-agility: 27.0
+    required-fighting: 50.0
+    disable-enchanting: true
+    disable-death-drop: true
+    disable-droping: true
+
+SACRED_LANCE:
+  base:
+    material: STICK
+    name: <gradient:#4b9dc4:#89defd:#4b9dc4>sᴀᴄʀᴇᴅ ʟᴀɴᴄᴇ
+    attack-damage: 5.0
+    ability:
+      ability1:
+        type: GRAPH_SLASH
+        mode: LEFT_CLICK
+      ability2:
+        type: BACK_DASH
+        mode: RIGHT_CLICK
+    unbreakable: true
+    disable-attack-passive: true
+    attack-speed: 1
+    custom-model-data: 2245454
+    displayed-type: '&bᴀɴɢᴇʟ ᴏꜰ ᴅɪʟɪɢᴇɴᴄᴇ'
+    disable-death-drop: true
+    disable-droping: true
+    disable-enchanting: true
+
+SUN_GAUNTLET:
+  base:
+    material: STICK
+    name: <gradient:#f5c652:#ffdd89:#f5c652>sᴜɴ ɢᴀᴜɴᴛʟᴇᴛ
+    attack-damage: 5.0
+    ability:
+      ability1:
+        type: DOUBLE_STRIKE
+        mode: LEFT_CLICK
+        cooldown: 0.2
+      ability2:
+        type: FLAMING_DASH
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+      ability3:
+        type: MULTI_STRIKE
+        mode: SNEAK
+      ability4:
+        type: MICHAEL_FISTS
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 15.0
+        damage: 15.0
+      ability5:
+        type: WINDBOUND_FURY
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 30.0
+    unbreakable: true
+    disable-attack-passive: true
+    attack-speed: 1
+    custom-model-data: 453777.0
+    displayed-type: '&eᴀɴɢᴇʟ ᴏꜰ ᴠᴀʟᴏʀ'
+    disable-death-drop: true
+    disable-droping: true
+    disable-enchanting: true
+
+CELESTIAL_SCYTHE_OF_ANTARES:
+  base:
+    material: STICK
+    custom-model-data: 1518.0
+    name: <gradient:#4b9dc4:#89defd:#4b9dc4>ᴄᴇʟᴇsᴛɪᴀʟ sᴄʏᴛʜᴇ ᴏꜰ ᴀɴᴛᴀʀᴇs
+    displayed-type: '&bᴀɴɢᴇʟ ᴏꜰ ʜᴏɴᴏʀ'
+    disable-attack-passive: true
+    disable-droping: true
+    disable-enchanting: true
+    unbreakable: true
+    disable-death-drop: true
+    ability:
+      ability1:
+        type: GRAPH_SLASH
+        mode: LEFT_CLICK
+        cooldown: 0
+      ability2:
+        type: AETHER_STRIKE
+        mode: RIGHT_CLICK
+        damage: 30.0
+        cooldown: 10.0
+      ability4:
+        type: ESOTERIC_DASH
+        mode: SNEAK
+        cooldown: 5.0
+    attack-damage: 9.0
+
+ROGER:
+  base:
+    material: STONE_SWORD
+    custom-model-data: 2019.0
+    displayed-type: <gradient:#4ca4fc:#6bf5ff:#4ca4fc>ᴀɴɢᴇʟ ᴏꜰ ꜱᴀɴɢᴜɪɴᴛʏ
+    name: <gradient:#3fa6eb:#2f5ced>ʙᴏᴡ ᴏꜰ ʟɪɢʜᴛ
+    ability:
+      ability1:
+        type: LIGHT_SHOT
+        mode: RIGHT_CLICK
+      ability2:
+        type: BACK_DASH
+        mode: LEFT_CLICK
+        cooldown: 3.0
+      ability3:
+        type: LIGHTHOLE_SHOT
+        mode: SHIFT_RIGHT_CLICK
+      ability4:
+        type: CHARGE_OF_LIGHT
+        mode: SHIFT_LEFT_CLICK
+        damage: 25.0
+    unbreakable: true

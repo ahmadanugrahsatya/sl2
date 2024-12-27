@@ -1,0 +1,40 @@
+######## created by samus2002 #########
+  
+summoner_tome:
+  Id: stone_sword
+  Display: "<gradient:#55eaf2:#2f9eed:#55eaf2>&lTome of Summoner"
+  Model: 2033
+  Lore:
+  - '<gradient:#55eaf2:#2f9eed:#55eaf2>The tome of the Summoner'
+  Unbreakable: true
+  NBT:
+    Unbreakable: int/1 
+  Hide:
+  - ATTRIBUTES
+  Skills:
+  - skill{s=Spirit_Guardian} @self ~onTimer:30
+  - skill{s=Soul_Strike} @self ~onSwing
+  - skill{s=Guardians_Defense} @self ~onUse
+  - skill{s=Summon_Horse} @self ~onUse
+  - skill{s=Magical_Blades} @self ~onCrouch
+  - skill{s=Summon_Phoenix} @self ~onSwing
+  
+summoner_tome_shiny:
+  Id: stone_sword
+  Display: "<gradient:#55eaf2:#fff48f:#55eaf2>&lShiny Tome of Summoner"
+  Model: 2034
+  Lore:
+  - '<gradient:#55eaf2:#fff48f:#55eaf2>The tome of the Summoner'
+  Hide:
+  - ATTRIBUTES
+  Unbreakable: true
+  NBT:
+    Unbreakable: int/1 
+  Skills:
+  - skill{s=Spirit_Guardian} @self ~onTimer:30
+  - skill{s=Soul_Strike} @self ~onSwing
+  - skill{s=Guardians_Defense} @self ~onUse
+  - skill{s=Summon_Horse} @self ~onUse
+  - skill{s=Magical_Blades} @self ~onCrouch
+  - skill{s=Summon_Phoenix} @self ~onSwing
+  

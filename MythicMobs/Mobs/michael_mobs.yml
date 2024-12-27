@@ -1,0 +1,156 @@
+Michael_Barrage_Fists:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=vfx_michael_fists;lockpitch=true} @self ~onSpawn
+  - state{s=skill2} @self ~onSpawn
+  - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - remove{delay=50} @self ~onSpawn
+  
+Angel_Dashes:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,0
+  ItemHand: angel_dashes_1
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=1.5;amount=400}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=1;amount=360;delay=1}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=2.5;amount=340;delay=2}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=2;amount=280;delay=3}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=3;amount=240;delay=4}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=4;amount=200;delay=5}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=5;amount=160;delay=6}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=6;amount=120;delay=7}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=7;amount=80;delay=8}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=8;amount=40;delay=9}  @self ~onSpawn
+  - equip{item=angel_dashes_1:0;delay=2} ~onSpawn
+  - equip{item=angel_dashes_2:0;delay=4} ~onSpawn
+  - equip{item=angel_dashes_3:0;delay=6} ~onSpawn
+  - equip{item=angel_dashes_4:0;delay=8} ~onSpawn
+  - equip{item=angel_dashes_5:0;delay=10} ~onSpawn
+  - remove{delay=16} @self ~onSpawn
+  
+Angel_Dashes_rotated:
+  Type: ARMOR_STAND
+  Pose:
+      LeftArm: 0,0,0
+  ItemOffHand: angel_dashes_1
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=1.5;amount=400}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=1;amount=360;delay=1}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=2.5;amount=340;delay=2}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=2;amount=280;delay=3}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=3;amount=240;delay=4}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=4;amount=200;delay=5}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=5;amount=160;delay=6}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=6;amount=120;delay=7}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=7;amount=80;delay=8}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#f5c652;radius=8;amount=40;delay=9}  @self ~onSpawn
+  - equip{item=angel_dashes_1:5;delay=2} ~onSpawn
+  - equip{item=angel_dashes_2:5;delay=4} ~onSpawn
+  - equip{item=angel_dashes_3:5;delay=6} ~onSpawn
+  - equip{item=angel_dashes_4:5;delay=8} ~onSpawn
+  - equip{item=angel_dashes_5:5;delay=10} ~onSpawn
+  - remove{delay=16} @self ~onSpawn
+  
+Angel_Dashes_a:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,0
+  ItemHand: angel_impact_1_a
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - effect:particlering{particle=redstone;color=#f5c652;radius=1.5;points=40;amount=1;hS=0;vS=0;y=0.1} ~onSpawn
+  - effect:particlering{particle=redstone;color=#f5c652;radius=1.5;points=40;amount=1;hS=0;vS=0;y=1.1} ~onSpawn
+  - effect:particlering{particle=redstone;color=#f5c652;radius=1.5;points=40;amount=1;hS=0;vS=0;y=2.1} ~onSpawn
+  - effect:particlering{particle=redstone;color=#f5c652;radius=1.5;points=40;amount=1;hS=0;vS=0;y=3.1} ~onSpawn
+  - effect:particlering{particle=redstone;color=#f5c652;radius=1.5;points=40;amount=1;hS=0;vS=0;y=4.1} ~onSpawn
+  - effect:particlering{particle=redstone;color=#f5c652;radius=1.5;points=40;amount=1;hS=0;vS=0;y=5.1} ~onSpawn
+  - equip{item=angel_dashes_1_a:0;delay=2} ~onSpawn
+  - equip{item=angel_dashes_2_a:0;delay=4} ~onSpawn
+  - equip{item=angel_dashes_3_a:0;delay=6} ~onSpawn
+  - equip{item=angel_dashes_4_a:0;delay=8} ~onSpawn
+  - equip{item=angel_dashes_5_a:0;delay=10} ~onSpawn
+  - remove{delay=16} @self ~onSpawn
+  
+Angel_Dashes_a_rotated:
+  Type: ARMOR_STAND
+  Pose:
+      LeftArm: 0,0,0
+  ItemOffHand: angel_impact_1_a
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - effect:particlering{particle=redstone;color=#f5c652;radius=1.5;points=40;amount=1;hS=0;vS=0;y=0.1} ~onSpawn
+  - effect:particlering{particle=redstone;color=#f5c652;radius=1.5;points=40;amount=1;hS=0;vS=0;y=1.1} ~onSpawn
+  - effect:particlering{particle=redstone;color=#f5c652;radius=1.5;points=40;amount=1;hS=0;vS=0;y=2.1} ~onSpawn
+  - effect:particlering{particle=redstone;color=#f5c652;radius=1.5;points=40;amount=1;hS=0;vS=0;y=3.1} ~onSpawn
+  - effect:particlering{particle=redstone;color=#f5c652;radius=1.5;points=40;amount=1;hS=0;vS=0;y=4.1} ~onSpawn
+  - effect:particlering{particle=redstone;color=#f5c652;radius=1.5;points=40;amount=1;hS=0;vS=0;y=5.1} ~onSpawn
+  - equip{item=angel_dashes_1_a:5;delay=2} ~onSpawn
+  - equip{item=angel_dashes_2_a:5;delay=4} ~onSpawn
+  - equip{item=angel_dashes_3_a:5;delay=6} ~onSpawn
+  - equip{item=angel_dashes_4_a:5;delay=8} ~onSpawn
+  - equip{item=angel_dashes_5_a:5;delay=10} ~onSpawn
+  - remove{delay=16} @self ~onSpawn
+   
+Michael_Impact_Fists:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=vfx_michael_fists;lockpitch=true} @self ~onSpawn
+  - state{s=skill} @self ~onSpawn
+  - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - remove{delay=50} @self ~onSpawn
+  
+Michael_Punch_Fists:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=vfx_michael_gauntlet;lockpitch=true} @self ~onSpawn
+  - state{s=skill} @self ~onSpawn
+  - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - remove{delay=90} @self ~onSpawn
+  

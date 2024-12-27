@@ -1,0 +1,56 @@
+{
+	"credit": "Designed by Nocksa with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"t": "lostassets/7"
+	},
+	"elements": [
+		{
+			"name": "PlaneZ1",
+			"from": [-6.425, 12.8875, -5.825],
+			"to": [21.45, 12.8885, 26.8],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [-6.425, 12.8875, -5.825]},
+			"faces": {
+				"up": {"uv": [0, 16, 16, 0], "rotation": 270, "texture": "#t"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#t"}
+			}
+		},
+		{
+			"name": "PlaneZ1",
+			"from": [-6.5, 1.75, -5.375],
+			"to": [21.375, 1.751, 27.25],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [-6.5, 1.75, -5.375]},
+			"faces": {
+				"up": {"uv": [0, 16, 16, 0], "rotation": 270, "texture": "#t"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#t"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -91, -99],
+			"translation": [-4.173, -13.2, 12.521],
+			"scale": [4, 4, 4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [180, 0, 0],
+			"translation": [-0.695, 0.6956, 44.521],
+			"scale": [4, 4, 4]
+		},
+		"firstperson_righthand": {
+			"scale": [0.0001, 0.0001, 0.0001]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.0001, 0.0001, 0.0001]
+		},
+		"gui": {
+			"rotation": [0, 180, 90],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"head": {
+			"rotation": [90, 0, 90],
+			"scale": [4, 4, 2]
+		}
+	}
+}

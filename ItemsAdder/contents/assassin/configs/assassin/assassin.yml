@@ -1,0 +1,275 @@
+info:
+  namespace: assassin
+items:
+  assassin_blade:
+    display_name: "assassin_blade"
+    permission: assassin_blade
+    resource:
+      material: STONE_SWORD
+      model_id: 2011
+      generate: false
+      model_path: assassin_model/assassin_blade
+  assassin_blade_shiny:
+    display_name: "assassin_blade_shiny"
+    permission: assassin_blade_shiny
+    resource:
+      material: STONE_SWORD
+      model_id: 2012
+      generate: false
+      model_path: assassin_model/assassin_blade_shiny
+  icon_assassins_blade:
+    display_name: "icon_assassins_blade"
+    permission: icon_assassins_blade
+    resource:
+      material: COAL
+      model_id: 2034
+      generate: false
+      model_path: assassin_model/icon_assassins_blade
+  icon_blade_dance:
+    display_name: "icon_blade_dance"
+    permission: icon_blade_dance
+    resource:
+      material: COAL
+      model_id: 2035
+      generate: false
+      model_path: assassin_model/icon_blade_dance
+  icon_blade_slash:
+    display_name: "icon_blade_slash"
+    permission: icon_blade_slash
+    resource:
+      material: COAL
+      model_id: 2036
+      generate: false
+      model_path: assassin_model/icon_blade_slash
+  icon_dagger_throw:
+    display_name: "icon_dagger_throw"
+    permission: icon_dagger_throw
+    resource:
+      material: COAL
+      model_id: 2037
+      generate: false
+      model_path: assassin_model/icon_dagger_throw
+  icon_dash:
+    display_name: "icon_dash"
+    permission: icon_dash
+    resource:
+      material: COAL
+      model_id: 2038
+      generate: false
+      model_path: assassin_model/icon_dash
+  icon_shadow_walk:
+    display_name: "icon_shadow_walk"
+    permission: icon_shadow_walk
+    resource:
+      material: COAL
+      model_id: 2039
+      generate: false
+      model_path: assassin_model/icon_shadow_walk
+  assassin_dagger_a:
+    display_name: "assassin_dagger_a"
+    permission: assassin_dagger_a
+    resource:
+      material: PAPER
+      model_id: 2108
+      generate: false
+      model_path: assassin_model/assassin_dagger_a
+  assassin_dash_1:
+    display_name: "assassin_dash_1"
+    permission: assassin_dash_1
+    resource:
+      material: PAPER
+      model_id: 2109
+      generate: false
+      model_path: assassin_model/assassin_dash_1
+  assassin_dash_2:
+    display_name: "assassin_dash_2"
+    permission: assassin_dash_2
+    resource:
+      material: PAPER
+      model_id: 2110
+      generate: false
+      model_path: assassin_model/assassin_dash_2
+  assassin_dash_3:
+    display_name: "assassin_dash_3"
+    permission: assassin_dash_3
+    resource:
+      material: PAPER
+      model_id: 2111
+      generate: false
+      model_path: assassin_model/assassin_dash_3
+  assassin_dash_4:
+    display_name: "assassin_dash_4"
+    permission: assassin_dash_4
+    resource:
+      material: PAPER
+      model_id: 2112
+      generate: false
+      model_path: assassin_model/assassin_dash_4
+  assassin_impact_1:
+    display_name: "assassin_impact_1"
+    permission: assassin_impact_1
+    resource:
+      material: PAPER
+      model_id: 2113
+      generate: false
+      model_path: assassin_model/assassin_impact_1
+  assassin_impact_2:
+    display_name: "assassin_impact_2"
+    permission: assassin_impact_2
+    resource:
+      material: PAPER
+      model_id: 2114
+      generate: false
+      model_path: assassin_model/assassin_impact_2
+  assassin_impact_3:
+    display_name: "assassin_impact_3"
+    permission: assassin_impact_3
+    resource:
+      material: PAPER
+      model_id: 2115
+      generate: false
+      model_path: assassin_model/assassin_impact_3
+  assassin_impact_4:
+    display_name: "assassin_impact_4"
+    permission: assassin_impact_4
+    resource:
+      material: PAPER
+      model_id: 2116
+      generate: false
+      model_path: assassin_model/assassin_impact_4
+  assassin_slash_1:
+    display_name: "assassin_slash_1"
+    permission: assassin_slash_1
+    resource:
+      material: PAPER
+      model_id: 2117
+      generate: false
+      model_path: assassin_model/assassin_slash_1
+  assassin_slash_2:
+    display_name: "assassin_slash_2"
+    permission: assassin_slash_2
+    resource:
+      material: PAPER
+      model_id: 2118
+      generate: false
+      model_path: assassin_model/assassin_slash_2
+  assassin_slash_3:
+    display_name: "assassin_slash_3"
+    permission: assassin_slash_3
+    resource:
+      material: PAPER
+      model_id: 2119
+      generate: false
+      model_path: assassin_model/assassin_slash_3
+  assassin_slash_4:
+    display_name: "assassin_slash_4"
+    permission: assassin_slash_4
+    resource:
+      material: PAPER
+      model_id: 2120
+      generate: false
+      model_path: assassin_model/assassin_slash_4
+  assassin_slash_5:
+    display_name: "assassin_slash_5"
+    permission: assassin_slash_5
+    resource:
+      material: PAPER
+      model_id: 2121
+      generate: false
+      model_path: assassin_model/assassin_slash_5
+  assassin_slash_6:
+    display_name: "assassin_slash_6"
+    permission: assassin_slash_6
+    resource:
+      material: PAPER
+      model_id: 2122
+      generate: false
+      model_path: assassin_model/assassin_slash_6
+  assassin_spin_1:
+    display_name: "assassin_spin_1"
+    permission: assassin_spin_1
+    resource:
+      material: PAPER
+      model_id: 2123
+      generate: false
+      model_path: assassin_model/assassin_spin_1
+  assassin_spin_2:
+    display_name: "assassin_spin_2"
+    permission: assassin_spin_2
+    resource:
+      material: PAPER
+      model_id: 2124
+      generate: false
+      model_path: assassin_model/assassin_spin_2
+  assassin_spin_3:
+    display_name: "assassin_spin_3"
+    permission: assassin_spin_3
+    resource:
+      material: PAPER
+      model_id: 2125
+      generate: false
+      model_path: assassin_model/assassin_spin_3
+  assassin_spin_4:
+    display_name: "assassin_spin_4"
+    permission: assassin_spin_4
+    resource:
+      material: PAPER
+      model_id: 2126
+      generate: false
+      model_path: assassin_model/assassin_spin_4
+  assassin_spin_5:
+    display_name: "assassin_spin_5"
+    permission: assassin_spin_5
+    resource:
+      material: PAPER
+      model_id: 2127
+      generate: false
+      model_path: assassin_model/assassin_spin_5
+  assassin_spin_6:
+    display_name: "assassin_spin_6"
+    permission: assassin_spin_6
+    resource:
+      material: PAPER
+      model_id: 2128
+      generate: false
+      model_path: assassin_model/assassin_spin_6
+  assassin_x_1:
+    display_name: "assassin_x_1"
+    permission: assassin_x_1
+    resource:
+      material: PAPER
+      model_id: 2129
+      generate: false
+      model_path: assassin_model/assassin_x_1
+  assassin_x_2:
+    display_name: "assassin_x_2"
+    permission: assassin_x_2
+    resource:
+      material: PAPER
+      model_id: 2130
+      generate: false
+      model_path: assassin_model/assassin_x_2
+  assassin_x_3:
+    display_name: "assassin_x_3"
+    permission: assassin_x_3
+    resource:
+      material: PAPER
+      model_id: 2131
+      generate: false
+      model_path: assassin_model/assassin_x_3
+  assassin_x_4:
+    display_name: "assassin_x_4"
+    permission: assassin_x_4
+    resource:
+      material: PAPER
+      model_id: 2132
+      generate: false
+      model_path: assassin_model/assassin_x_4
+  assassin_x_5:
+    display_name: "assassin_x_5"
+    permission: assassin_x_5
+    resource:
+      material: PAPER
+      model_id: 2133
+      generate: false
+      model_path: assassin_model/assassin_x_5

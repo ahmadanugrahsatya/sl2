@@ -1,0 +1,45 @@
+info:
+  namespace: magiccosmetics
+items:
+  back:
+    permission: back.cosmetic
+    lore:
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: menu/back
+  back_gray:
+    permission: back_gray.cosmetic
+    lore:
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: menu/back_gray
+  next:
+    permission: next.cosmetic
+    lore:
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: menu/next
+  next_gray:
+    permission: nextgray.cosmetic
+    lore:
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: menu/next_gray
+  empty:
+    permission: empty.cosmetic
+    lore:
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: menu/empty
+  spraycap:
+    permission: spray.cosmetic
+    lore:
+    resource:
+      material: FEATHER
+      generate: false
+      model_path: item/spray

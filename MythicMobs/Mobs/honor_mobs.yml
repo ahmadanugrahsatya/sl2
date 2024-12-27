@@ -1,0 +1,143 @@
+Graph_Slash_1:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,-25
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=graph_slash_1:0;delay=3} ~onSpawn
+  - equip{item=graph_slash_2:0;delay=4} ~onSpawn
+  - equip{item=graph_slash_3:0;delay=5} ~onSpawn
+  - equip{item=graph_slash_4:0;delay=6} ~onSpawn
+  - equip{item=graph_slash_5:0;delay=7} ~onSpawn
+  - equip{item=graph_slash_6:0;delay=8} ~onSpawn
+  - equip{item=graph_slash_7:0;delay=9} ~onSpawn
+  - equip{item=graph_slash_8:0;delay=10} ~onSpawn
+  - remove{delay=11} @self ~onSpawn
+
+Graph_Slash_2:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,-155
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=graph_slash_1:0;delay=3} ~onSpawn
+  - equip{item=graph_slash_2:0;delay=4} ~onSpawn
+  - equip{item=graph_slash_3:0;delay=5} ~onSpawn
+  - equip{item=graph_slash_4:0;delay=6} ~onSpawn
+  - equip{item=graph_slash_5:0;delay=7} ~onSpawn
+  - equip{item=graph_slash_6:0;delay=8} ~onSpawn
+  - equip{item=graph_slash_7:0;delay=9} ~onSpawn
+  - equip{item=graph_slash_8:0;delay=10} ~onSpawn
+  - remove{delay=11} @self ~onSpawn
+    
+Aether_Strike_PRO:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: false
+    Interactable: false
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=fx_aether_strike;n=false} @self ~onSpawn
+  - state{s=pro} @self ~onSpawn
+  - remove{delay=50} @self ~onSpawn
+  
+Aether_Strike_1:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: false
+    Interactable: false
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=fx_aether_strike;n=false} @self ~onSpawn
+  - state{s=skill1} @self ~onSpawn
+  - remove{delay=25} @self ~onSpawn
+  
+Aether_Strike_2:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: false
+    Interactable: false
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=fx_aether_strike;n=false} @self ~onSpawn
+  - state{s=skill2} @self ~onSpawn
+  - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - remove{delay=90} @self ~onSpawn
+
+Blue_Rupture:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=vfx_blue_rupture_1;lockpitch=true} @self ~onSpawn
+  - brightness{mid=vfx_blue_rupture_1;b=15;s=15} @self ~onSpawn
+  - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=skill} @self ~onSpawn
+  - tint{m=vfx_blue_rupture_1;p=crack;em=false} @self ~onSpawn
+  - changepart{m=vfx_blue_rupture_1;p=crack;nm=vfx_blue_rupture_2;np=crack;delay=55} @self ~onSpawn
+  - changepart{m=vfx_blue_rupture_1;p=crack;nm=vfx_blue_rupture_3;np=crack;delay=56} @self ~onSpawn
+  - changepart{m=vfx_blue_rupture_1;p=crack;nm=vfx_blue_rupture_4;np=crack;delay=58} @self ~onSpawn
+  - changepart{m=vfx_blue_rupture_1;p=crack;nm=vfx_blue_rupture_5;np=crack;delay=60} @self ~onSpawn
+  - remove{delay=62} @self ~onSpawn
+    
+Aether_Impact:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,0
+  ItemHand: angel_impact_1
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=angel_impact_1:0;delay=2} ~onSpawn
+  - equip{item=angel_impact_2:0;delay=4} ~onSpawn
+  - equip{item=angel_impact_3:0;delay=6} ~onSpawn
+  - equip{item=angel_impact_4:0;delay=8} ~onSpawn
+  - equip{item=angel_impact_5:0;delay=10} ~onSpawn
+  - remove{delay=16} @self ~onSpawn
+  
+Aether_Impact_rotated:
+  Type: ARMOR_STAND
+  Pose:
+      LeftArm: 0,0,0
+  ItemOffHand: angel_impact_1
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=angel_impact_1:5;delay=2} ~onSpawn
+  - equip{item=angel_impact_2:5;delay=4} ~onSpawn
+  - equip{item=angel_impact_3:5;delay=6} ~onSpawn
+  - equip{item=angel_impact_4:5;delay=8} ~onSpawn
+  - equip{item=angel_impact_5:5;delay=10} ~onSpawn
+  - remove{delay=16} @self ~onSpawn
+  

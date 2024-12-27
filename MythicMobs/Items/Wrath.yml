@@ -1,0 +1,34 @@
+doombringer_axe_wrath_1:
+  Id: paper
+  Display: "&6"
+  Model: 34
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_wrath_2:
+  Id: paper
+  Display: "&6"
+  Model: 35
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_wrath_3:
+  Id: paper
+  Display: "&6"
+  Model: 36
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_wrath_4:
+  Id: paper
+  Display: "&6"
+  Model: 37
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_wrath_5:
+  Id: paper
+  Display: "&6"
+  Model: 38
+  Hide:
+  - ATTRIBUTES

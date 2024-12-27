@@ -1,0 +1,34 @@
+angel_impact_1:
+  Id: paper
+  Display: "&6"
+  Model: 22235
+  Hide:
+  - ATTRIBUTES
+  
+angel_impact_2:
+  Id: paper
+  Display: "&6"
+  Model: 22245
+  Hide:
+  - ATTRIBUTES
+  
+angel_impact_3:
+  Id: paper
+  Display: "&6"
+  Model: 22255
+  Hide:
+  - ATTRIBUTES
+  
+angel_impact_4:
+  Id: paper
+  Display: "&6"
+  Model: 22265
+  Hide:
+  - ATTRIBUTES
+  
+angel_impact_5:
+  Id: paper
+  Display: "&6"
+  Model: 22275
+  Hide:
+  - ATTRIBUTES

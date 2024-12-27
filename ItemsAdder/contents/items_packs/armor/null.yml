@@ -1,0 +1,55 @@
+info:
+  namespace: null_armor
+armors_rendering:
+  null_set_armor:
+    color: '#94007a'
+    layer_1: null_layer_1
+    layer_2: null_layer_2
+    use_color: false
+items:
+  null_helmet:
+    resource:
+      model_id: 2007
+      generate: true
+      textures:
+      - null_helmet
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: null_set_armor
+  null_chestplate:
+    resource:
+      model_id: 2007
+      generate: true
+      textures:
+      - null_chestplate
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: null_set_armor
+  null_leggings:
+    resource:
+      model_id: 2007
+      generate: true
+      textures:
+      - null_leggings
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: null_set_armor
+  null_boots:
+    resource:
+      model_id: 2007
+      generate: true
+      textures:
+      - null_boots
+    specific_properties:
+      armor:
+        slot: feet
+        custom_armor: null_set_armor
+  null_head:
+    resource:
+      model_id: 2091
+      material: paper
+      generate: false
+      model_path: "null_head"

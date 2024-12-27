@@ -1,0 +1,32 @@
+RUNE:
+  base:
+    material: PAPER
+    name: Rune Aqua
+RUNE_FIRE:
+  base:
+    material: PAPER
+    name: Rune Fire
+RUNE_ICE:
+  base:
+    material: PAPER
+    name: Rune Ice
+RUNE_LIGHT:
+  base:
+    material: PAPER
+    name: Rune Light
+RUNE_NATURE:
+  base:
+    material: PAPER
+    name: Rune Nature
+RUNE_SHADOW:
+  base:
+    material: PAPER
+    name: Rune Shadow
+RUNE_UNDEAD:
+  base:
+    material: PAPER
+    name: Rune Undead
+RUNE_WIND:
+  base:
+    material: PAPER
+    name: Rune Wind

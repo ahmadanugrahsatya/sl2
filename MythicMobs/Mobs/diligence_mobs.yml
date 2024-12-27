@@ -1,0 +1,195 @@
+Sacred_Slice:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,0
+  ItemHand: charge_1
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - effect:particles{particle=redstone;color=#6cb7df;amount=50;hS=0.7;y=1;forwardOffset=-0.5;vS=0.1;speed=0} @self ~onSpawn
+  - equip{item=dragon_dash_pierce_1:0;delay=2} ~onSpawn
+  - equip{item=dragon_dash_pierce_2:0;delay=4} ~onSpawn
+  - equip{item=dragon_dash_pierce_3:0;delay=6} ~onSpawn
+  - equip{item=dragon_dash_pierce_4:0;delay=8} ~onSpawn
+  - equip{item=dragon_dash_pierce_5:0;delay=10} ~onSpawn
+  - remove{delay=12} @self ~onSpawn
+  
+Aerial_Of_Lance:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,0
+  ItemHand: angel_impact_1
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - effect:particlesphere{particle=redstone;color=#6cb7df;radius=1.5;amount=400}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#6cb7df;radius=1;amount=360;delay=1}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#6cb7df;radius=2.5;amount=340;delay=2}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#6cb7df;radius=2;amount=280;delay=3}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#6cb7df;radius=3;amount=240;delay=4}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#6cb7df;radius=4;amount=200;delay=5}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#6cb7df;radius=5;amount=160;delay=6}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#6cb7df;radius=6;amount=120;delay=7}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#6cb7df;radius=7;amount=80;delay=8}  @self ~onSpawn
+  - effect:particlesphere{particle=redstone;color=#6cb7df;radius=8;amount=40;delay=9}  @self ~onSpawn
+  - equip{item=angel_impact_1:0;delay=2} ~onSpawn
+  - equip{item=angel_impact_2:0;delay=4} ~onSpawn
+  - equip{item=angel_impact_3:0;delay=6} ~onSpawn
+  - equip{item=angel_impact_4:0;delay=8} ~onSpawn
+  - equip{item=angel_impact_5:0;delay=10} ~onSpawn
+  - remove{delay=16} @self ~onSpawn
+  
+Aerial_Of_Lance_rotated:
+  Type: ARMOR_STAND
+  Pose:
+      LeftArm: 0,0,0
+  ItemOffHand: angel_impact_1
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=angel_impact_1:5;delay=2} ~onSpawn
+  - equip{item=angel_impact_2:5;delay=4} ~onSpawn
+  - equip{item=angel_impact_3:5;delay=6} ~onSpawn
+  - equip{item=angel_impact_4:5;delay=8} ~onSpawn
+  - equip{item=angel_impact_5:5;delay=10} ~onSpawn
+  - remove{delay=16} @self ~onSpawn
+  
+Olkalilre_Of_Lance:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=fx_olkalilre;lockpitch=true} @self ~onSpawn
+  - state{s=skill} @self ~onSpawn
+  - effect:particles{particle=redstone;color=#6cb7df;amount=200;hS=15;vS=15;y=0;speed=0;forwardOffset=0;sideOffset=0;delay=30}
+  - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - remove{delay=30} @self ~onSpawn
+    
+Olkalilre_Impact:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - effect:particlering{particle=redstone;color=#6cb7df;radius=1;points=10;amount=1;hS=0;vS=0;y=0.1} @self ~onSpawn
+  - effect:particlering{particle=redstone;color=#6cb7df;radius=2;points=30;amount=1;hS=0;vS=0;y=0.1;delay=1} @self ~onSpawn
+  - effect:particlering{particle=redstone;color=#6cb7df;radius=3;points=50;amount=1;hS=0;vS=0;y=0.1;delay=2} @self ~onSpawn
+  - effect:particlering{particle=redstone;color=#6cb7df;radius=4;points=80;amount=1;hS=0;vS=0;y=0.1;delay=3} @self ~onSpawn
+  - effect:particlering{particle=redstone;color=#6cb7df;radius=5;points=110;amount=1;hS=0;vS=0;y=0.1;delay=4} @self ~onSpawn
+  - effect:particlering{particle=redstone;color=#6cb7df;radius=6;points=150;amount=1;hS=0;vS=0;y=0.1;delay=5} @self ~onSpawn
+  - effect:particlering{particle=redstone;color=#6cb7df;radius=7;points=190;amount=1;hS=0;vS=0;y=0.1;delay=6} @self ~onSpawn
+  - effect:particlering{particle=redstone;color=#6cb7df;radius=8;points=220;amount=1;hS=0;vS=0;y=0.1;delay=7} @self ~onSpawn
+  - effect:particlering{particle=redstone;color=#6cb7df;radius=9;points=260;amount=1;hS=0;vS=0;y=0.1;delay=8} @self ~onSpawn
+  - remove{delay=9} @self ~onSpawn
+  
+Sacred_Sling:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=fx_sacred_sling;lockpitch=true} @self ~onSpawn
+  - state{s=skill} @self ~onSpawn
+  - effect:particles{particle=redstone;color=#6cb7df;amount=50;hS=0.7;y=1;forwardOffset=-0.5;vS=0.1;speed=0} @self ~onSpawn
+  - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - remove{delay=22} @self ~onSpawn
+  
+Baroness_Of_Lance3:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=fx_baroness;lockpitch=true} @self ~onSpawn
+  - state{s=skill3} @self ~onSpawn
+  - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  
+Baroness_Of_Lance_PRO:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=fx_baroness;lockpitch=true} @self ~onSpawn
+  - state{s=pro} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  
+Baroness_Of_Lance4:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=fx_baroness;lockpitch=true} @self ~onSpawn
+  - partvis{m=fx_baroness;p=body;v=false} @self ~onSpawn
+  - partvis{m=fx_baroness;p=body;v=true;delay=2} @self ~onSpawn
+  
+  - state{s=pro2} @self ~onSpawn
+  - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - effect:particles{particle=campfire_cosy_smoke;amount=20;hS=0.15;vS=0.15;y=0;speed=0;forwardOffset=0;sideOffset=0;delay=59} @modelpart{mid=fx_permafrost_lance;pid=p;em=false} ~onSpawn
+  - remove{delay=60} @self ~onSpawn
+  
+Baroness_Of_3_ULT:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - state{s=lance3} @self ~onSpawn
+  - changepart{m=vfx_gale_slash_1;p=body;nm=vfx_gale_slash_2;np=body;delay=2} @self ~onSpawn
+  - changepart{m=vfx_gale_slash_1;p=body;nm=vfx_gale_slash_3;np=body;delay=4} @self ~onSpawn
+  - changepart{m=vfx_gale_slash_1;p=body;nm=vfx_gale_slash_4;np=body;delay=6} @self ~onSpawn
+  - changepart{m=vfx_gale_slash_1;p=body;nm=vfx_gale_slash_5;np=body;delay=8} @self ~onSpawn
+  - changepart{m=vfx_gale_slash_1;p=body;nm=vfx_gale_slash_6;np=body;delay=10} @self ~onSpawn
+  - changepart{m=vfx_gale_slash_1;p=body;nm=vfx_gale_slash_7;np=body;delay=12} @self ~onSpawn
+  - remove{delay=14} @self ~onSpawn
+  

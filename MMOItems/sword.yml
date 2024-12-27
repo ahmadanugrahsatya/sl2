@@ -1,0 +1,121 @@
+# Downloaded from https://nullforums.net/resources/samus2002-rpg-class-series-reaper.5258
+
+SIN_OF_GREED:
+  base:
+    material: DIAMOND_SWORD
+    name: <gradient:#10141e:#afe4a4:#10141e>ᴀᴠᴀʀɪᴄᴇ sᴄʏᴛʜᴇ
+    lore:
+    - Dosa ketamakan yang terkumpul
+    - menjadi satu dan berubah
+    - bentuk menjadi salah satu
+    - senjata kutukan.
+    - §
+    - Senjata yang tidak pernah
+    - merasakan puas dan keegoisan
+    - tinggi &2SIN OF GREED.
+    attack-damage: 11.0
+    attack-speed: 1.6
+    disable-attack-passive: true
+    ability:
+      ability1:
+        type: SOUL_SLICE
+        mode: LEFT_CLICK
+        damage: 3
+        cooldown: 0
+      ability2:
+        type: SOUL_SLICE
+        mode: ATTACK
+        damage: 3
+        cooldown: 0
+      ability3:
+        type: DEATH_SPIN
+        mode: RIGHT_CLICK
+        damage: 4
+        cooldown: 2
+      ability4:
+        type: REAPING_CLAW
+        mode: SNEAK
+        damage: 3
+      ability5:
+        type: SURGE
+        mode: SHIFT_RIGHT_CLICK
+        damage: 4
+        cooldown: 2
+      ability6:
+        type: SOUL_COLLECTOR
+        mode: TIMER
+        timer: 20
+      ability7:
+        type: SOUL_SCYTHE
+        mode: TIMER
+        timer: 10
+        damage: 5
+        heal: 4
+        duration: 12
+        cooldown: 15
+    displayed-type: |-
+      &2sin of greed
+
+      &f  Requires&c 50&f In Fighting
+      &f  Requires&c 27&f In Agility
+      &f  Requires&c 16&f In Sorcery
+    custom-model-data: 52.0
+    unbreakable: true
+    required-fighting: 50.0
+    required-agility: 27.0
+    required-sorcery: 16.0
+    item-particles:
+      particle: SCULK_SOUL
+      type: DOUBLE_RINGS
+      radius: 1.6
+      y-offset: 0.6
+      rotation-speed: 0.8
+# d6c5c201226340603acb09a02073aa9b92df8fe9 # 44687
+
+SIN:
+  base:
+    material: DIAMOND_AXE
+    name: <gradient:#FB0000:#FD7900:#FB0000>ᴅᴏᴏᴍʙʀɪɴɢᴇʀ ᴀхᴇ
+    attack-damage: 13.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: FLAME_SLASH
+        mode: LEFT_CLICK
+      ability2:
+        type: INFERNO_WHEEL
+        cooldown: 15.0
+        mode: RIGHT_CLICK
+      ability4:
+        type: BLAZING_LEAP
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 20.0
+      ability5:
+        type: HELLFIRE_SCYTHE
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 90.0
+    disable-attack-passive: true
+    attack-speed: 1.0
+    movement-speed: -0.03
+    lore:
+    - Senjata yang memiliki kekuatan
+    - kemarahan dan hasrat dosa manusia
+    - yang terkumpul dan menjadi satu
+    - membentuk senjata kutukan
+    - yang memiliki kekuatan dosa besar §cAmarah
+    item-particles:
+      particle: LAVA
+      type: OFFSET
+      amount: 3.0
+    displayed-type: |-
+      sin of wrath
+
+      &f  Requires&c 45&f In Foraging
+      &f  Requires&c 15&f In Defense
+      &f  Requires&c 15&f In Fighting
+    custom-model-data: 51.0
+    required-foraging: 45.0
+    required-fighting: 15.0
+    required-defense: 15.0
+
+# fbdd24de41f3bc69d05a1278825752184a6dc9eb # 46357

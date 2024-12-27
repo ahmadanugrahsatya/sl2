@@ -1,0 +1,25 @@
+COAL:
+  base:
+    material: COAL
+    custom-model-data: 101.0
+    name: Ubi
+    unbreakable: true
+    displayed-type: GRRRR
+SATAN:
+  base:
+    material: COAL
+    custom-model-data: 102.0
+    name: Satan
+    displayed-type: WRATH
+SATANRAGE:
+  base:
+    material: COAL
+    name: ??
+    custom-model-data: 103.0
+    displayed-type: RAGE RAGE RAGE
+SAYAP_JUL:
+  base:
+    material: COAL
+    name: ??
+    custom-model-data: 104.0
+    displayed-type: JUL JUL JUL

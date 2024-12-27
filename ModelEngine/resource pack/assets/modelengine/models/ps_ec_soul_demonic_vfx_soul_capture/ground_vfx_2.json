@@ -1,0 +1,1 @@
+{"textures":{"0":"modelengine:entity/ps_ec_soul_demonic_vfx_2"},"elements":[{"from":[-8.0,8.0,-4.0],"to":[24.0,8.0,20.0],"faces":{"up":{"uv":[16.0,6.0,8.0,0.0],"tintindex":0,"rotation":0,"texture":"#0"}}}],"display":{"gui":{"rotation":[30,225,0]}}}

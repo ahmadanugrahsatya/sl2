@@ -1,0 +1,115 @@
+# |
+# |     Made By  : ★ Purple Star
+# |
+# |     Pack Name: Soul Demonic
+# |     Pack Type: Exclusive Character
+# |
+
+
+################################################################################################
+##                                                                                            ##
+##                                     WEAPONS WITH SKILL                                     ##
+##                                                                                            ##
+################################################################################################
+
+
+PS_EC_Soul_Demonic_Greatsword:
+  Id: shulker_shell
+  Display: '<color:#00cdf9>Soul Demonic Greatsword'
+  Model: 1001
+  Unbreakable: true
+  Hide:
+  - ATTRIBUTES
+  Skills:
+  - skill{s=PS_EC_Soul_Demonic_Soul_Slash_Conditions} @self ~onSwing
+  - skill{s=PS_EC_Soul_Demonic_Soul_Capture_Conditions} @self ~onUse
+  - skill{s=PS_EC_Soul_Demonic_Devastate_Conditions} @self ~onSwing
+  - skill{s=PS_EC_Soul_Demonic_Death_Landing_Conditions} @self ~onUse
+  Lore:
+  -  '§8'
+  -  '  &8MythicCrucible | Weapons'
+  -  '§8'
+  -  '  <color:#657392>◇ [L] Soul Slash  '
+  -  '  <color:#657392>◆ [R] Soul_Capture  '
+  -  '  <color:#657392>◆ [S-L] Devastate  '
+  -  '  §6◆ [S-R] Death Landing  '
+  -  '§8'
+  -  '  <color:#657392>Exclusive Character §8| <color:#00cdf9>Soul Demonic  '
+  -  '  §8Made By <color:#844F9F>★ Purple Star  '
+  -  '§8'
+
+
+##########################################################################################
+##                                                                                      ##
+##                                     SINGLE SKILL                                     ##
+##                                                                                      ##
+##########################################################################################
+
+
+PS_EC_Soul_Demonic_Skill_Icon_Soul_Slash:
+  Id: shulker_shell
+  Display: '<color:#00cdf9>Soul Slash'
+  Model: 1005
+  Unbreakable: true
+  Hide:
+  - ATTRIBUTES
+  Skills:
+  - skill{s=PS_EC_Soul_Demonic_Soul_Slash_Cooldown} @self ~onUse
+  Lore:
+  -  '§8'
+  -  '  &8MythicCrucible | Single Skill'
+  -  '§8'
+  -  '  <color:#657392>Exclusive Character §8| <color:#00cdf9>Soul Demonic  '
+  -  '  §8Made By <color:#844F9F>★ Purple Star  '
+  -  '§8'
+
+PS_EC_Soul_Demonic_Skill_Icon_Soul_Capture:
+  Id: shulker_shell
+  Display: '<color:#00cdf9>Soul Capture'
+  Model: 1006
+  Unbreakable: true
+  Hide:
+  - ATTRIBUTES
+  Skills:
+  - skill{s=PS_EC_Soul_Demonic_Soul_Capture_Cooldown} @self ~onUse
+  Lore:
+  -  '§8'
+  -  '  &8MythicCrucible | Single Skill'
+  -  '§8'
+  -  '  <color:#657392>Exclusive Character §8| <color:#00cdf9>Soul Demonic  '
+  -  '  §8Made By <color:#844F9F>★ Purple Star  '
+  -  '§8'
+
+PS_EC_Soul_Demonic_Skill_Icon_Devastate:
+  Id: shulker_shell
+  Display: '<color:#00cdf9>Devastate'
+  Model: 1007
+  Unbreakable: true
+  Hide:
+  - ATTRIBUTES
+  Skills:
+  - skill{s=PS_EC_Soul_Demonic_Devastate_Cooldown} @self ~onUse
+  Lore:
+  -  '§8'
+  -  '  &8MythicCrucible | Single Skill'
+  -  '§8'
+  -  '  <color:#657392>Exclusive Character §8| <color:#00cdf9>Soul Demonic  '
+  -  '  §8Made By <color:#844F9F>★ Purple Star  '
+  -  '§8'
+
+PS_EC_Soul_Demonic_Skill_Icon_Death_Landing:
+  Id: shulker_shell
+  Display: '<color:#00cdf9>Death Landing'
+  Model: 1008
+  Unbreakable: true
+  Hide:
+  - ATTRIBUTES
+  Skills:
+  - skill{s=PS_EC_Soul_Demonic_Death_Landing_Cooldown} @self ~onUse
+  Lore:
+  -  '§8'
+  -  '  &8MythicCrucible | Single Skill'
+  -  '§8'
+  -  '  <color:#657392>Exclusive Character §8| <color:#00cdf9>Soul Demonic  '
+  -  '  §8Made By <color:#844F9F>★ Purple Star  '
+  -  '§8'

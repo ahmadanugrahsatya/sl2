@@ -1,0 +1,126 @@
+######## created by samus2002 #########
+
+# Quick Shot #
+
+Light_Shot:
+  Conditions:
+  - crouching false
+  - hasaurastacks{auraName=Retreat_aura} castinstead Void_Missile
+  Cooldown: 0.5
+  Skills:
+  - effect:sound{s=archer_sounds:samus.arrow_shoot;volume=1;pitch=1} @self
+  - projectile{bulletType=MOB;mob=Light_Arrow;onEnd=Light_Arrow_END;onHit=Light_Arrow_HIT;v=35;i=1;hR=1;vR=1;mr=40;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=1.5;tyo=1.5} @Forward{f=20;y=0}
+  
+Light_Arrow_HIT:
+  TargetConditions:
+  - owner{} false
+  - mythicmobtype{t=Retreat} false
+  - mythicmobtype{t=Blackhole_Shot} false
+  - mythicmobtype{t=Blackhole} false
+  - mythicmobtype{t=Void_Rain} false
+  - mythicmobtype{t=Void_Rain_Arrow} false
+  - mythicmobtype{t=Pulse_Arrow} false
+  - mythicmobtype{t=Void_Missile} false
+  Skills:
+  - damage{a=6} @EntitiesNearOrigin{r=3;limit=1;sort=NEAREST}
+  - effect:sound{s=entity.arrow.hit;volume=1;pitch=0.9} @origin
+
+Light_Arrow_HIT_CHANCE:
+  Skills:
+  - potion{type=WITHER;duration=60;level=1;hasParticles=false}
+  - skill{s=WITHER_FX_60}
+  
+Light_Arrow_END:
+  Skills:
+  - skill{s=Light_Arrow_HIT_FX} @origin
+  
+Light_Arrow_HIT_FX:
+  Skills:
+  - effect:particlesphere{particle=redstone;color=#60caff;radius=1;amount=10} @origin
+  - effect:particlesphere{particle=redstone;color=#60caff;radius=1.5;amount=15;delay=1} @origin
+  - effect:particlesphere{particle=redstone;color=#60caff;radius=2;amount=20;delay=2} @origin
+  - effect:particlesphere{particle=redstone;color=#60caff;radius=2.5;amount=25;delay=3} @origin
+    
+# Backstep #
+
+Back_Dash:
+  Cooldown: 0
+  Conditions:
+  - crouching false
+  Skills:
+  - Aura{auraName=Arrow_Barrage_aura;interval=1;duration=20} @self
+  - lunge{velocity=2.2;velocityY=0.2} @forward{f=-12;y=0.1;lockpitch=true}
+  - effect:sound{s=archer_sounds:samus.backstep;volume=1;pitch=1} @self
+  - effect:particles{particle=redstone;color=#60caff;amount=7;hS=0.3;vS=0.5;speed=0;repeat=4;repeatinterval=3} @self
+  - summon{type=Backstep;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=0;y=0.1;lockpitch=true}
+  - missile{bulletType=MOB;mob=Light_Shot;onEnd=Quick_Shot_END;onHit=Quick_Shot_HIT;in=1;v=23;i=1;hR=1;vR=1;md=80;mr=30;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=1.5;tyo=1.5}
+  - missile{bulletType=MOB;mob=Light_Shot;onEnd=Quick_Shot_END;onHit=Quick_Shot_HIT;in=1;v=23;i=1;hR=1;vR=1;md=80;mr=30;hnp=true;hO=60;sE=true;sB=true;hs=false;hfs=0;syo=1.5;tyo=1.5;delay=1}
+  - missile{bulletType=MOB;mob=Light_Shot;onEnd=Quick_Shot_END;onHit=Quick_Shot_HIT;in=1;v=23;i=1;hR=1;vR=1;md=80;mr=30;hnp=true;hO=-60;sE=true;sB=true;hs=false;hfs=0;syo=1.5;tyo=1.5;delay=5}
+  - missile{bulletType=MOB;mob=Light_Shot;onEnd=Quick_Shot_END;onHit=Quick_Shot_HIT;in=1;v=23;i=1;hR=1;vR=1;md=80;mr=30;hnp=true;hO=0;vO=1;sE=true;sB=true;hs=false;hfs=0;syo=1.5;tyo=1.5;delay=2}
+  - missile{bulletType=MOB;mob=Light_Shot;onEnd=Quick_Shot_END;onHit=Quick_Shot_HIT;in=1;v=23;i=1;hR=1;vR=1;md=80;mr=30;hnp=true;hO=30;vO=1;sE=true;sB=true;hs=false;hfs=0;syo=1.5;tyo=1.5;delay=4}
+  - missile{bulletType=MOB;mob=Light_Shot;onEnd=Quick_Shot_END;onHit=Quick_Shot_HIT;in=1;v=23;i=1;hR=1;vR=1;md=80;mr=30;hnp=true;hO=-30;vO=1;sE=true;sB=true;hs=false;hfs=0;syo=1.5;tyo=1.5;delay=3}
+  
+lighthole_Shot:
+  Conditions:
+  - crouching true
+  - hasaurastacks{auraName=Pulse_Mode_aura} false
+  Cooldown: 5
+  Skills:
+  - effect:sound{s=null_sounds:samus.void_arrow_shoot;volume=1;pitch=0.9} @self
+  - projectile{bulletType=MOB;mob=Lighthole_Shot;onEnd=Lighthole_Shot_HIT;onHit=Lighthole_Shot_HIT;v=35;i=1;hR=1;vR=1;mr=30;hnp=true;hO=0;sE=true;sB=true;hs=false;hfs=0;syo=1.5;tyo=1.5} @Forward{f=20;y=0}
+  
+Lighthole_Shot_HIT:
+  TargetConditions:
+  - owner{} false
+  - mythicmobtype{t=Retreat} false
+  - mythicmobtype{t=Blackhole_Shot} false
+  - mythicmobtype{t=Blackhole} false
+  - mythicmobtype{t=Void_Rain} false
+  - mythicmobtype{t=Void_Rain_Arrow} false
+  - mythicmobtype{t=Pulse_Arrow} false
+  - mythicmobtype{t=Void_Missile} false
+  Skills:
+  - summon{type=Lighthole;amount=1;radius=0;yRadius=0;onSurface=false} @origin
+  
+Blackhole_Pull:
+  TargetConditions:
+  - owner{} false
+  Skills:
+  - pull{velocity=3.5}
+  
+Blackhole_Pull:
+  TargetConditions:
+  - owner{} false
+  Skills:
+  - pull{velocity=3.5}
+  
+# Dragon Piercer #
+
+Charge_Of_Light:
+  Cooldown: 0
+  Conditions:
+  - crouching true
+  Skills:
+  - effect:particles{particle=redstone;color=#60caff;amount=7;hS=0.3;vS=0.5;speed=0;repeat=4;repeatinterval=3} @self
+  - potion{type=SLOW;duration=60;level=50;hasParticles=false} @self
+  - summon{type=jam;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=0;y=0.1}
+  - effect:sound{s=entity.blaze.burn;volume=1.3;pitch=1} @self
+  - delay 62
+  - lunge{velocity=1;velocityY=0.1} @forward{f=-5;y=0.3}
+  - effect:sound{s=archer_sounds:samus.dragon_explode;volume=1;pitch=1} @self
+  - summon{type=cahaya;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=0;y=0;lockpitch=true}
+  - projectile{bulletType=MOB;mob=Dragon_Arrow;onHit=Dragon_Piercer_HIT;v=22;i=1;hR=1;vR=1;mr=60;hnp=true;hO=0;sE=false;sB=false;hs=false;hfs=0;syo=1.5;tyo=1.5} @Forward{f=60}
+  
+Dragon_Piercer_HIT:
+  TargetConditions:
+  - mythicmobtype{t=Retreat} false
+  - mythicmobtype{t=Blackhole_Shot} false
+  - mythicmobtype{t=Blackhole} false
+  - mythicmobtype{t=Void_Rain} false
+  - mythicmobtype{t=Void_Rain_Arrow} false
+  - mythicmobtype{t=Pulse_Arrow} false
+  - mythicmobtype{t=Void_Missile} false
+  Skills:
+  - damage{a=5} @EntitiesNearOrigin{r=5}
+  - ignite{ticks=120} @EntitiesNearOrigin{r=5}
+  

@@ -1,0 +1,21 @@
+# Wrath #
+
+doombringer_axe_Wrath:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,0
+  ItemHand: Wrath_1
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=wrath_dash;n=false} @self ~onSpawn
+  - equip{item=doombringer_axe_wrath_1:0;delay=2} ~onSpawn
+  - equip{item=doombringer_axe_wrath_2:0;delay=4} ~onSpawn
+  - equip{item=doombringer_axe_wrath_3:0;delay=6} ~onSpawn
+  - equip{item=doombringer_axe_wrath_4:0;delay=8} ~onSpawn
+  - equip{item=doombringer_axe_wrath_5:0;delay=10} ~onSpawn
+  - remove{delay=12} @self ~onSpawn

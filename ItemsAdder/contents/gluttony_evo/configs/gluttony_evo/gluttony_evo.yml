@@ -1,0 +1,157 @@
+info:
+  namespace: gluttony_evo
+items:
+  sin_of_gluttony_evo:
+    display_name: "sin_of_gluttony_evo"
+    permission: sin_of_gluttony_evo
+    resource:
+      material: DIAMOND_SWORD
+      model_id: 2037
+      generate: false
+      model_path: gluttony_evo_model/sin_of_gluttony_evo
+  blue_flame_1:
+    display_name: "blue_flame_1"
+    permission: blue_flame_1
+    resource:
+      material: PAPER
+      model_id: 2563
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_1
+  blue_flame_2:
+    display_name: "blue_flame_2"
+    permission: blue_flame_2
+    resource:
+      material: PAPER
+      model_id: 2564
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_2
+  blue_flame_3:
+    display_name: "blue_flame_3"
+    permission: blue_flame_3
+    resource:
+      material: PAPER
+      model_id: 2565
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_3
+  blue_flame_4:
+    display_name: "blue_flame_4"
+    permission: blue_flame_4
+    resource:
+      material: PAPER
+      model_id: 2566
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_4
+  blue_flame_5:
+    display_name: "blue_flame_5"
+    permission: blue_flame_5
+    resource:
+      material: PAPER
+      model_id: 2567
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_5
+  blue_flame_6:
+    display_name: "blue_flame_6"
+    permission: blue_flame_6
+    resource:
+      material: PAPER
+      model_id: 2568
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_6
+  blue_flame_7:
+    display_name: "blue_flame_7"
+    permission: blue_flame_7
+    resource:
+      material: PAPER
+      model_id: 2569
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_7
+  blue_flame_8:
+    display_name: "blue_flame_8"
+    permission: blue_flame_8
+    resource:
+      material: PAPER
+      model_id: 2570
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_8
+  blue_flame_slash_1:
+    display_name: "blue_flame_slash_1"
+    permission: blue_flame_slash_1
+    resource:
+      material: PAPER
+      model_id: 2576
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_slash_1
+  blue_flame_slash_2:
+    display_name: "blue_flame_slash_2"
+    permission: blue_flame_slash_2
+    resource:
+      material: PAPER
+      model_id: 2577
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_slash_2
+  blue_flame_slash_3:
+    display_name: "blue_flame_slash_3"
+    permission: blue_flame_slash_3
+    resource:
+      material: PAPER
+      model_id: 2578
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_slash_3
+  blue_flame_slash_4:
+    display_name: "blue_flame_slash_4"
+    permission: blue_flame_slash_4
+    resource:
+      material: PAPER
+      model_id: 2579
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_slash_4
+  blue_flame_slash_5:
+    display_name: "blue_flame_slash_5"
+    permission: blue_flame_slash_5
+    resource:
+      material: PAPER
+      model_id: 2580
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_slash_5
+  blue_flame_slash_6:
+    display_name: "blue_flame_slash_6"
+    permission: blue_flame_slash_6
+    resource:
+      material: PAPER
+      model_id: 2581
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_slash_6
+  blue_flame_slash_7:
+    display_name: "blue_flame_slash_7"
+    permission: blue_flame_slash_7
+    resource:
+      material: PAPER
+      model_id: 2582
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_slash_7
+  blue_flame_charge_spin:
+    display_name: "blue_flame_charge_spin"
+    permission: blue_flame_charge_spin
+    resource:
+      material: PAPER
+      model_id: 2583
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_charge_spin
+  blue_flame_shuriken_blade:
+    display_name: "blue_flame_shuriken_blade"
+    permission: blue_flame_shuriken_blade
+    resource:
+      material: PAPER
+      model_id: 2647
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_shuriken_blade
+  blue_flame_mark:
+    display_name: "blue_flame_mark"
+    permission: blue_flame_mark
+    resource:
+      material: PAPER
+      model_id: 2648
+      generate: false
+      model_path: gluttony_evo_model/blue_flame_mark
+      
+# created and remake by Lenathaaa #

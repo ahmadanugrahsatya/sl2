@@ -1,0 +1,144 @@
+info:
+  namespace: draculaset
+items:
+  dracula_axe:
+    display_name: Dracula Axe
+    permission: draculaset.axe
+    resource:
+      generate: false
+      material: IRON_AXE
+      model_path: axe
+  dracula_battleaxe:
+    display_name: Dracula Battleaxe
+    permission: draculaset.battleaxe
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: battleaxe
+  dracula_blade:
+    display_name: Dracula Blade
+    permission: draculaset.blade
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: blade
+  dracula_bow:
+    display_name: Dracula Bow
+    permission: draculaset.bow
+    resource:
+      generate: false
+      material: BOW
+      model_path: bow
+  dracula_chest:
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+    display_name: Dracula Chest
+    permission: draculaset.chest
+    resource:
+      generate: false
+      material: SEA_LANTERN
+      model_path: chest
+  dracula_dagger:
+    display_name: Dracula Dagger
+    permission: draculaset.dagger
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: dagger
+  dracula_fishing:
+    display_name: Dracula Fishing
+    permission: draculaset.fishing
+    resource:
+      generate: false
+      material: FISHING_ROD
+      model_path: fishing
+  dracula_halberd:
+    display_name: Dracula Halberd
+    permission: draculaset.halberd
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: halberd
+  dracula_hoe:
+    display_name: Dracula Hoe
+    permission: draculaset.hoe
+    resource:
+      generate: false
+      material: IRON_HOE
+      model_path: hoe
+  dracula_key:
+    display_name: Dracula Key
+    permission: draculaset.key
+    resource:
+      generate: false
+      material: PAPER
+      model_path: key
+  dracula_pickaxe:
+    display_name: Dracula Pickaxe
+    permission: draculaset.pickaxe
+    resource:
+      generate: false
+      material: IRON_PICKAXE
+      model_path: pickaxe
+  dracula_shield:
+    display_name: Dracula Shield
+    permission: draculaset.shield
+    resource:
+      generate: false
+      material: SHIELD
+      model_path: shield
+  dracula_shovel:
+    display_name: Dracula Shovel
+    permission: draculaset.shovel
+    resource:
+      generate: false
+      material: IRON_SHOVEL
+      model_path: shovel
+  dracula_sickle:
+    display_name: Dracula Sickle
+    permission: draculaset.sickle
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: sickle
+  dracula_spear:
+    display_name: Dracula Spear
+    permission: draculaset.spear
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: spear
+  dracula_staff:
+    display_name: Dracula Staff
+    permission: draculaset.staff
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: staff
+  dracula_sword:
+    display_name: Dracula Sword
+    permission: draculaset.sword
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: sword
+  dracula_wings:
+    display_name: Dracula Wings
+    permission: draculaset.wings
+    resource:
+      generate: false
+      material: PAPER
+      model_path: wings

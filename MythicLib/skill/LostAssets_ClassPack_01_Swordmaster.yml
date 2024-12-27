@@ -1,0 +1,16 @@
+SWORD_SLASH:
+    mythicmobs-skill-id: lostassets_swordmaster_lc
+    modifiers:
+    - damage
+CHARGED_SLASH:
+    mythicmobs-skill-id: lostassets_swordmaster_rc
+    modifiers:
+    - damage
+CROSS_BLADE:
+    mythicmobs-skill-id: lostassets_swordmaster_slc
+    modifiers:
+    - damage
+BLADE_STORM:
+    mythicmobs-skill-id: lostassets_swordmaster_src
+    modifiers:
+    - damage

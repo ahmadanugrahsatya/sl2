@@ -1,0 +1,53 @@
+armors_rendering:
+  cosmo_pack_armor:
+    color: '#7521ca'
+    layer_1: armor/cosmo_pack_armor_layer_1
+    layer_2: armor/cosmo_pack_armor_layer_2
+    use_color: false
+info:
+  namespace: cosmo_pack
+items:
+  cosmo_boots:
+    display_name: Cosmo Boots
+    permission: cosmo_pack.boots
+    resource:
+      generate: true
+      textures:
+      - armor/cosmo_pack_boots_icon.png
+    specific_properties:
+      armor:
+        custom_armor: cosmo_pack_armor
+        slot: feet
+  cosmo_chestplate:
+    display_name: Cosmo Chestplate
+    permission: cosmo_pack.chestplate
+    resource:
+      generate: true
+      textures:
+      - armor/cosmo_pack_chestplate_icon.png
+    specific_properties:
+      armor:
+        custom_armor: cosmo_pack_armor
+        slot: chest
+  cosmo_leggings:
+    display_name: Cosmo Leggings
+    permission: cosmo_pack.leggings
+    resource:
+      generate: true
+      textures:
+      - armor/cosmo_pack_leggings_icon.png
+    specific_properties:
+      armor:
+        custom_armor: cosmo_pack_armor
+        slot: legs
+  cosmo_helmet:
+    display_name: Cosmo Helmet
+    permission: cosmo_pack.helmet
+    resource:
+      generate: true
+      textures:
+      - armor/cosmo_pack_helmet_icon.png
+    specific_properties:
+      armor:
+        custom_armor: cosmo_pack_armor
+        slot: head

@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "doombringer_axe:doombringer_axe_texture/hellfire_slash_2",
+		"particle": "doombringer_axe:doombringer_axe_texture/hellfire_slash_2"
+	},
+	"elements": [
+		{
+			"from": [-13.5, -13.5, 8],
+			"to": [29.5, 29.5, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0.032, 0.032, 15.968, 15.968], "texture": "#0"},
+				"east": {"uv": [3.032, 5.032, 6.5, 9.5], "texture": "#0"},
+				"south": {"uv": [15.968, 0.032, 0.032, 15.968], "texture": "#0"},
+				"west": {"uv": [3.032, 5.032, 6.5, 9.5], "texture": "#0"},
+				"up": {"uv": [3.032, 5.032, 6.5, 9.5], "texture": "#0"},
+				"down": {"uv": [3.032, 5.032, 6.5, 9.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [90, 0, -180],
+			"translation": [-0.25, -19, 55.75],
+			"scale": [4, 4, 4]
+		}
+	}
+}

@@ -1,0 +1,96 @@
+#ERGEOX, DEFAULT DAMAGE CONFIG
+#- MeleeAttacks Damage: Line 47
+#- Ground Impact Damage: Line 48
+#- Rising Flames Damage: Line 49
+#- Flame Absorption Damage: Line 50
+#- Flame Machine Damage: Line 51
+#- Triple Shoot Damage: Line 52
+#- Sun Shelter Damage: Line 53
+###
+ergeox:
+  Type: silverfish
+  Health: 6000
+  Faction: ErgeoxTeam
+  Options:
+    PreventBlockInfection: true
+    PreventOtherDrops: true
+    DigOutOfGround: true
+    ApplyInvisibility: true
+    FollowRange: 90
+    Despawn: false
+    Silent: true
+  BossBar:
+    Enabled: true
+    Range: 90
+    Color: RED
+    Style: SEGMENTED_20
+    Title: "Ergeox the Old Foundry Mech"
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - randomstroll
+  AITargetSelectors:
+  - clear
+  - players
+  - attacker
+  DamageModifiers:
+  - FALL 0
+  - LAVA 0
+  - FIRE 0
+  - FIRE_TICK 0
+  - HOT_FLOOR 0
+  KillMessages:
+  - '<target.name> was slay by Ergeox the Old Foundry Mech'  
+  Skills:
+  ###ONSPAWN
+  - skill{s=[
+      - setvariable{var=caster.ergeoxKRMeleeAttackDamage;val=10} @Self 
+      - setvariable{var=caster.ergeoxKRGroundImpactDamage;val=10} @Self 
+      - setvariable{var=caster.ergeoxKRRisingFlamesDamage;val=15} @Self 
+      - setvariable{var=caster.ergeoxKRFlameAbsorptionDamage;val=7} @Self 
+      - setvariable{var=caster.ergeoxKRFlameMachineDamage;val=20} @Self 
+      - setvariable{var=caster.ergeoxKRTripleShootDamage;val=15} @Self 
+      - setvariable{var=caster.ergeoxKRSunShelterDamage;val=25} @Self 
+      - setstance{stance=ergeoxKRPushForwardCheckPlayersOFF} @Self
+      - skill:ergeoxKRSpawnAnimation
+    ]} ~onSpawn
+  ###ONDAMAGED
+  - skill{s=[
+      - velocity{m=set;x=0;y=0;z=0;delay=1} @Self
+      - sound{s=entity.iron_golem.hurt;p=0.5;v=6} @Self ?!damagecause{cause=FALL} ?!damagecause{cause=FIRE} ?!damagecause{cause=FIRE_TICK}
+      - sound{s=block.iron_door.close;p=0.7;v=6} @Self ?!damagecause{cause=FALL} ?!damagecause{cause=FIRE} ?!damagecause{cause=FIRE_TICK}
+    ]} ~onDamaged 
+  ###ONATTACK
+  - skill{s=[
+      - cancelevent @Self
+      - randomskill{s=ergeoxKRMeleeAttackIV,ergeoxKRMeleeAttackVI,ergeoxKRMeleeAttackII} @PIR{r=35;ignore=creative,spectators}
+    ];sync=true} ~onAttack
+  ###SKILLS
+  - skill:ergeoxKRFastWalk @PIR{r=35;ignore=creative,spectators} ~onTimer:45 0.94
+  - randomskill{s=ergeoxKRMeleeAttackIV,ergeoxKRMeleeAttackVI,ergeoxKRMeleeAttackII} @PIR{r=35;ignore=creative,spectators} ~onTimer:80 0.76
+  - skill:ergeoxKRMeleeAttackV @PIR{r=35;ignore=creative,spectators} ~onTimer:105 0.87
+  - randomskill{s=ergeoxKRPushBehind 0.65,ergeoxKRPushRight 0.18,ergeoxKRPushLeft 0.18;cd=10} ~onTimer:85 0.85
+  - randomskill{s=ergeoxKRPushBehind 0.65,ergeoxKRPushRight 0.18,ergeoxKRPushLeft 0.18;cd=10} ~onDamaged 0.35 ?!damagecause{cause=FALL} ?!damagecause{cause=FIRE} ?!damagecause{cause=FIRE_TICK}
+  - skill:ergeoxKRRisingFlames ~onDamaged 0.37 ?!damagecause{cause=FALL} ?!damagecause{cause=FIRE} ?!damagecause{cause=FIRE_TICK}
+  - skill:ergeoxKRFlameAbsorption ~onDamaged 0.29 <90% ?!damagecause{cause=FALL} ?!damagecause{cause=FIRE} ?!damagecause{cause=FIRE_TICK}
+  - skill:ergeoxKRSunShelter ~onDamaged 0.34 <90% ?!damagecause{cause=FALL} ?!damagecause{cause=FIRE} ?!damagecause{cause=FIRE_TICK}
+  - skill:ergeoxKRTripleShoot @PIR{r=35;ignore=creative,spectators} ~onTimer:98 0.55
+  ###ONDEATH
+  - skill:ergeoxKRDeath @Self ~onDeath
+  Drops:
+  - ErgeoxBGHat 1 1
+ergeoxGunBullet:
+  Type: armor_stand
+  Faction: ErgeoxTeam
+  Options:
+    PreventOtherDrops: true
+    Invisible: true
+    Invincible: true
+    Silent: true
+    Marker: true
+  KillMessages:
+  - '<target.name> was slay by Ergeox the Old Foundry Mech'  
+  Skills:
+  - skill:ergeoxGunBulletSpawn ~onSpawn
+
+# 18058ZKL912OCU218R8182K

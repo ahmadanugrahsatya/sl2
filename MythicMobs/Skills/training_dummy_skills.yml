@@ -1,0 +1,11 @@
+######## created by samus2002 #########
+
+Training_Dummy_Look:
+  TriggerConditions:
+  - crouching true
+  - haspermission{p=*} true
+  Skills:
+  - look{headOnly=false;immediately=false;repeat=5;repeatinterval=2}
+
+
+# 722DFGEH0G

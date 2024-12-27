@@ -1,0 +1,14 @@
+{
+"parent":"item/handheld",
+"textures":{"layer0":"item/paper"},
+"overrides":[
+{"predicate":{"custom_model_data":551082},"model":"lostassets/82"},
+{"predicate":{"custom_model_data":551083},"model":"lostassets/83"},
+{"predicate":{"custom_model_data":551086},"model":"lostassets/86"},
+{"predicate":{"custom_model_data":551087},"model":"lostassets/87"},
+{"predicate":{"custom_model_data":551088},"model":"lostassets/88"},
+{"predicate":{"custom_model_data":551089},"model":"lostassets/89"},
+{"predicate":{"custom_model_data":551090},"model":"lostassets/90"},
+{"predicate":{"custom_model_data":551091},"model":"lostassets/91"}
+]
+}

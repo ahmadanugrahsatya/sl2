@@ -1,0 +1,13 @@
+BRUTAL_STRIKE:
+    mythicmobs-skill-id: Brutal_Strike
+    modifiers:
+    - damage
+
+CHARGE:
+    mythicmobs-skill-id: Charge
+    
+
+WHIRLWIND:
+    mythicmobs-skill-id: Whirwind
+    modifiers:
+    - damage

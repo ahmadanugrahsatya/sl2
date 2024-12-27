@@ -1,0 +1,17 @@
+LIGHT_SHOT:
+    mythicmobs-skill-id: Light_Shot
+    modifiers:
+    - damage
+
+BACK_DASH:
+    mythicmobs-skill-id: Back_Dash
+    
+LIGHTHOLE_SHOT:
+    mythicmobs-skill-id: lighthole_Shot
+    
+CHARGE_OF_LIGHT:
+    mythicmobs-skill-id: Charge_Of_Light
+    modifiers:
+    - damage
+    - duration
+    

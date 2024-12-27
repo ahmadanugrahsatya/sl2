@@ -1,0 +1,79 @@
+{
+	"credit": "RedzXyz",
+	"textures": {
+		"0": "magiccosmetics:item/ajul_eyes/mata_ajul",
+		"particle": "magiccosmetics:item/ajul_eyes/mata_ajul"
+	},
+	"elements": [
+		{
+			"from": [6, 6, 4],
+			"to": [7, 8, 4],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 2], "texture": "#0"},
+				"south": {"uv": [1, 0, 2, 2], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 2], "texture": "#0"},
+				"up": {"uv": [1, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [1, 0, 0, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.7, 6, 4],
+			"to": [9.7, 8, 4],
+			"faces": {
+				"north": {"uv": [0, 2, 1, 4], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 2], "texture": "#0"},
+				"south": {"uv": [2, 0, 3, 2], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 2], "texture": "#0"},
+				"up": {"uv": [1, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [1, 0, 0, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [87, 0, 0],
+			"translation": [0, -3.25, 1.5],
+			"scale": [0.83789, 0.68945, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [50.29, -8.77, -1.56],
+			"translation": [0, -1.25, 2.75],
+			"scale": [0.74609, 0.7832, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-171, 63, 126],
+			"translation": [0, 4.5, 0],
+			"scale": [0.66, 0.73, 1]
+		},
+		"firstperson_lefthand": {
+			"translation": [0.75, -4.25, 0],
+			"scale": [0.91, 0.83, 1]
+		},
+		"ground": {
+			"translation": [0, 1.75, 0]
+		},
+		"gui": {
+			"rotation": [-180, 1.25, -180],
+			"translation": [0, -3.5, 0],
+			"scale": [1, 0.86523, 1]
+		},
+		"head": {
+			"rotation": [0.85, -1.99, -0.25],
+			"translation": [0, -1.75, -1.75],
+			"scale": [1.86914, 1.61915, 1.21093]
+		},
+		"fixed": {
+			"translation": [0, -2.75, 1.75],
+			"scale": [1.53906, 1.39453, 1]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

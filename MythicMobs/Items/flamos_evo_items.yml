@@ -1,0 +1,118 @@
+doombringer_axe_charge_1:
+  Id: paper
+  Display: "&6"
+  Model: 34
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_charge_2:
+  Id: paper
+  Display: "&6"
+  Model: 35
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_charge_3:
+  Id: paper
+  Display: "&6"
+  Model: 36
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_charge_4:
+  Id: paper
+  Display: "&6"
+  Model: 37
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_charge_5:
+  Id: paper
+  Display: "&6"
+  Model: 38
+  Hide:
+  - ATTRIBUTES
+
+doombringer_axe_warrior_slash_1:
+  Id: paper
+  Display: "&6"
+  Model: 39
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_warrior_slash_2:
+  Id: paper
+  Display: "&6"
+  Model: 40
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_warrior_slash_3:
+  Id: paper
+  Display: "&6"
+  Model: 41
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_warrior_slash_4:
+  Id: paper
+  Display: "&6"
+  Model: 42
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_warrior_slash_5:
+  Id: paper
+  Display: "&6"
+  Model: 43
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_warrior_slash_6:
+  Id: paper
+  Display: "&6"
+  Model: 44
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_warrior_slash_7:
+  Id: paper
+  Display: "&6"
+  Model: 45
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_whirlwind_1:
+  Id: paper
+  Display: "&6"
+  Model: 46
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_whirlwind_2:
+  Id: paper
+  Display: "&6"
+  Model: 47
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_whirlwind_3:
+  Id: paper
+  Display: "&6"
+  Model: 48
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_whirlwind_4:
+  Id: paper
+  Display: "&6"
+  Model: 49
+  Hide:
+  - ATTRIBUTES
+  
+doombringer_axe_whirlwind_5:
+  Id: paper
+  Display: "&6"
+  Model: 50
+  Hide:
+  - ATTRIBUTES

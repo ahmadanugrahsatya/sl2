@@ -1,0 +1,9 @@
+MICHAEL_FISTS:
+    mythicmobs-skill-id: Michael_Fists
+    modifiers:
+    - damage
+    
+FLAMING_DASH:
+    mythicmobs-skill-id: Flaming_Dash
+    modifiers:
+    - damage

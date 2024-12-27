@@ -1,0 +1,32 @@
+{
+  "samus.sacred_slice": {
+    "category": "master",
+    "sounds": [
+      "diligence:samus/diligence/sacred_slice"
+    ]
+  },
+  "samus.angel_dashes": {
+    "category": "master",
+    "sounds": [
+      "diligence:samus/diligence/angel_dashes"
+    ]
+  },
+  "samus.sacred_swing": {
+    "category": "master",
+    "sounds": [
+      "diligence:samus/diligence/sacred_swing"
+    ]
+  },
+  "samus.olkalilre": {
+    "category": "master",
+    "sounds": [
+      "diligence:samus/diligence/olkalilre"
+    ]
+  },
+  "samus.baroness": {
+    "category": "master",
+    "sounds": [
+      "diligence:samus/diligence/baroness"
+    ]
+  }
+}

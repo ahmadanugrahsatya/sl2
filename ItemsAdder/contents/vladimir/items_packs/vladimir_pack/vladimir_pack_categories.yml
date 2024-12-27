@@ -1,0 +1,29 @@
+info:
+  namespace: vladimir_pack
+categories:
+  vladimir_pack:
+    enabled: true
+    skip_if_already: false
+    icon: "vladimir_pack:vladimir_sword"
+    name: Vladimir Set
+    permission: ia.menu
+    items:
+      - "vladimir_pack:vladimir_axe"
+      - "vladimir_pack:vladimir_sword"
+      - "vladimir_pack:vladimir_bow"
+      - "vladimir_pack:vladimir_hoe"
+      - "vladimir_pack:vladimir_pickaxe"
+      - "vladimir_pack:vladimir_shovel"
+      - "vladimir_pack:vladimir_wings"
+      - "vladimir_pack:vladimir_key"
+      - "vladimir_pack:vladimir_shield"
+      - "vladimir_pack:vladimir_chest"
+
+
+
+
+      
+
+
+    
+

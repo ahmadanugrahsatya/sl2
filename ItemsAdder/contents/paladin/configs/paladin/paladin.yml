@@ -1,0 +1,579 @@
+info:
+  namespace: paladin
+items:
+  paladin_hammer:
+    display_name: "paladin_hammer"
+    permission: paladin_hammer
+    resource:
+      material: STONE_SWORD
+      model_id: 2035
+      generate: false
+      model_path: paladin_model/paladin_hammer
+  paladin_hammer_shiny:
+    display_name: "paladin_hammer_shiny"
+    permission: paladin_hammer_shiny
+    resource:
+      material: STONE_SWORD
+      model_id: 2036
+      generate: false
+      model_path: paladin_model/paladin_hammer_shiny
+  icon_bound_seal:
+    display_name: "icon_bound_seal"
+    permission: icon_bound_seal
+    resource:
+      material: COAL
+      model_id: 2106
+      generate: false
+      model_path: paladin_model/icon_bound_seal
+  icon_hammer_of_justice:
+    display_name: "icon_hammer_of_justice"
+    permission: icon_hammer_of_justice
+    resource:
+      material: COAL
+      model_id: 2107
+      generate: false
+      model_path: paladin_model/icon_hammer_of_justice
+  icon_heavenly_shield:
+    display_name: "icon_heavenly_shield"
+    permission: icon_heavenly_shield
+    resource:
+      material: COAL
+      model_id: 2108
+      generate: false
+      model_path: paladin_model/icon_heavenly_shield
+  icon_holy_strike:
+    display_name: "icon_holy_strike"
+    permission: icon_holy_strike
+    resource:
+      material: COAL
+      model_id: 2109
+      generate: false
+      model_path: paladin_model/icon_holy_strike
+  icon_last_stand:
+    display_name: "icon_last_stand"
+    permission: icon_last_stand
+    resource:
+      material: COAL
+      model_id: 2110
+      generate: false
+      model_path: paladin_model/icon_last_stand
+  icon_radiant_aura:
+    display_name: "icon_radiant_aura"
+    permission: icon_radiant_aura
+    resource:
+      material: COAL
+      model_id: 2111
+      generate: false
+      model_path: paladin_model/icon_radiant_aura
+  icon_unbreakable_will:
+    display_name: "icon_unbreakable_will"
+    permission: icon_unbreakable_will
+    resource:
+      material: COAL
+      model_id: 2112
+      generate: false
+      model_path: paladin_model/icon_unbreakable_will
+  holy_chains:
+    display_name: "holy_chains"
+    permission: holy_chains
+    resource:
+      material: PAPER
+      model_id: 2500
+      generate: false
+      model_path: paladin_model/holy_chains
+  holy_mark_1:
+    display_name: "holy_mark_1"
+    permission: holy_mark_1
+    resource:
+      material: PAPER
+      model_id: 2501
+      generate: false
+      model_path: paladin_model/holy_mark_1
+  holy_mark_2:
+    display_name: "holy_mark_2"
+    permission: holy_mark_2
+    resource:
+      material: PAPER
+      model_id: 2502
+      generate: false
+      model_path: paladin_model/holy_mark_2
+  holy_mark_3:
+    display_name: "holy_mark_3"
+    permission: holy_mark_3
+    resource:
+      material: PAPER
+      model_id: 2503
+      generate: false
+      model_path: paladin_model/holy_mark_3
+  holy_mark_4:
+    display_name: "holy_mark_4"
+    permission: holy_mark_4
+    resource:
+      material: PAPER
+      model_id: 2504
+      generate: false
+      model_path: paladin_model/holy_mark_4
+  holy_ring_1:
+    display_name: "holy_ring_1"
+    permission: holy_ring_1
+    resource:
+      material: PAPER
+      model_id: 2505
+      generate: false
+      model_path: paladin_model/holy_ring_1
+  holy_ring_2:
+    display_name: "holy_ring_2"
+    permission: holy_ring_2
+    resource:
+      material: PAPER
+      model_id: 2506
+      generate: false
+      model_path: paladin_model/holy_ring_2
+  holy_ring_3:
+    display_name: "holy_ring_3"
+    permission: holy_ring_3
+    resource:
+      material: PAPER
+      model_id: 2507
+      generate: false
+      model_path: paladin_model/holy_ring_3
+  holy_smash_rupture_1:
+    display_name: "holy_smash_rupture_1"
+    permission: holy_smash_rupture_1
+    resource:
+      material: PAPER
+      model_id: 2508
+      generate: false
+      model_path: paladin_model/holy_smash_rupture_1
+  holy_smash_rupture_2:
+    display_name: "holy_smash_rupture_2"
+    permission: holy_smash_rupture_2
+    resource:
+      material: PAPER
+      model_id: 2509
+      generate: false
+      model_path: paladin_model/holy_smash_rupture_2
+  holy_smash_rupture_3:
+    display_name: "holy_smash_rupture_3"
+    permission: holy_smash_rupture_3
+    resource:
+      material: PAPER
+      model_id: 2510
+      generate: false
+      model_path: paladin_model/holy_smash_rupture_3
+  holy_smash_rupture_4:
+    display_name: "holy_smash_rupture_4"
+    permission: holy_smash_rupture_4
+    resource:
+      material: PAPER
+      model_id: 2511
+      generate: false
+      model_path: paladin_model/holy_smash_rupture_4
+  holy_smash_rupture_5:
+    display_name: "holy_smash_rupture_5"
+    permission: holy_smash_rupture_5
+    resource:
+      material: PAPER
+      model_id: 2512
+      generate: false
+      model_path: paladin_model/holy_smash_rupture_5
+  holy_smash_rupture_6:
+    display_name: "holy_smash_rupture_6"
+    permission: holy_smash_rupture_6
+    resource:
+      material: PAPER
+      model_id: 2513
+      generate: false
+      model_path: paladin_model/holy_smash_rupture_6
+  holy_spear_1:
+    display_name: "holy_spear_1"
+    permission: holy_spear_1
+    resource:
+      material: PAPER
+      model_id: 2514
+      generate: false
+      model_path: paladin_model/holy_spear_1
+  holy_spear_2:
+    display_name: "holy_spear_2"
+    permission: holy_spear_2
+    resource:
+      material: PAPER
+      model_id: 2515
+      generate: false
+      model_path: paladin_model/holy_spear_2
+  holy_spear_3:
+    display_name: "holy_spear_3"
+    permission: holy_spear_3
+    resource:
+      material: PAPER
+      model_id: 2516
+      generate: false
+      model_path: paladin_model/holy_spear_3
+  holy_spear_4:
+    display_name: "holy_spear_4"
+    permission: holy_spear_4
+    resource:
+      material: PAPER
+      model_id: 2517
+      generate: false
+      model_path: paladin_model/holy_spear_4
+  holy_wings_1:
+    display_name: "holy_wings_1"
+    permission: holy_wings_1
+    resource:
+      material: PAPER
+      model_id: 2518
+      generate: false
+      model_path: paladin_model/holy_wings_1
+  holy_wings_2:
+    display_name: "holy_wings_2"
+    permission: holy_wings_2
+    resource:
+      material: PAPER
+      model_id: 2519
+      generate: false
+      model_path: paladin_model/holy_wings_2
+  holy_wings_3:
+    display_name: "holy_wings_3"
+    permission: holy_wings_3
+    resource:
+      material: PAPER
+      model_id: 2520
+      generate: false
+      model_path: paladin_model/holy_wings_3
+  holy_wings_4:
+    display_name: "holy_wings_4"
+    permission: holy_wings_4
+    resource:
+      material: PAPER
+      model_id: 2521
+      generate: false
+      model_path: paladin_model/holy_wings_4
+  holy_wings_5:
+    display_name: "holy_wings_5"
+    permission: holy_wings_5
+    resource:
+      material: PAPER
+      model_id: 2522
+      generate: false
+      model_path: paladin_model/holy_wings_5
+  light_beam_fx_1:
+    display_name: "light_beam_fx_1"
+    permission: light_beam_fx_1
+    resource:
+      material: PAPER
+      model_id: 2523
+      generate: false
+      model_path: paladin_model/light_beam_fx_1
+  light_beam_fx_2:
+    display_name: "light_beam_fx_2"
+    permission: light_beam_fx_2
+    resource:
+      material: PAPER
+      model_id: 2524
+      generate: false
+      model_path: paladin_model/light_beam_fx_2
+  light_beam_fx_3:
+    display_name: "light_beam_fx_3"
+    permission: light_beam_fx_3
+    resource:
+      material: PAPER
+      model_id: 2525
+      generate: false
+      model_path: paladin_model/light_beam_fx_3
+  light_beam_fx_4:
+    display_name: "light_beam_fx_4"
+    permission: light_beam_fx_4
+    resource:
+      material: PAPER
+      model_id: 2526
+      generate: false
+      model_path: paladin_model/light_beam_fx_4
+  light_beam_fx_5:
+    display_name: "light_beam_fx_5"
+    permission: light_beam_fx_5
+    resource:
+      material: PAPER
+      model_id: 2527
+      generate: false
+      model_path: paladin_model/light_beam_fx_5
+  light_beam_fx_6:
+    display_name: "light_beam_fx_6"
+    permission: light_beam_fx_6
+    resource:
+      material: PAPER
+      model_id: 2528
+      generate: false
+      model_path: paladin_model/light_beam_fx_6
+  light_beam_fx_7:
+    display_name: "light_beam_fx_7"
+    permission: light_beam_fx_7
+    resource:
+      material: PAPER
+      model_id: 2529
+      generate: false
+      model_path: paladin_model/light_beam_fx_7
+  light_eruption_1:
+    display_name: "light_eruption_1"
+    permission: light_eruption_1
+    resource:
+      material: PAPER
+      model_id: 2530
+      generate: false
+      model_path: paladin_model/light_eruption_1
+  light_eruption_2:
+    display_name: "light_eruption_2"
+    permission: light_eruption_2
+    resource:
+      material: PAPER
+      model_id: 2531
+      generate: false
+      model_path: paladin_model/light_eruption_2
+  light_eruption_3:
+    display_name: "light_eruption_3"
+    permission: light_eruption_3
+    resource:
+      material: PAPER
+      model_id: 2532
+      generate: false
+      model_path: paladin_model/light_eruption_3
+  light_eruption_4:
+    display_name: "light_eruption_4"
+    permission: light_eruption_4
+    resource:
+      material: PAPER
+      model_id: 2533
+      generate: false
+      model_path: paladin_model/light_eruption_4
+  light_eruption_5:
+    display_name: "light_eruption_5"
+    permission: light_eruption_5
+    resource:
+      material: PAPER
+      model_id: 2534
+      generate: false
+      model_path: paladin_model/light_eruption_5
+  light_eruption_6:
+    display_name: "light_eruption_6"
+    permission: light_eruption_6
+    resource:
+      material: PAPER
+      model_id: 2535
+      generate: false
+      model_path: paladin_model/light_eruption_6
+  light_eruption_7:
+    display_name: "light_eruption_7"
+    permission: light_eruption_7
+    resource:
+      material: PAPER
+      model_id: 2536
+      generate: false
+      model_path: paladin_model/light_eruption_7
+  paladin_shield_1:
+    display_name: "paladin_shield_1"
+    permission: paladin_shield_1
+    resource:
+      material: PAPER
+      model_id: 2537
+      generate: false
+      model_path: paladin_model/paladin_shield_1
+  paladin_shield_2:
+    display_name: "paladin_shield_2"
+    permission: paladin_shield_2
+    resource:
+      material: PAPER
+      model_id: 2538
+      generate: false
+      model_path: paladin_model/paladin_shield_2
+  paladin_shield_3:
+    display_name: "paladin_shield_3"
+    permission: paladin_shield_3
+    resource:
+      material: PAPER
+      model_id: 2539
+      generate: false
+      model_path: paladin_model/paladin_shield_3
+  paladin_shield_4:
+    display_name: "paladin_shield_4"
+    permission: paladin_shield_4
+    resource:
+      material: PAPER
+      model_id: 2540
+      generate: false
+      model_path: paladin_model/paladin_shield_4
+  paladin_shield_5:
+    display_name: "paladin_shield_5"
+    permission: paladin_shield_5
+    resource:
+      material: PAPER
+      model_id: 2541
+      generate: false
+      model_path: paladin_model/paladin_shield_5
+  paladin_shield_6:
+    display_name: "paladin_shield_6"
+    permission: paladin_shield_6
+    resource:
+      material: PAPER
+      model_id: 2542
+      generate: false
+      model_path: paladin_model/paladin_shield_6
+  paladin_shield_7:
+    display_name: "paladin_shield_7"
+    permission: paladin_shield_7
+    resource:
+      material: PAPER
+      model_id: 2543
+      generate: false
+      model_path: paladin_model/paladin_shield_7
+  paladin_shield_8:
+    display_name: "paladin_shield_8"
+    permission: paladin_shield_8
+    resource:
+      material: PAPER
+      model_id: 2544
+      generate: false
+      model_path: paladin_model/paladin_shield_8
+  paladin_shield_9:
+    display_name: "paladin_shield_9"
+    permission: paladin_shield_9
+    resource:
+      material: PAPER
+      model_id: 2545
+      generate: false
+      model_path: paladin_model/paladin_shield_9
+  paladin_shield_10:
+    display_name: "paladin_shield_10"
+    permission: paladin_shield_10
+    resource:
+      material: PAPER
+      model_id: 2546
+      generate: false
+      model_path: paladin_model/paladin_shield_10
+  paladin_slash_1:
+    display_name: "paladin_slash_1"
+    permission: paladin_slash_1
+    resource:
+      material: PAPER
+      model_id: 2547
+      generate: false
+      model_path: paladin_model/paladin_slash_1
+  paladin_slash_2:
+    display_name: "paladin_slash_2"
+    permission: paladin_slash_2
+    resource:
+      material: PAPER
+      model_id: 2548
+      generate: false
+      model_path: paladin_model/paladin_slash_2
+  paladin_slash_3:
+    display_name: "paladin_slash_3"
+    permission: paladin_slash_3
+    resource:
+      material: PAPER
+      model_id: 2549
+      generate: false
+      model_path: paladin_model/paladin_slash_3
+  paladin_slash_4:
+    display_name: "paladin_slash_4"
+    permission: paladin_slash_4
+    resource:
+      material: PAPER
+      model_id: 2550
+      generate: false
+      model_path: paladin_model/paladin_slash_4
+  paladin_slash_5:
+    display_name: "paladin_slash_5"
+    permission: paladin_slash_5
+    resource:
+      material: PAPER
+      model_id: 2551
+      generate: false
+      model_path: paladin_model/paladin_slash_5
+  paladin_slash_6:
+    display_name: "paladin_slash_6"
+    permission: paladin_slash_6
+    resource:
+      material: PAPER
+      model_id: 2552
+      generate: false
+      model_path: paladin_model/paladin_slash_6
+  paladin_slash_7:
+    display_name: "paladin_slash_7"
+    permission: paladin_slash_7
+    resource:
+      material: PAPER
+      model_id: 2553
+      generate: false
+      model_path: paladin_model/paladin_slash_7
+  paladin_slash_8:
+    display_name: "paladin_slash_8"
+    permission: paladin_slash_8
+    resource:
+      material: PAPER
+      model_id: 2554
+      generate: false
+      model_path: paladin_model/paladin_slash_8
+  paladin_slash_9:
+    display_name: "paladin_slash_9"
+    permission: paladin_slash_9
+    resource:
+      material: PAPER
+      model_id: 2555
+      generate: false
+      model_path: paladin_model/paladin_slash_9
+  paladin_spin_slash:
+    display_name: "paladin_spin_slash"
+    permission: paladin_spin_slash
+    resource:
+      material: PAPER
+      model_id: 2556
+      generate: false
+      model_path: paladin_model/paladin_spin_slash
+  holy_shield_aura:
+    display_name: "holy_shield_aura"
+    permission: holy_shield_aura
+    resource:
+      material: PAPER
+      model_id: 2557
+      generate: false
+      model_path: paladin_model/holy_shield_aura
+  holy_wings_clean_1:
+    display_name: "holy_wings_clean_1"
+    permission: holy_wings_clean_1
+    resource:
+      material: PAPER
+      model_id: 2558
+      generate: false
+      model_path: paladin_model/holy_wings_clean_1
+  holy_wings_clean_2:
+    display_name: "holy_wings_clean_2"
+    permission: holy_wings_clean_2
+    resource:
+      material: PAPER
+      model_id: 2559
+      generate: false
+      model_path: paladin_model/holy_wings_clean_2
+  holy_wings_clean_3:
+    display_name: "holy_wings_clean_3"
+    permission: holy_wings_clean_3
+    resource:
+      material: PAPER
+      model_id: 2560
+      generate: false
+      model_path: paladin_model/holy_wings_clean_3
+  holy_wings_clean_4:
+    display_name: "holy_wings_clean_4"
+    permission: holy_wings_clean_4
+    resource:
+      material: PAPER
+      model_id: 2561
+      generate: false
+      model_path: paladin_model/holy_wings_clean_4
+  holy_wings_clean_5:
+    display_name: "holy_wings_clean_5"
+    permission: holy_wings_clean_5
+    resource:
+      material: PAPER
+      model_id: 2562
+      generate: false
+      model_path: paladin_model/holy_wings_clean_5#_MzK2MjSzsDC2NDEzswQA

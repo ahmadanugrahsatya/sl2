@@ -1,0 +1,309 @@
+######## created by samus2002 #########
+  
+flamos_scythe:
+  Id: stone_sword
+  Display: "<gradient:#d40000:#ffd700:#d40000>Scythe of Flamos"
+  Model: 1
+  Lore:
+  - '<gradient:#d40000:#ffd700:#d40000>A burning scythe used by Flamos'
+  Unbreakable: true
+  Hide:
+  - ATTRIBUTES
+  Skills:
+  - skill{s=Flame_Slash} @self ~onSwing
+  - skill{s=Inferno_Wheel} @self ~onUse
+  - skill{s=Blazing_Leap} @self ~onUse
+  - skill{s=Inferno_Orbs} @self ~onCrouch
+  - skill{s=Hellfire_Scythe} @self ~onSwing
+  
+flamos_scythe_shiny:
+  Id: stone_sword
+  Display: "<gradient:#ffef99:#ffd700:#d40000>Shiny Scythe of Flamos"
+  Model: 2
+  Lore:
+  - '<gradient:#ffef99:#ffd700:#d40000>A burning scythe used by Flamos'
+  Hide:
+  - ATTRIBUTES
+  Unbreakable: true
+  Skills:
+  - skill{s=Flame_Slash} @self ~onSwing
+  - skill{s=Inferno_Wheel} @self ~onUse
+  - skill{s=Blazing_Leap} @self ~onUse
+  - skill{s=Inferno_Orbs} @self ~onCrouch
+  - skill{s=Hellfire_Scythe} @self ~onSwing
+  
+flamos_head:
+  Id: paper
+  Display: "<gradient:#d40000:#ffd700:#d40000>Head of Flamos"
+  Model: 15
+  Hide:
+  - ATTRIBUTES
+  Unbreakable: true
+  Skills:
+  - skill{s=Fire_Immune_Crucible} @self ~onTimer:10
+  
+flamos_chestplate:
+  Id: leather_chestplate
+  Display: "<gradient:#d40000:#ffd700:#d40000>Chestplate of Flamos"
+  Options:
+    Color: 164,20,20
+  Model: 5
+  Lore:
+  - '<gradient:#d40000:#ffd700:#d40000>A burning chestplate worn by Flamos'
+  Hide:
+  - ATTRIBUTES
+  Unbreakable: true
+  Skills:
+  - skill{s=Fire_Immune_Crucible} @self ~onTimer:10
+  
+flamos_leggings:
+  Id: leather_leggings
+  Display: "<gradient:#d40000:#ffd700:#d40000>Leggings of Flamos"
+  Options:
+    Color: 164,20,20
+  Model: 5
+  Lore:
+  - '<gradient:#d40000:#ffd700:#d40000>A burning leggings worn by Flamos'
+  Hide:
+  - ATTRIBUTES
+  Unbreakable: true
+  Skills:
+  - skill{s=Fire_Immune_Crucible} @self ~onTimer:10
+  
+flamos_boots:
+  Id: leather_boots
+  Display: "<gradient:#d40000:#ffd700:#d40000>Boots of Flamos"
+  Options:
+    Color: 164,20,20
+  Model: 5
+  Lore:
+  - '<gradient:#d40000:#ffd700:#d40000>Burning boots worn by Flamos'
+  Hide:
+  - ATTRIBUTES
+  Unbreakable: true
+  Skills:
+  - skill{s=Fire_Immune_Crucible} @self ~onTimer:10
+  
+flamos_blaze_leap_1:
+  Id: paper
+  Display: "&6"
+  Model: 1
+  Hide:
+  - ATTRIBUTES
+
+flamos_blaze_leap_2:
+  Id: paper
+  Display: "&6"
+  Model: 2
+  Hide:
+  - ATTRIBUTES
+ 
+flamos_blaze_leap_3:
+  Id: paper
+  Display: "&6"
+  Model: 3
+  Hide:
+  - ATTRIBUTES
+  
+flamos_blaze_leap_4:
+  Id: paper
+  Display: "&6"
+  Model: 4
+  Hide:
+  - ATTRIBUTES
+  
+flamos_blaze_leap_5:
+  Id: paper
+  Display: "&6"
+  Model: 5
+  Hide:
+  - ATTRIBUTES
+  
+flamos_blaze_leap_6:
+  Id: paper
+  Display: "&6"
+  Model: 6
+  Hide:
+  - ATTRIBUTES
+  
+flamos_blaze_leap_7:
+  Id: paper
+  Display: "&6"
+  Model: 7
+  Hide:
+  - ATTRIBUTES
+  
+flamos_flame_slash_1:
+  Id: paper
+  Display: "&6"
+  Model: 8
+  Hide:
+  - ATTRIBUTES
+  
+flamos_flame_slash_2:
+  Id: paper
+  Display: "&6"
+  Model: 9
+  Hide:
+  - ATTRIBUTES
+  
+flamos_flame_slash_3:
+  Id: paper
+  Display: "&6"
+  Model: 10
+  Hide:
+  - ATTRIBUTES
+  
+flamos_flame_slash_4:
+  Id: paper
+  Display: "&6"
+  Model: 11
+  Hide:
+  - ATTRIBUTES
+  
+flamos_flame_slash_5:
+  Id: paper
+  Display: "&6"
+  Model: 12
+  Hide:
+  - ATTRIBUTES
+  
+flamos_flame_slash_6:
+  Id: paper
+  Display: "&6"
+  Model: 13
+  Hide:
+  - ATTRIBUTES
+  
+flamos_flame_slash_7:
+  Id: paper
+  Display: "&6"
+  Model: 14
+  Hide:
+  - ATTRIBUTES
+  
+flamos_hellfire_slash_1:
+  Id: paper
+  Display: "&6"
+  Model: 16
+  Hide:
+  - ATTRIBUTES
+  
+flamos_hellfire_slash_2:
+  Id: paper
+  Display: "&6"
+  Model: 17
+  Hide:
+  - ATTRIBUTES
+  
+flamos_hellfire_slash_3:
+  Id: paper
+  Display: "&6"
+  Model: 18
+  Hide:
+  - ATTRIBUTES
+  
+flamos_hellfire_slash_4:
+  Id: paper
+  Display: "&6"
+  Model: 19
+  Hide:
+  - ATTRIBUTES
+  
+flamos_hellfire_slash_5:
+  Id: paper
+  Display: "&6"
+  Model: 20
+  Hide:
+  - ATTRIBUTES
+  
+flamos_hellfire_slash_6:
+  Id: paper
+  Display: "&6"
+  Model: 21
+  Hide:
+  - ATTRIBUTES
+  
+flamos_hellfire_slash_7:
+  Id: paper
+  Display: "&6"
+  Model: 22
+  Hide:
+  - ATTRIBUTES
+  
+flamos_inferno_orb:
+  Id: paper
+  Display: "&6"
+  Model: 23
+  Hide:
+  - ATTRIBUTES
+  
+flamos_inferno_wheel_1:
+  Id: paper
+  Display: "&6"
+  Model: 24
+  Hide:
+  - ATTRIBUTES
+  
+flamos_inferno_wheel_2:
+  Id: paper
+  Display: "&6"
+  Model: 25
+  Hide:
+  - ATTRIBUTES
+  
+flamos_inferno_wheel_3:
+  Id: paper
+  Display: "&6"
+  Model: 26
+  Hide:
+  - ATTRIBUTES
+  
+flamos_inferno_wheel_4:
+  Id: paper
+  Display: "&6"
+  Model: 27
+  Hide:
+  - ATTRIBUTES
+  
+flamos_inferno_wheel_5:
+  Id: paper
+  Display: "&6"
+  Model: 28
+  Hide:
+  - ATTRIBUTES
+  
+flamos_inferno_wheel_6:
+  Id: paper
+  Display: "&6"
+  Model: 29
+  Hide:
+  - ATTRIBUTES
+  
+flamos_inferno_wheel_7:
+  Id: paper
+  Display: "&6"
+  Model: 30
+  Hide:
+  - ATTRIBUTES
+  
+flamos_inferno_wheel_8:
+  Id: paper
+  Display: "&6"
+  Model: 31
+  Hide:
+  - ATTRIBUTES
+  
+flamos_inferno_wheel_9:
+  Id: paper
+  Display: "&6"
+  Model: 32
+  Hide:
+  - ATTRIBUTES
+  
+flamos_inferno_wheel_10:
+  Id: paper
+  Display: "&6"
+  Model: 33
+  Hide:
+  - ATTRIBUTES

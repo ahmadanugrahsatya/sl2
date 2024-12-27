@@ -1,0 +1,305 @@
+lostassets_swordmaster_lc_1:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,160
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_1:4;delay=2} ~onSpawn
+  - equip{item=lostassets_2:4;delay=3} ~onSpawn
+  - equip{item=lostassets_3:4;delay=4} ~onSpawn
+  - equip{item=lostassets_4:4;delay=5} ~onSpawn
+  - equip{item=lostassets_5:4;delay=6} ~onSpawn
+  - equip{item=lostassets_6:4;delay=7} ~onSpawn
+  - remove{delay=8} @self ~onSpawn
+lostassets_swordmaster_lc_2:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,30
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_1:4;delay=2} ~onSpawn
+  - equip{item=lostassets_2:4;delay=3} ~onSpawn
+  - equip{item=lostassets_3:4;delay=4} ~onSpawn
+  - equip{item=lostassets_4:4;delay=5} ~onSpawn
+  - equip{item=lostassets_5:4;delay=6} ~onSpawn
+  - equip{item=lostassets_6:4;delay=7} ~onSpawn
+  - remove{delay=8} @self ~onSpawn
+lostassets_swordmaster_lc_3:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,110
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_1:4;delay=2} ~onSpawn
+  - equip{item=lostassets_2:4;delay=3} ~onSpawn
+  - equip{item=lostassets_3:4;delay=4} ~onSpawn
+  - equip{item=lostassets_4:4;delay=5} ~onSpawn
+  - equip{item=lostassets_5:4;delay=6} ~onSpawn
+  - equip{item=lostassets_6:4;delay=7} ~onSpawn
+  - remove{delay=8} @self ~onSpawn
+lostassets_swordmaster_target:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0to360,0to360
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_8:4;delay=2} ~onSpawn
+  - equip{item=lostassets_9:4;delay=3} ~onSpawn
+  - equip{item=lostassets_10:4;delay=4} ~onSpawn
+  - equip{item=lostassets_11:4;delay=5} ~onSpawn
+  - equip{item=lostassets_12:4;delay=6} ~onSpawn
+  - equip{item=lostassets_13:4;delay=7} ~onSpawn
+  - remove{delay=8} @self ~onSpawn
+lostassets_swordmaster_rc1:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,10
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_8:0;delay=2} ~onSpawn
+  - equip{item=lostassets_9:0;delay=3} ~onSpawn
+  - equip{item=lostassets_10:0;delay=4} ~onSpawn
+  - equip{item=lostassets_11:0;delay=5} ~onSpawn
+  - equip{item=lostassets_12:0;delay=16} ~onSpawn
+  - equip{item=lostassets_13:0;delay=17} ~onSpawn
+  - remove{delay=18} @self ~onSpawn
+lostassets_swordmaster_rc2:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,10
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_1:0;delay=4} ~onSpawn
+  - equip{item=lostassets_2:0;delay=5} ~onSpawn
+  - equip{item=lostassets_3:0;delay=6} ~onSpawn
+  - equip{item=lostassets_4:0;delay=7} ~onSpawn
+  - equip{item=lostassets_5:0;delay=8} ~onSpawn
+  - equip{item=lostassets_6:0;delay=9} ~onSpawn
+  - remove{delay=10} @self ~onSpawn
+lostassets_swordmaster_rc3:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,10
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - skill{s=lostassets_swordmaster_rc_set} ~onSpawn
+  - equip{item=lostassets_22:4;delay=2} ~onSpawn
+  - equip{item=lostassets_23:4;delay=3} ~onSpawn
+  - equip{item=lostassets_24:4;delay=4} ~onSpawn
+  - equip{item=lostassets_23:4;delay=8} ~onSpawn
+  - equip{item=lostassets_22:4;delay=9} ~onSpawn
+  - remove{delay=11} @self ~onSpawn
+lostassets_swordmaster_slc1:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,10
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - skill{s=lostassets_swordmaster_slc_set1} ~onSpawn
+  - equip{item=lostassets_22:4;delay=2} ~onSpawn
+  - equip{item=lostassets_23:4;delay=3} ~onSpawn
+  - equip{item=lostassets_24:4;delay=4} ~onSpawn
+  - equip{item=lostassets_23:4;delay=8} ~onSpawn
+  - equip{item=lostassets_22:4;delay=9} ~onSpawn
+  - equip{item=lostassets_22:4;delay=10} ~onSpawn
+  - remove{delay=11} @self ~onSpawn
+lostassets_swordmaster_slc2:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,10
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - skill{s=lostassets_swordmaster_slc_set2} ~onSpawn
+  - equip{item=lostassets_22:4;delay=2} ~onSpawn
+  - equip{item=lostassets_23:4;delay=3} ~onSpawn
+  - equip{item=lostassets_24:4;delay=4} ~onSpawn
+  - equip{item=lostassets_23:4;delay=8} ~onSpawn
+  - equip{item=lostassets_22:4;delay=9} ~onSpawn
+  - equip{item=lostassets_22:4;delay=10} ~onSpawn
+  - remove{delay=11} @self ~onSpawn
+lostassets_swordmaster_slc3:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,28
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_14:0;delay=4} ~onSpawn
+  - equip{item=lostassets_15:0;delay=5} ~onSpawn
+  - equip{item=lostassets_16:0;delay=6} ~onSpawn
+  - equip{item=lostassets_17:0;delay=7} ~onSpawn
+  - equip{item=lostassets_18:0;delay=8} ~onSpawn
+  - equip{item=lostassets_19:0;delay=9} ~onSpawn
+  - equip{item=lostassets_20:0;delay=10} ~onSpawn
+  - equip{item=lostassets_21:0;delay=11} ~onSpawn
+  - remove{delay=12} @self ~onSpawn
+lostassets_swordmaster_slc4:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,152
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_14:0;delay=4} ~onSpawn
+  - equip{item=lostassets_15:0;delay=5} ~onSpawn
+  - equip{item=lostassets_16:0;delay=6} ~onSpawn
+  - equip{item=lostassets_17:0;delay=7} ~onSpawn
+  - equip{item=lostassets_18:0;delay=8} ~onSpawn
+  - equip{item=lostassets_19:0;delay=9} ~onSpawn
+  - equip{item=lostassets_20:0;delay=10} ~onSpawn
+  - equip{item=lostassets_21:0;delay=11} ~onSpawn
+  - remove{delay=12} @self ~onSpawn
+lostassets_swordmaster_slc5:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,0
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - effect:particles{particle=soul_fire_flame;m=water;amount=10;hS=3;vS=1;y=0.6;speed=0.1;forwardOffset=0;sideOffset=0} @self ~onTimer:1
+  - effect:particles{particle=smoke_normal;amount=10;hS=3;vS=1;y=0.6;speed=0;forwardOffset=0;sideOffset=0} @self ~onTimer:1
+  - equip{item=lostassets_7:0;delay=4} ~onSpawn
+  - remove{delay=12} @self ~onSpawn
+lostassets_swordmaster_src1:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,0
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - skill{s=lostassets_swordmaster_src_set1} ~onSpawn
+  - equip{item=lostassets_22:0;delay=1} ~onSpawn
+  - remove{delay=40} @self ~onSpawn
+lostassets_swordmaster_src2:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,90
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_8:0;delay=2} ~onSpawn
+  - equip{item=lostassets_9:0;delay=3} ~onSpawn
+  - equip{item=lostassets_10:0;delay=4} ~onSpawn
+  - equip{item=lostassets_11:0;delay=5} ~onSpawn
+  - equip{item=lostassets_12:0;delay=16} ~onSpawn
+  - equip{item=lostassets_13:0;delay=17} ~onSpawn
+  - remove{delay=18} @self ~onSpawn
+lostassets_swordmaster_src3:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0to360,0to360,0to360
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_14:0;delay=2} ~onSpawn
+  - equip{item=lostassets_15:0;delay=3} ~onSpawn
+  - equip{item=lostassets_16:0;delay=4} ~onSpawn
+  - equip{item=lostassets_17:0;delay=5} ~onSpawn
+  - equip{item=lostassets_18:0;delay=6} ~onSpawn
+  - equip{item=lostassets_19:0;delay=7} ~onSpawn
+  - equip{item=lostassets_20:0;delay=8} ~onSpawn
+  - equip{item=lostassets_21:0;delay=9} ~onSpawn
+  - remove{delay=10} @self ~onSpawn
+lostassets_swordmaster_src4:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0to360,0to360,0to360
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_1:4;delay=2} ~onSpawn
+  - equip{item=lostassets_2:4;delay=3} ~onSpawn
+  - equip{item=lostassets_3:4;delay=4} ~onSpawn
+  - equip{item=lostassets_4:4;delay=5} ~onSpawn
+  - equip{item=lostassets_5:4;delay=6} ~onSpawn
+  - equip{item=lostassets_6:4;delay=7} ~onSpawn
+  - remove{delay=8} @self ~onSpawn

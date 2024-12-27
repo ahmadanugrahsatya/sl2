@@ -1,0 +1,47 @@
+# Created And Remake by Lenathaa #
+
+# Black Slash #
+
+Black_Slash:
+  Cooldown: 0.0
+  Conditions:
+  - crouching false
+  Skills:
+  - randomskill{skills=Black_Slash_1,Black_Slash_2,Black_Slash_3,Black_Slash_4}
+
+Black_Slash_1:
+  Cooldown: 1
+  Skills:
+  - effect:sound{s=dragon_warrior_sounds:samus.dragon_slash;volume=1;pitch=1} @self
+  - totem{md=2;c=1;oH=Black_Slash_DAMAGE;hnp=true;hp=true;hR=2;vR=1;i=1} @forward{f=3;lockpitch=true}
+  - summon{type=Black_Slash_1;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=7;y=0.3;sideOffset=0;lockpitch=true}
+  
+Black_Slash_2:
+  Cooldown: 1
+  Skills:
+  - effect:sound{s=dragon_warrior_sounds:samus.dragon_slash;volume=1;pitch=1} @self
+  - totem{md=2;c=1;oH=Black_Slash_DAMAGE;hnp=true;hp=true;hR=2;vR=1;i=1} @forward{f=3;lockpitch=true}
+  - summon{type=Black_Slash_2;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=7;y=-0.8;sideOffset=0.1;lockpitch=true}
+  
+Black_Slash_3:
+  Cooldown: 1
+  Skills:
+  - effect:sound{s=dragon_warrior_sounds:samus.dragon_slash;volume=1;pitch=1} @self
+  - totem{md=2;c=1;oH=Black_Slash_DAMAGE;hnp=true;hp=true;hR=2;vR=1;i=1} @forward{f=3;lockpitch=true}
+  - summon{type=Black_Slash_3;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=7;y=0.5;sideOffset=0;lockpitch=true}
+  
+Black_Slash_4:
+  Cooldown: 1
+  Skills:
+  - effect:sound{s=dragon_warrior_sounds:samus.dragon_slash;volume=1;pitch=1} @self
+  - totem{md=2;c=1;oH=Black_Slash_DAMAGE;hnp=true;hp=true;hR=2;vR=1;i=1} @forward{f=3;lockpitch=true}
+  - summon{type=Black_Slash_4;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=7;y=-0.5;sideOffset=-0.5;lockpitch=true}
+
+Black_Slash_DAMAGE:
+  TargetConditions:
+  - mmoCanTarget{interaction=OFFENSE_ACTION} true
+  - entitytype{t=armorstands} false
+  Skills:
+  - Aura{auraName=ATTACK_CD;duration=2} @self
+  - damage{a=54;pkb=false;hnp=true;hp=true}
+# Created and Remake by Lenathaa #

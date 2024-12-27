@@ -1,0 +1,1 @@
+{"parent":"item/handheld","textures":{"layer0":"item/golden_apple"},"overrides":[{"predicate":{"custom_model_data":1000},"model":"miner_sandwitch"},{"predicate":{"custom_model_data":1001},"model":"weed_leaf"},{"predicate":{"custom_model_data":1002},"model":"grape"}]}

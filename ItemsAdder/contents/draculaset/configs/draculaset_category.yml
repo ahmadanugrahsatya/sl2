@@ -1,0 +1,33 @@
+info:
+    namespace: draculaset
+categories:
+    draculaset:
+        name: Dracula Weapons & Tools Set Pack
+        enabled: true
+        icon: draculaset:dracula_wings
+        permission: ia.menu.draculaset
+        items:
+        - draculaset:draculahelmet
+        - draculaset:draculachestplate
+        - draculaset:draculaleggings
+        - draculaset:draculaboots
+        - draculaset:dracula_hoe
+        - draculaset:dracula_axe
+        - draculaset:dracula_pickaxe
+        - draculaset:dracula_shovel
+        - draculaset:dracula_sword
+        - draculaset:dracula_shield
+        - draculaset:dracula_bow
+        - draculaset:dracula_staff
+        - draculaset:dracula_spear
+        - draculaset:dracula_chest
+        - draculaset:dracula_key
+        - draculaset:dracula_battleaxe
+        - draculaset:dracula_blade
+        - draculaset:dracula_dagger
+        - draculaset:dracula_fishing
+        - draculaset:dracula_halberd
+        - draculaset:dracula_sickle
+        - draculaset:dracula_wings
+
+#czbjNWUVFlMQZFU5MnUJlXeZhVVzcmeOpXSE1UeZRlT6VUbTVzVZZ0UJRVdZl0TLVWTXF1N

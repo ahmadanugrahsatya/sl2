@@ -1,0 +1,68 @@
+angel_dashes_1:
+  Id: paper
+  Display: "&6"
+  Model: 22235777
+  Hide:
+  - ATTRIBUTES
+  
+angel_dashes_2:
+  Id: paper
+  Display: "&6"
+  Model: 22245777
+  Hide:
+  - ATTRIBUTES
+  
+angel_dashes_3:
+  Id: paper
+  Display: "&6"
+  Model: 22255777
+  Hide:
+  - ATTRIBUTES
+  
+angel_dashes_4:
+  Id: paper
+  Display: "&6"
+  Model: 22265777
+  Hide:
+  - ATTRIBUTES
+  
+angel_dashes_5:
+  Id: paper
+  Display: "&6"
+  Model: 22275777
+  Hide:
+  - ATTRIBUTES
+angel_dashes_1_a:
+  Id: paper
+  Display: "&6"
+  Model: 22285777
+  Hide:
+  - ATTRIBUTES
+  
+angel_dashes_2_a:
+  Id: paper
+  Display: "&6"
+  Model: 22295777
+  Hide:
+  - ATTRIBUTES
+  
+angel_dashes_3_a:
+  Id: paper
+  Display: "&6"
+  Model: 22256777
+  Hide:
+  - ATTRIBUTES
+  
+angel_dashes_4_a:
+  Id: paper
+  Display: "&6"
+  Model: 22266777
+  Hide:
+  - ATTRIBUTES
+  
+angel_dashes_5_a:
+  Id: paper
+  Display: "&6"
+  Model: 22276777
+  Hide:
+  - ATTRIBUTES

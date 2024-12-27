@@ -1,0 +1,15 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/coal"
+    },	
+	"overrides": [	
+        {"predicate": {"custom_model_data":2009}, "model": "null_model/null_bow"},
+		{"predicate": {"custom_model_data":2028}, "model": "null_model/icon_blackhole_shot"},
+		{"predicate": {"custom_model_data":2029}, "model": "null_model/icon_gravitational_boost"},
+		{"predicate": {"custom_model_data":2030}, "model": "null_model/icon_pulse_mode"},
+		{"predicate": {"custom_model_data":2031}, "model": "null_model/icon_retreat"},
+		{"predicate": {"custom_model_data":2032}, "model": "null_model/icon_void_arrow"},
+		{"predicate": {"custom_model_data":2033}, "model": "null_model/icon_void_rain"}
+	]
+}

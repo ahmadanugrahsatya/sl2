@@ -1,0 +1,192 @@
+cosmo_pack_axe:
+  Pack:
+    generate_model: false
+    model: cosmo_pack/axe
+  displayname: "<White>Cosmo Axe"
+  material: IRON_AXE
+  permission: cosmo_pack.axe
+cosmo_pack_battle_axe:
+  Pack:
+    generate_model: false
+    model: cosmo_pack/battle_axe
+  displayname: "<White>Cosmo Battle Axe"
+  material: IRON_SWORD
+  permission: cosmo_pack.battle_axe
+cosmo_pack_blade:
+  Pack:
+    generate_model: false
+    model: cosmo_pack/blade
+  displayname: "<White>Cosmo Blade"
+  material: IRON_SWORD
+  permission: cosmo_pack.blade
+cosmo_pack_bow:
+  Pack:
+    generate_model: false
+    model: cosmo_pack/bow
+    pulling_models:
+      - cosmo_pack/bow_0
+      - cosmo_pack/bow_1
+      - cosmo_pack/bow_2
+  displayname: "<White>Cosmo Bow"
+  material: BOW
+  permission: cosmo_pack.bow
+cosmo_pack_chest:
+  Mechanics:
+    furniture:
+      barrier: true
+      barriers:
+        - { x: 0, y: 0, z: 0 }
+      drop:
+        loots:
+          - oraxen_item: cosmo_pack_chest
+        silktouch: false
+      limited_placing:
+        floor: true
+        roof: false
+        type: DENY
+        wall: false
+      rotation: 90
+      type: ITEM_FRAME
+  Pack:
+    generate_model: false
+    model: cosmo_pack/chest
+  displayname: "<White>Cosmo Chest"
+  material: PAPER
+  permission: cosmo_pack.chest
+cosmo_pack_dagger:
+  Pack:
+    generate_model: false
+    model: cosmo_pack/dagger
+  displayname: "<White>Cosmo Dagger"
+  material: IRON_SWORD
+  permission: cosmo_pack.dagger
+cosmo_pack_fishing_rod:
+  Pack:
+    cast_model: cosmo_pack/fishing_rod_cast
+    generate_model: false
+    model: cosmo_pack/fishing_rod
+  displayname: "<White>Cosmo Fishing Rod"
+  material: FISHING_ROD
+  permission: cosmo_pack.fishing_rod
+cosmo_pack_halberd:
+  Pack:
+    generate_model: false
+    model: cosmo_pack/halberd
+  displayname: "<White>Cosmo Halberd"
+  material: IRON_SWORD
+  permission: cosmo_pack.halberd
+cosmo_pack_hoe:
+  Pack:
+    generate_model: false
+    model: cosmo_pack/hoe
+  displayname: "<White>Cosmo Hoe"
+  material: IRON_HOE
+  permission: cosmo_pack.hoe
+cosmo_pack_key:
+  Pack:
+    generate_model: false
+    model: cosmo_pack/key
+  displayname: "<White>Cosmo Key"
+  material: PAPER
+  permission: cosmo_pack.key
+cosmo_pack_pickaxe:
+  Pack:
+    generate_model: false
+    model: cosmo_pack/pickaxe
+  displayname: "<White>Cosmo Pickaxe"
+  material: IRON_PICKAXE
+  permission: cosmo_pack.pickaxe
+cosmo_pack_shield:
+  Pack:
+    blocking_model: cosmo_pack/shield_blocking
+    generate_model: false
+    model: cosmo_pack/shield
+  displayname: "<White>Cosmo Shield"
+  material: SHIELD
+  permission: cosmo_pack.shield
+cosmo_pack_shovel:
+  Pack:
+    generate_model: false
+    model: cosmo_pack/shovel
+  displayname: "<White>Cosmo Shovel"
+  material: IRON_SHOVEL
+  permission: cosmo_pack.shovel
+cosmo_pack_sickle:
+  Pack:
+    generate_model: false
+    model: cosmo_pack/sickle
+  displayname: "<White>Cosmo Sickle"
+  material: IRON_SWORD
+  permission: cosmo_pack.sickle
+cosmo_pack_spear:
+  Pack:
+    generate_model: false
+    model: cosmo_pack/spear
+  displayname: "<White>Cosmo Spear"
+  material: IRON_SWORD
+  permission: cosmo_pack.spear
+cosmo_pack_staff:
+  Pack:
+    generate_model: false
+    model: cosmo_pack/staff
+  displayname: "<White>Cosmo Staff"
+  material: IRON_SWORD
+  permission: cosmo_pack.staff
+cosmo_pack_sword:
+  Pack:
+    generate_model: false
+    model: cosmo_pack/sword
+  displayname: "<White>Cosmo Sword"
+  material: IRON_SWORD
+  permission: cosmo_pack.sword
+cosmo_pack_wings:
+  Pack:
+    generate_model: false
+    model: cosmo_pack/wings
+  displayname: "<White>Cosmo Wings"
+  material: PAPER
+  permission: cosmo_pack.wings
+cosmo_boots:
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+      - cosmo_pack/armors/cosmo_boots.png
+      - cosmo_pack/armors/cosmo_boots.png
+  color: 117, 33, 202
+  displayname: "<White>Cosmo Boots"
+  material: LEATHER_BOOTS
+  permission: cosmo_pack.boots
+cosmo_chestplate:
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+      - cosmo_pack/armors/cosmo_chestplate.png
+      - cosmo_pack/armors/cosmo_chestplate.png
+  color: 117, 33, 202
+  displayname: "<White>Cosmo Chestplate"
+  material: LEATHER_CHESTPLATE
+  permission: cosmo_pack.chestplate
+cosmo_helmet:
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+      - cosmo_pack/armors/cosmo_helmet.png
+      - cosmo_pack/armors/cosmo_helmet.png
+  color: 117, 33, 202
+  displayname: "<White>Cosmo Helmet"
+  material: LEATHER_HELMET
+  permission: cosmo_pack.helmet
+cosmo_leggings:
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+      - cosmo_pack/armors/cosmo_leggings.png
+      - cosmo_pack/armors/cosmo_leggings.png
+  color: 117, 33, 202
+  displayname: "<White>Cosmo Leggings"
+  material: LEATHER_LEGGINGS
+  permission: cosmo_pack.leggings

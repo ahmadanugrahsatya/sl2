@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"t": "lostassets/8"
+	},
+	"elements": [
+		{
+			"name": "PlaneZ1",
+			"from": [-14.425, 4.1375, -11.825],
+			"to": [31.075, 4.1385, 30.175],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [0, 16, 16, 0], "rotation": 270, "texture": "#t"},
+				"down": {"uv": [0, 0, 16, 15.875], "rotation": 90, "texture": "#t"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 180],
+			"translation": [-6.26, -16.68, 12.521],
+			"scale": [0.9043, 3.513, 4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [180, 0, 0],
+			"translation": [-0.695, 0.6956, 44.521],
+			"scale": [4, 4, 4]
+		},
+		"firstperson_righthand": {
+			"scale": [0.0001, 0.0001, 0.0001]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.0001, 0.0001, 0.0001]
+		},
+		"gui": {
+			"rotation": [0, 180, 90],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"head": {
+			"rotation": [90, 0, 90],
+			"scale": [4, 4, 2]
+		}
+	}
+}

@@ -1,0 +1,24 @@
+Wrath Of Satan:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Collidable: false
+    Interactable: false
+    Invincible: true
+  Skills:
+  #- effect:particles{particle=redstone;color=#02f7d6;amount=5;hS=0.1;vS=0.1;y=0;speed=0;forwardOffset=0;sideOffset=0;repeat=5;repeatinterval=1} @ModelPart{p=big_slash} ~onTimer:1
+  #- effect:particles{particle=redstone;color=#02f7d6;amount=5;hS=0.1;vS=0.1;y=0;speed=0;forwardOffset=0;sideOffset=0;repeat=5;repeatinterval=1} @ModelPart{p=mid_slash} ~onTimer:1
+  #- effect:particles{particle=redstone;color=#02f7d6;amount=5;hS=0.1;vS=0.1;y=0;speed=0;forwardOffset=0;sideOffset=0;repeat=5;repeatinterval=1} @ModelPart{p=small_slash} ~onTimer:1
+  - model{mid=Wrath_Of_Satan;n=false} @self ~onSpawn
+  - skill{s=Wrath_Of_Satan_REMOVE;delay=50} @self ~onTimer:10
+  - skill{s=Wrath_Of_Satan_REMOVE_BUFF} @Owner ~onTimer:1
+  - skill{s=Guardians_Defense_SHIELD_REMOVE} @self ~onTimer:3
+  - partvisibility{m=Wrath_Of_Satan;p=big_slash;v=false;delay=1} @self ~onSpawn
+  - partvisibility{m=Wrath_Of_Satan;p=small_slash;v=false;delay=1} @self ~onSpawn
+  - effect:particles{particle=redstone;color=#33ffdd;amount=20;hS=1.3;vS=1.2;y=2;speed=0;forwardOffset=-2;sideOffset=0} @self ~onSpawn
+  - effect:particles{particle=redstone;color=#cff0ff;amount=20;hS=1.3;vS=1.2;y=2;speed=0;forwardOffset=-2;sideOffset=0} @self ~onSpawn

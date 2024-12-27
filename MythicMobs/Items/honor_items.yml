@@ -1,0 +1,65 @@
+graph_slash_1:
+  Id: paper
+  Display: "&6"
+  Model: 100019
+  Hide:
+  - ATTRIBUTES
+  
+graph_slash_2:
+  Id: paper
+  Display: "&6"
+  Model: 100026
+  Hide:
+  - ATTRIBUTES
+  
+graph_slash_3:
+  Id: paper
+  Display: "&6"
+  Model: 100027
+  Hide:
+  - ATTRIBUTES
+  
+graph_slash_4:
+  Id: paper
+  Display: "&6"
+  Model: 100028
+  Hide:
+  - ATTRIBUTES
+  
+graph_slash_5:
+  Id: paper
+  Display: "&6"
+  Model: 100029
+  Hide:
+  - ATTRIBUTES
+
+graph_slash_6:
+  Id: paper
+  Display: "&6"
+  Model: 100030
+  Hide:
+  - ATTRIBUTES
+
+graph_slash_7:
+  Id: paper
+  Display: "&6"
+  Model: 100031
+  Hide:
+  - ATTRIBUTES
+
+graph_slash_8:
+  Id: paper
+  Display: "&6"
+  Model: 100032
+  Hide:
+  - ATTRIBUTES
+
+  
+blue_smash_rupture:
+  Id: paper
+  Display: "&6"
+  Model: 100026
+  Hide:
+  - ATTRIBUTES
+  
+  

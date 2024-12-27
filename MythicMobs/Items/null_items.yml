@@ -1,0 +1,215 @@
+######## created by samus2002 #########
+  
+null_bow:
+  Id: stone_sword
+  Display: "<gradient:#c70fd4:#550680:#c70fd4>Bow Of Null"
+  Model: 2009
+  Lore:
+  - '<gradient:#c70fd4:#550680:#c70fd4>An unknown bow used by Null'
+  Unbreakable: true
+  Hide:
+  - ATTRIBUTES
+  Skills:
+  - skill{s=Void_Arrow} @self ~onUse
+  - skill{s=Retreat} @self ~onSwing
+  - skill{s=Blackhole_Shot} @self ~onUse
+  - skill{s=Void_Rain} @self ~onCrouch
+  - skill{s=Pulse_Mode} @self ~onSwing
+  
+null_bow_shiny:
+  Id: stone_sword
+  Display: "<gradient:#ffef99:#550680:#ffef99>Shiny Bow of Null"
+  Model: 2010
+  Lore:
+  - '<gradient:#ffef99:#550680:#ffef99>A unknown bow used by Null'
+  Hide:
+  - ATTRIBUTES
+  Unbreakable: true
+  Skills:
+  - skill{s=Void_Arrow} @self ~onUse
+  - skill{s=Retreat} @self ~onSwing
+  - skill{s=Blackhole_Shot} @self ~onUse
+  - skill{s=Void_Rain} @self ~onCrouch
+  - skill{s=Pulse_Mode} @self ~onSwing
+  
+null_head:
+  Id: paper
+  Display: "<gradient:#c70fd4:#550680:#c70fd4>Head of Null"
+  Model: 2091
+  Hide:
+  - ATTRIBUTES
+  Unbreakable: true
+  Skills:
+  - skill{s=Gravitational_Boost_Crucible_Head} @self ~onTimer:5
+  
+null_helmet:
+  Id: leather_helmet
+  Display: "<gradient:#c70fd4:#550680:#c70fd4>Helmet of Null"
+  Options:
+    Color: 148,0,122
+  Model: 2007
+  Lore:
+  - '<gradient:#c70fd4:#550680:#c70fd4>An unknown helmet worn by Null'
+  Hide:
+  - ATTRIBUTES
+  Unbreakable: true
+  Skills:
+  - skill{s=Gravitational_Boost_Crucible_Helmet} @self ~onTimer:5
+  
+null_chestplate:
+  Id: leather_chestplate
+  Display: "<gradient:#c70fd4:#550680:#c70fd4>Chestplate of Null"
+  Options:
+    Color: 148,0,122
+  Model: 2007
+  Lore:
+  - '<gradient:#c70fd4:#550680:#c70fd4>An unknown chestplate worn by Null'
+  Hide:
+  - ATTRIBUTES
+  Unbreakable: true
+  Skills:
+  - skill{s=Gravitational_Boost_Crucible_Head} @self ~onTimer:5
+  - skill{s=Gravitational_Boost_Crucible_Helmet} @self ~onTimer:5
+  
+null_leggings:
+  Id: leather_leggings
+  Display: "<gradient:#c70fd4:#550680:#c70fd4>Leggings of Null"
+  Options:
+    Color: 148,0,122
+  Model: 2007
+  Lore:
+  - '<gradient:#c70fd4:#550680:#c70fd4>An unknown leggings worn by Null'
+  Hide:
+  - ATTRIBUTES
+  Unbreakable: true
+  Skills:
+  - skill{s=Gravitational_Boost_Crucible_Head} @self ~onTimer:5
+  - skill{s=Gravitational_Boost_Crucible_Helmet} @self ~onTimer:5
+  
+null_boots:
+  Id: leather_boots
+  Display: "<gradient:#c70fd4:#550680:#c70fd4>Boots of Null"
+  Options:
+    Color: 148,0,122
+  Model: 2007
+  Lore:
+  - '<gradient:#c70fd4:#550680:#c70fd4>Unknown boots worn by Null'
+  Hide:
+  - ATTRIBUTES
+  Unbreakable: true
+  Skills:
+  - skill{s=Gravitational_Boost_Crucible_Head} @self ~onTimer:5
+  - skill{s=Gravitational_Boost_Crucible_Helmet} @self ~onTimer:5
+  
+void_arrow:
+  Id: paper
+  Display: "&6"
+  Model: 2092
+  Hide:
+  - ATTRIBUTES
+
+void_arrow_vertical:
+  Id: paper
+  Display: "&6"
+  Model: 2093
+  Hide:
+  - ATTRIBUTES
+ 
+void_blackhole_1:
+  Id: paper
+  Display: "&6"
+  Model: 2094
+  Hide:
+  - ATTRIBUTES
+  
+void_blackhole_2:
+  Id: paper
+  Display: "&6"
+  Model: 2095
+  Hide:
+  - ATTRIBUTES
+  
+void_blackhole_3:
+  Id: paper
+  Display: "&6"
+  Model: 2096
+  Hide:
+  - ATTRIBUTES
+  
+void_blackhole_4:
+  Id: paper
+  Display: "&6"
+  Model: 2097
+  Hide:
+  - ATTRIBUTES
+  
+void_circle_1:
+  Id: paper
+  Display: "&6"
+  Model: 2098
+  Hide:
+  - ATTRIBUTES
+  
+void_circle_2:
+  Id: paper
+  Display: "&6"
+  Model: 2099
+  Hide:
+  - ATTRIBUTES
+  
+void_circle_3:
+  Id: paper
+  Display: "&6"
+  Model: 2100
+  Hide:
+  - ATTRIBUTES
+  
+void_circle_4:
+  Id: paper
+  Display: "&6"
+  Model: 2101
+  Hide:
+  - ATTRIBUTES
+  
+void_missile:
+  Id: paper
+  Display: "&6"
+  Model: 2102
+  Hide:
+  - ATTRIBUTES
+  
+void_portal_1:
+  Id: paper
+  Display: "&6"
+  Model: 2103
+  Hide:
+  - ATTRIBUTES
+  
+void_portal_2:
+  Id: paper
+  Display: "&6"
+  Model: 2104
+  Hide:
+  - ATTRIBUTES
+  
+void_portal_3:
+  Id: paper
+  Display: "&6"
+  Model: 2105
+  Hide:
+  - ATTRIBUTES
+  
+void_portal_4:
+  Id: paper
+  Display: "&6"
+  Model: 2106
+  Hide:
+  - ATTRIBUTES
+  
+void_pulse:
+  Id: paper
+  Display: "&6"
+  Model: 2107
+  Hide:
+  - ATTRIBUTES
+  

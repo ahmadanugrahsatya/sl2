@@ -1,0 +1,24 @@
+SACRED_SLICE:
+    mythicmobs-skill-id: Sacred_Slice
+    modifiers:
+    - damage
+    
+AERIAL_OF_LANCE:
+    mythicmobs-skill-id: Aerial_Of_Lance
+    modifiers:
+    - damage
+    
+OLKALILRE_OF_LANCE:
+    mythicmobs-skill-id: Olkalilre_Of_Lance
+    modifiers:
+    - damage
+    
+SACRED_SLING:
+    mythicmobs-skill-id: Sacred_Sling
+    modifiers:
+    - damage
+    
+BARONESS_OF_LANCE:
+    mythicmobs-skill-id: Baroness_Of_Lance
+    modifiers:
+    - damage

@@ -1,0 +1,223 @@
+lostassets_revenant_skill1:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=lostassets_revenant;d=false;usm=false;delay=5} @self ~onSpawn
+  - state{s=skill1;delay=5} @self ~onSpawn
+  - remove{delay=40} @self ~onSpawn
+lostassets_revenant_skill2:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=lostassets_revenant;d=false;usm=false;delay=5} @self ~onSpawn
+  - state{s=skill2;delay=5} @self ~onSpawn
+  - remove{delay=80} @self ~onSpawn
+lostassets_revenant_skill3:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=lostassets_revenant;d=false;usm=false;delay=2} @self ~onSpawn
+  - state{s=skill3;delay=2;sp=1.5} @self ~onSpawn
+  - remove{delay=20} @self ~onSpawn
+lostassets_revenant_skill4:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=lostassets_revenant;d=false;usm=false;delay=5} @self ~onSpawn
+  - state{s=skill4;delay=5} @self ~onSpawn
+  - remove{delay=40} @self ~onSpawn
+lostassets_revenant_src_1:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0to360,0to360,0to360
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_86:4;delay=2} ~onSpawn
+  - equip{item=lostassets_87:4;delay=3} ~onSpawn
+  - equip{item=lostassets_88:4;delay=4} ~onSpawn
+  - equip{item=lostassets_89:4;delay=5} ~onSpawn
+  - equip{item=lostassets_90:4;delay=6} ~onSpawn
+  - equip{item=lostassets_91:4;delay=7} ~onSpawn
+  - remove{delay=8} @self ~onSpawn
+lostassets_revenant_src_2:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0to360,0to360,0to360
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_86:0;delay=2} ~onSpawn
+  - equip{item=lostassets_87:0;delay=3} ~onSpawn
+  - equip{item=lostassets_88:0;delay=4} ~onSpawn
+  - equip{item=lostassets_89:0;delay=5} ~onSpawn
+  - equip{item=lostassets_90:0;delay=6} ~onSpawn
+  - equip{item=lostassets_91:0;delay=7} ~onSpawn
+  - remove{delay=8} @self ~onSpawn
+lostassets_revenant_src_3:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,10
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - skill{s=lostassets_revenant_src_pp;delay=44} ~onSpawn
+  - remove{delay=100} @self ~onSpawn
+lostassets_revenant_rc_1:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,-30,20
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_86:4;delay=12} ~onSpawn
+  - equip{item=lostassets_87:4;delay=13} ~onSpawn
+  - equip{item=lostassets_88:4;delay=14} ~onSpawn
+  - equip{item=lostassets_89:4;delay=15} ~onSpawn
+  - equip{item=lostassets_90:4;delay=16} ~onSpawn
+  - equip{item=lostassets_91:4;delay=17} ~onSpawn
+  - remove{delay=18} @self ~onSpawn
+lostassets_revenant_rc_2:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,-30,160
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_86:4;delay=13} ~onSpawn
+  - equip{item=lostassets_87:4;delay=14} ~onSpawn
+  - equip{item=lostassets_88:4;delay=15} ~onSpawn
+  - equip{item=lostassets_89:4;delay=16} ~onSpawn
+  - equip{item=lostassets_90:4;delay=17} ~onSpawn
+  - equip{item=lostassets_91:4;delay=18} ~onSpawn
+  - remove{delay=19} @self ~onSpawn
+lostassets_revenant_lc_1:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,-30,-20
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_86:4;delay=2} ~onSpawn
+  - equip{item=lostassets_87:4;delay=3} ~onSpawn
+  - equip{item=lostassets_88:4;delay=4} ~onSpawn
+  - equip{item=lostassets_89:4;delay=5} ~onSpawn
+  - equip{item=lostassets_90:4;delay=6} ~onSpawn
+  - equip{item=lostassets_91:4;delay=7} ~onSpawn
+  - remove{delay=8} @self ~onSpawn
+lostassets_revenant_lc_2:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,-30,200
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_86:4;delay=2} ~onSpawn
+  - equip{item=lostassets_87:4;delay=3} ~onSpawn
+  - equip{item=lostassets_88:4;delay=4} ~onSpawn
+  - equip{item=lostassets_89:4;delay=5} ~onSpawn
+  - equip{item=lostassets_90:4;delay=6} ~onSpawn
+  - equip{item=lostassets_91:4;delay=7} ~onSpawn
+  - remove{delay=8} @self ~onSpawn
+lostassets_revenant_lc_3:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,-30,0
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=lostassets_86:4;delay=8} ~onSpawn
+  - equip{item=lostassets_87:4;delay=9} ~onSpawn
+  - equip{item=lostassets_88:4;delay=10} ~onSpawn
+  - equip{item=lostassets_89:4;delay=11} ~onSpawn
+  - equip{item=lostassets_90:4;delay=12} ~onSpawn
+  - equip{item=lostassets_91:4;delay=13} ~onSpawn
+  - remove{delay=14} @self ~onSpawn
+lostassets_revenant_eff:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,-30,0
+  ItemHand: AIR
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - effect:particles{particle=spell_witch;m=water;amount=40;hS=2;vS=1;y=0.6;speed=0;forwardOffset=0;sideOffset=0} @self ~onTimer:1
+  - effect:particles{particle=smoke_normal;m=water;amount=20;hS=2;vS=1;y=0.6;speed=0;forwardOffset=0;sideOffset=0} @self ~onTimer:1
+  - remove{delay=18} @self ~onSpawn
+#MmdqFTO3ZlZnBnZ4ElMGJVQBhFZzklaOJzYU1UeZRlT6VkMWxGRr90aFJlcQlGV4pFdDJ3N

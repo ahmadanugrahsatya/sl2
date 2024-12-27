@@ -1,0 +1,27 @@
+Satan_Strike:
+  Cooldown: 0
+  Conditions:
+  - crouching false
+  Skills:
+  - randomskill{skills=Satan_Strike_1,Satan_Strike_2,Satan_Strike_3}
+
+Satan_Strike_1:
+  Cooldown: 1
+  Skills:
+  - effect:sound{s=doombringer_axe_sounds:samus.warrior_slash;volume=1;pitch=1} @self
+  - totem{md=2;c=1;oH=Satan_Strike_DAMAGE;hnp=true;hp=true;hR=2;vR=1;i=1} @forward{f=3}
+  - summon{type=doombringer_axe_Satan_Strike_1;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=7;y=0.3;sideOffset=0.5}
+  
+Satan_Strike_2:
+  Cooldown: 1
+  Skills:
+  - effect:sound{s=doombringer_axe_sounds:samus.warrior_slash;volume=1;pitch=1} @self
+  - totem{md=2;c=1;oH=Satan_Strike_DAMAGE;hnp=true;hp=true;hR=2;vR=1;i=1} @forward{f=3}
+  - summon{type=doombringer_axe_Satan_Strike_2;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=7;y=-0.5;sideOffset=-1}
+  
+Satan_Strike_3:
+  Cooldown: 1
+  Skills:
+  - effect:sound{s=doombringer_axe_sounds:samus.warrior_slash;volume=1;pitch=1} @self
+  - totem{md=2;c=1;oH=Satan_Strike_DAMAGE;hnp=true;hp=true;hR=2;vR=1;i=1} @forward{f=3}
+  - summon{type=doombringer_axe_Satan_Strike_3;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=7;y=0;sideOffset=-0.8}

@@ -1,0 +1,40 @@
+AWAKENED:
+  base:
+    material: DIAMOND_AXE
+    custom-model-data: 2.0
+    ability:
+      ability1:
+        type: BRUTAL_STRIKE
+        mode: LEFT_CLICK
+      ability2:
+        type: INFERNO_WHEEL
+        mode: RIGHT_CLICK
+        cooldown: 15.0
+      ability3:
+        type: CHARGE
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 65.0
+      ability4:
+        type: BLAZING_LEAP
+        cooldown: 30.0
+        mode: SHIFT_RIGHT_CLICK
+      ability5:
+        type: WHIRLWIND
+        mode: SNEAK
+        cooldown: 30.0
+    attack-damage: 13.0
+    attack-speed: 1.0
+    unbreakable: true
+    item-particles:
+      particle: LAVA
+      type: OFFSET
+      amount: 3.0
+    movement-speed: -0.03
+    lore:
+    - Senjata yang memiliki kekuatan
+    - kemarahan dan hasrat dosa manusia
+    - yang terkumpul dan menjadi satu
+    - membentuk senjata kutukan
+    - yang memiliki kekuatan dosa besar &cAmarah
+    displayed-type: '&csin of wrath'
+    name: '&l<gradient:#d40000:#ffd700:#d40000>ᴅᴏᴏᴍʙʀɪɴɢᴇʀ ᴀxᴇ [ᴀᴡᴀᴋᴇɴᴇᴅ sᴛᴀɢᴇ]'

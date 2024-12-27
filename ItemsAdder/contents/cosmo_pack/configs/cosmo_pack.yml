@@ -1,0 +1,164 @@
+info:
+  namespace: cosmo_pack
+items:
+  cosmo_pack_axe:
+    display_name: Cosmo Axe
+    permission: cosmo_pack.axe
+    resource:
+      generate: false
+      material: IRON_AXE
+      model_path: axe
+      
+  cosmo_pack_battle_axe:
+    display_name: Cosmo Battle Axe
+    permission: cosmo_pack.battle_axe
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: battle_axe
+
+  cosmo_pack_blade:
+    display_name: Cosmo Blade
+    permission: cosmo_pack.blade
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: blade
+
+  cosmo_pack_bow:
+    display_name: Cosmo Bow
+    permission: cosmo_pack.bow
+    resource:
+      generate: false
+      material: BOW
+      model_path: bow
+
+  cosmo_pack_chest:
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        hitbox:
+          height: 1
+          height_offset: 0
+          length: 1
+          length_offset: 0
+          width: 1
+          width_offset: 0
+        placeable_on:
+          ceiling: false
+          floor: true
+          walls: false
+        solid: true
+    display_name: Cosmo Chest
+    permission: cosmo_pack.chest
+    resource:
+      generate: false
+      material: SEA_LANTERN
+      model_path: chest
+
+  cosmo_pack_dagger:
+    display_name: Cosmo Dagger
+    permission: cosmo_pack.dagger
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: dagger
+
+  cosmo_pack_fishing_rod:
+    display_name: Cosmo Fishing Rod
+    permission: cosmo_pack.fishing_rod
+    resource:
+      generate: false
+      material: FISHING_ROD
+      model_path: fishing_rod
+      
+  cosmo_pack_halberd:
+    display_name: Cosmo Halberd
+    permission: cosmo_pack.halberd
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: halberd
+
+  cosmo_pack_hoe:
+    display_name: Cosmo Hoe
+    permission: cosmo_pack.hoe
+    resource:
+      generate: false
+      material: IRON_HOE
+      model_path: hoe
+
+  cosmo_pack_key:
+    display_name: Cosmo Key
+    permission: cosmo_pack.key
+    resource:
+      generate: false
+      material: PAPER
+      model_path: key
+
+  cosmo_pack_pickaxe:
+    display_name: Cosmo Pickaxe
+    permission: cosmo_pack.pickaxe
+    resource:
+      generate: false
+      material: IRON_PICKAXE
+      model_path: pickaxe
+
+  cosmo_pack_shield:
+    display_name: Cosmo Shield
+    permission: cosmo_pack.shield
+    resource:
+      generate: false
+      material: SHIELD
+      model_path: shield
+
+  cosmo_pack_shovel:
+    display_name: Cosmo Shovel
+    permission: cosmo_pack.shovel
+    resource:
+      generate: false
+      material: IRON_SHOVEL
+      model_path: shovel
+
+  cosmo_pack_sickle:
+    display_name: Cosmo Sickle
+    permission: cosmo_pack.sickle
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: sickle
+
+  cosmo_pack_spear:
+    display_name: Cosmo Spear
+    permission: cosmo_pack.spear
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: spear
+      
+  cosmo_pack_staff:
+    display_name: Cosmo Staff
+    permission: cosmo_pack.staff
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: staff
+
+  cosmo_pack_sword:
+    display_name: Cosmo Sword
+    permission: cosmo_pack.sword
+    resource:
+      generate: false
+      material: IRON_SWORD
+      model_path: sword
+
+  cosmo_pack_wings:
+    display_name: Cosmo Wings
+    permission: cosmo_pack.wings
+    resource:
+      generate: false
+      material: PAPER
+      model_path: wings
+
+
+# 66147IL8S

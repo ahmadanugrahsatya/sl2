@@ -1,0 +1,4 @@
+BLACK_SLASH:
+    mythicmobs-skill-id: Black_Slash
+    modifiers:
+    - damage

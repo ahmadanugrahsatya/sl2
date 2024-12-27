@@ -1,0 +1,468 @@
+info:
+  namespace: doombringer_axe
+items:
+  doombringer_axe:
+    display_name: "doombringer_axe"
+    permission: doombringer_axe
+    resource:
+      material: DIAMOND_AXE
+      model_id: 1
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe
+  doombringer_axe_ultimate:
+    display_name: "doombringer_axe_ultimate"
+    permission: doombringer_axe_ultimate
+    resource:
+      material: DIAMOND_AXE
+      model_id: 2
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_ultimate
+  doombringer_axe_blaze_leap_1:
+    display_name: "doombringer_axe_blaze_leap_1"
+    permission: doombringer_axe_blaze_leap_1
+    resource:
+      material: PAPER
+      model_id: 1
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_blaze_leap_1
+  doombringer_axe_blaze_leap_2:
+    display_name: "doombringer_axe_blaze_leap_2"
+    permission: doombringer_axe_blaze_leap_1
+    resource:
+      material: PAPER
+      model_id: 2
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_blaze_leap_2
+  doombringer_axe_blaze_leap_3:
+    display_name: "doombringer_axe_blaze_leap_3"
+    permission: doombringer_axe_blaze_leap_3
+    resource:
+      material: PAPER
+      model_id: 3
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_blaze_leap_3
+  doombringer_axe_blaze_leap_4:
+    display_name: "doombringer_axe_blaze_Leap_4"
+    permission: doombringer_axe_blaze_leap_4
+    resource:
+      material: PAPER
+      model_id: 4
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_blaze_leap_4
+  doombringer_axe_blaze_leap_5:
+    display_name: "doombringer_axe_blaze_leap_5"
+    permission: doombringer_axe_blaze_leap_5
+    resource:
+      material: PAPER
+      model_id: 5
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_blaze_leap_5
+  doombringer_axe_blaze_leap_6:
+    display_name: "doombringer_axe_blaze_leap_6"
+    permission: doombringer_axe_blaze_leap_6
+    resource:
+      material: PAPER
+      model_id: 6
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_blaze_leap_6
+  doombringer_axe_blaze_leap_7:
+    display_name: "doombringer_axe_blaze_leap_7"
+    permission: doombringer_axe_blaze_leap_7
+    resource:
+      material: PAPER
+      model_id: 7
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_blaze_leap_7
+  doombringer_axe_flame_slash_1:
+    display_name: "doombringer_axe_flame_slash_1"
+    permission: doombringer_axe_flame_slash_1
+    resource:
+      material: PAPER
+      model_id: 8
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_flame_slash_1
+  doombringer_axe_flame_slash_2:
+    display_name: "doombringer_axe_flame_slash_2"
+    permission: doombringer_axe_flame_slash_2
+    resource:
+      material: PAPER
+      model_id: 9
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_flame_slash_2
+  doombringer_axe_flame_slash_3:
+    display_name: "doombringer_axe_flame_slash_3"
+    permission: doombringer_axe_flame_slash_3
+    resource:
+      material: PAPER
+      model_id: 10
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_flame_slash_3
+  doombringer_axe_flame_slash_4:
+    display_name: "doombringer_axe_flame_slash_4"
+    permission: doombringer_axe_flame_slash_4
+    resource:
+      material: PAPER
+      model_id: 12
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_flame_slash_4
+  doombringer_axe_flame_slash_5:
+    display_name: "doombringer_axe_flame_slash_5"
+    permission: doombringer_axe_flame_slash_5
+    resource:
+      material: PAPER
+      model_id: 13
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_flame_slash_5
+  doombringer_axe_flame_slash_6:
+    display_name: "doombringer_axe_flame_slash_6"
+    permission: doombringer_axe_flame_slash_6
+    resource:
+      material: PAPER
+      model_id: 14
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_flame_slash_6
+  doombringer_axe_flame_slash_7:
+    display_name: "doombringer_axe_flame_slash_7"
+    permission: doombringer_axe_flame_slash_7
+    resource:
+      material: PAPER
+      model_id: 15
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_flame_slash_7
+  doombringer_axe_hellfire_slash_1:
+    display_name: "doombringer_axe_hellfire_slash_1"
+    permission: doombringer_axe_hellfire_slash_1
+    resource:
+      material: PAPER
+      model_id: 16
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_hellfire_slash_1
+  doombringer_axe_hellfire_slash_2:
+    display_name: "doombringer_axe_hellfire_slash_2"
+    permission: doombringer_axe_hellfire_slash_2
+    resource:
+      material: PAPER
+      model_id: 17
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_hellfire_slash_2
+  doombringer_axe_hellfire_slash_3:
+    display_name: "doombringer_axe_hellfire_slash_3"
+    permission: doombringer_axe_hellfire_slash_3
+    resource:
+      material: PAPER
+      model_id: 18
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_hellfire_slash_3
+  doombringer_axe_hellfire_slash_4:
+    display_name: "doombringer_axe_hellfire_slash_4"
+    permission: doombringer_axe_hellfire_slash_4
+    resource:
+      material: PAPER
+      model_id: 19
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_hellfire_slash_4
+  doombringer_axe_hellfire_slash_5:
+    display_name: "doombringer_axe_hellfire_slash_5"
+    permission: doombringer_axe_hellfire_slash_5
+    resource:
+      material: PAPER
+      model_id: 20
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_hellfire_slash_5
+  doombringer_axe_hellfire_slash_6:
+    display_name: "doombringer_axe_hellfire_slash_6"
+    permission: doombringer_axe_hellfire_slash_6
+    resource:
+      material: PAPER
+      model_id: 21
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_hellfire_slash_6
+  doombringer_axe_hellfire_slash_7:
+    display_name: "doombringer_axe_hellfire_slash_7"
+    permission: doombringer_axe_hellfire_slash_7
+    resource:
+      material: PAPER
+      model_id: 22
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_hellfire_slash_7
+  doombringer_axe_inferno_orb:
+    display_name: "doombringer_axe_inferno_orb"
+    permission: doombringer_axe_inferno_orb
+    resource:
+      material: PAPER
+      model_id: 23
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_inferno_orb
+  doombringer_axe_inferno_wheel_1:
+    display_name: "doombringer_axe_inferno_wheel_1"
+    permission: doombringer_axe_inferno_wheel_1
+    resource:
+      material: PAPER
+      model_id: 24
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_inferno_wheel_1
+  doombringer_axe_inferno_wheel_2:
+    display_name: "doombringer_axe_inferno_wheel_2"
+    permission: doombringer_axe_inferno_wheel_2
+    resource:
+      material: PAPER
+      model_id: 25
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_inferno_wheel_2
+  doombringer_axe_inferno_wheel_3:
+    display_name: "doombringer_axe_inferno_wheel_3"
+    permission: doombringer_axe_inferno_wheel_3
+    resource:
+      material: PAPER
+      model_id: 26
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_inferno_wheel_3
+  doombringer_axe_inferno_wheel_4:
+    display_name: "doombringer_axe_inferno_wheel_4"
+    permission: doombringer_axe_inferno_wheel_4
+    resource:
+      material: PAPER
+      model_id: 27
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_inferno_wheel_4
+  doombringer_axe_inferno_wheel_5:
+    display_name: "doombringer_axe_inferno_wheel_5"
+    permission: doombringer_axe_inferno_wheel_5
+    resource:
+      material: PAPER
+      model_id: 28
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_inferno_wheel_5
+  doombringer_axe_inferno_wheel_6:
+    display_name: "doombringer_axe_inferno_wheel_6"
+    permission: doombringer_axe_inferno_wheel_6
+    resource:
+      material: PAPER
+      model_id: 29
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_inferno_wheel_6
+  doombringer_axe_inferno_wheel_7:
+    display_name: "doombringer_axe_inferno_wheel_7"
+    permission: doombringer_axe_inferno_wheel_7
+    resource:
+      material: PAPER
+      model_id: 30
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_inferno_wheel_7
+  doombringer_axe_inferno_wheel_8:
+    display_name: "doombringer_axe_inferno_wheel_8"
+    permission: doombringer_axe_inferno_wheel_8
+    resource:
+      material: PAPER
+      model_id: 31
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_inferno_wheel_8
+  doombringer_axe_inferno_wheel_9:
+    display_name: "doombringer_axe_inferno_wheel_9"
+    permission: doombringer_axe_inferno_wheel_9
+    resource:
+      material: PAPER
+      model_id: 32
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_inferno_wheel_9
+  doombringer_axe_inferno_wheel_10:
+    display_name: "doombringer_axe_inferno_wheel_10"
+    permission: doombringer_axe_inferno_wheel_10
+    resource:
+      material: PAPER
+      model_id: 33
+      generate: false
+      model_path: doombringer_axe_model/doombringer_axe_inferno_wheel_10
+  charge_1:
+    display_name: "charge_1"
+    permission: charge_1
+    resource:
+      material: PAPER
+      model_id: 34
+      generate: false
+      model_path: doombringer_axe_model/charge_1
+  charge_2:
+    display_name: "charge_2"
+    permission: charge_2
+    resource:
+      material: PAPER
+      model_id: 35
+      generate: false
+      model_path: doombringer_axe_model/charge_2
+  charge_3:
+    display_name: "charge_3"
+    permission: charge_3
+    resource:
+      material: PAPER
+      model_id: 36
+      generate: false
+      model_path: doombringer_axe_model/charge_3
+  charge_4:
+    display_name: "charge_4"
+    permission: charge_4
+    resource:
+      material: PAPER
+      model_id: 37
+      generate: false
+      model_path: doombringer_axe_model/charge_4
+  charge_5:
+    display_name: "charge_5"
+    permission: charge_5
+    resource:
+      material: PAPER
+      model_id: 38
+      generate: false
+      model_path: doombringer_axe_model/charge_5
+  warrior_slash_1:
+    display_name: "warrior_slash_1"
+    permission: warrior_slash_1
+    resource:
+      material: PAPER
+      model_id: 39
+      generate: false
+      model_path: doombringer_axe_model/warrior_slash_1
+  warrior_slash_2:
+    display_name: "warrior_slash_2"
+    permission: warrior_slash_2
+    resource:
+      material: PAPER
+      model_id: 40
+      generate: false
+      model_path: doombringer_axe_model/warrior_slash_2
+  warrior_slash_3:
+    display_name: "warrior_slash_3"
+    permission: warrior_slash_3
+    resource:
+      material: PAPER
+      model_id: 41
+      generate: false
+      model_path: doombringer_axe_model/warrior_slash_3
+  warrior_slash_4:
+    display_name: "warrior_slash_4"
+    permission: warrior_slash_4
+    resource:
+      material: PAPER
+      model_id: 42
+      generate: false
+      model_path: doombringer_axe_model/warrior_slash_4
+  warrior_slash_5:
+    display_name: "warrior_slash_5"
+    permission: warrior_slash_5
+    resource:
+      material: PAPER
+      model_id: 43
+      generate: false
+      model_path: doombringer_axe_model/warrior_slash_5
+  warrior_slash_6:
+    display_name: "warrior_slash_6"
+    permission: warrior_slash_6
+    resource:
+      material: PAPER
+      model_id: 44
+      generate: false
+      model_path: doombringer_axe_model/warrior_slash_6
+  warrior_slash_7:
+    display_name: "warrior_slash_7"
+    permission: warrior_slash_7
+    resource:
+      material: PAPER
+      model_id: 45
+      generate: false
+      model_path: doombringer_axe_model/warrior_slash_7
+  whirlwind_1:
+    display_name: "whirlwind_1"
+    permission: whirlwind_1
+    resource:
+      material: PAPER
+      model_id: 46
+      generate: false
+      model_path: doombringer_axe_model/whirlwind_1
+  whirlwind_2:
+    display_name: "whirlwind_2"
+    permission: whirlwind_2
+    resource:
+      material: PAPER
+      model_id: 47
+      generate: false
+      model_path: doombringer_axe_model/whirlwind_2
+  whirlwind_3:
+    display_name: "whirlwind_3"
+    permission: whirlwind_3
+    resource:
+      material: PAPER
+      model_id: 48
+      generate: false
+      model_path: doombringer_axe_model/whirlwind_3
+  whirlwind_4:
+    display_name: "whirlwind_4"
+    permission: whirlwind_4
+    resource:
+      material: PAPER
+      model_id: 49
+      generate: false
+      model_path: doombringer_axe_model/whirlwind_4
+  whirlwind_5:
+    display_name: "whirlwind_5"
+    permission: whirlwind_5
+    resource:
+      material: PAPER
+      model_id: 50
+      generate: false
+      model_path: doombringer_axe_model/whirlwind_5
+  satan_slash_1:
+    display_name: "satan_slash_1"
+    permission: satan_slash_1
+    resource:
+      material: PAPER
+      model_id: 51
+      generate: false
+      model_path: doombringer_axe_model/satan_slash_1
+  satan_slash_2:
+    display_name: "satan_slash_2"
+    permission: satan_slash_2
+    resource:
+      material: PAPER
+      model_id: 521
+      generate: false
+      model_path: doombringer_axe_model/satan_slash_2
+  satan_slash_3:
+    display_name: "satan_slash_3"
+    permission: satan_slash_3
+    resource:
+      material: PAPER
+      model_id: 531
+      generate: false
+      model_path: doombringer_axe_model/satan_slash_3
+  satan_slash_4:
+    display_name: "satan_slash_4"
+    permission: satan_slash_4
+    resource:
+      material: PAPER
+      model_id: 541
+      generate: false
+      model_path: doombringer_axe_model/satan_slash_4
+  satan_slash_5:
+    display_name: "satan_slash_5"
+    permission: satan_slash_5
+    resource:
+      material: PAPER
+      model_id: 551
+      generate: false
+      model_path: doombringer_axe_model/satan_slash_5
+  satan_slash_6:
+    display_name: "satan_slash_6"
+    permission: satan_slash_6
+    resource:
+      material: PAPER
+      model_id: 561
+      generate: false
+      model_path: doombringer_axe_model/satan_slash_6
+  satan_slash_7:
+    display_name: "satan_slash_7"
+    permission: satan_slash_7
+    resource:
+      material: PAPER
+      model_id: 571
+      generate: false
+      model_path: doombringer_axe_model/satan_slash_7
+# 2de4509003460130e37e1c59ad32c54ad30f089a # 47659

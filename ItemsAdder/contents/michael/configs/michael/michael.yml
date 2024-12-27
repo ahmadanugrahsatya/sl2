@@ -1,0 +1,91 @@
+info:
+  namespace: michael
+items:
+  sun_gauntlet:
+    display_name: "sun_gauntlet"
+    permission: sun_gauntlet
+    resource:
+      material: STICK
+      model_id: 453777
+      generate: false
+      model_path: michael_model/sun_gauntlet
+  angel_dashes_1:
+    display_name: "angel_dashes_1"
+    permission: angel_dashes_1
+    resource:
+      material: PAPER
+      model_id: 22235777
+      generate: false
+      model_path: michael_model/angel_dashes_1
+  angel_dashes_2:
+    display_name: "angel_dashes_2"
+    permission: angel_dashes_2
+    resource:
+      material: PAPER
+      model_id: 22245777
+      generate: false
+      model_path: michael_model/angel_dashes_2
+  angel_dashes_3:
+    display_name: "angel_dashes_3"
+    permission: angel_dashes_3
+    resource:
+      material: PAPER
+      model_id: 22255777
+      generate: false
+      model_path: michael_model/angel_dashes_3
+  angel_dashes_4:
+    display_name: "angel_dashes_4"
+    permission: angel_dashes_4
+    resource:
+      material: PAPER
+      model_id: 22265777
+      generate: false
+      model_path: michael_model/angel_dashes_4
+  angel_dashes_5:
+    display_name: "angel_dashes_5"
+    permission: angel_dashes_5
+    resource:
+      material: PAPER
+      model_id: 22275777
+      generate: false
+      model_path: michael_model/angel_dashes_5
+  angel_dashes_1_a:
+    display_name: "angel_dashes_1_a"
+    permission: angel_dashes_1_a
+    resource:
+      material: PAPER
+      model_id: 22285777
+      generate: false
+      model_path: michael_model/angel_dashes_1_a
+  angel_dashes_2_a:
+    display_name: "angel_dashes_2_a"
+    permission: angel_dashes_2_a
+    resource:
+      material: PAPER
+      model_id: 22295777
+      generate: false
+      model_path: michael_model/angel_dashes_2_a
+  angel_dashes_3_a:
+    display_name: "angel_dashes_3_a"
+    permission: angel_dashes_3_a
+    resource:
+      material: PAPER
+      model_id: 22256777
+      generate: false
+      model_path: michael_model/angel_dashes_3_a
+  angel_dashes_4_a:
+    display_name: "angel_dashes_4_a"
+    permission: angel_dashes_4_a
+    resource:
+      material: PAPER
+      model_id: 22266777
+      generate: false
+      model_path: michael_model/angel_dashes_4_a
+  angel_dashes_5_a:
+    display_name: "angel_dashes_5_a"
+    permission: angel_dashes_5_a
+    resource:
+      material: PAPER
+      model_id: 22277777
+      generate: false
+      model_path: michael_model/angel_dashes_5_a

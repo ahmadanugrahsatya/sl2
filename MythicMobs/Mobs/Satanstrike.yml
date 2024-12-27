@@ -1,0 +1,62 @@
+doombringer_axe_Satan_Strike_1:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,0
+  ItemHand: satan_slash_1
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=doombringer_axe_satan_slash_1:0;delay=2} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_2:0;delay=4} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_3:0;delay=6} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_4:0;delay=8} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_5:0;delay=10} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_6:0;delay=12} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_7:0;delay=14} ~onSpawn
+  - remove{delay=16} @self ~onSpawn
+  
+doombringer_axe_Satan_Strike_2:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,180
+  ItemHand: satan_slash_1
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=doombringer_axe_satan_slash_1:0;delay=2} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_2:0;delay=4} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_3:0;delay=6} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_4:0;delay=8} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_5:0;delay=10} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_6:0;delay=12} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_7:0;delay=14} ~onSpawn
+  - remove{delay=16} @self ~onSpawn
+  
+doombringer_axe_Satan_Strike_3:
+  Type: ARMOR_STAND
+  Pose:
+      RightArm: 0,0,90
+  ItemHand: satan_slash_1
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - equip{item=doombringer_axe_satan_slash_1:0;delay=2} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_2:0;delay=4} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_3:0;delay=6} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_4:0;delay=8} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_5:0;delay=10} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_6:0;delay=12} ~onSpawn
+  - equip{item=doombringer_axe_satan_slash_7:0;delay=14} ~onSpawn
+  - remove{delay=16} @self ~onSpawn

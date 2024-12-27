@@ -1,0 +1,16 @@
+LOSTASSETS_REVENANT_LC:
+    mythicmobs-skill-id: lostassets_revenant_lc
+    modifiers:
+    - damage
+LOSTASSETS_REVENANT_RC:
+    mythicmobs-skill-id: lostassets_revenant_rc
+    modifiers:
+    - damage
+LOSTASSETS_REVENANT_SLC:
+    mythicmobs-skill-id: lostassets_revenant_slc
+    modifiers:
+    - damage
+LOSTASSETS_REVENANT_SRC:
+    mythicmobs-skill-id: lostassets_revenant_src
+    modifiers:
+    - damage

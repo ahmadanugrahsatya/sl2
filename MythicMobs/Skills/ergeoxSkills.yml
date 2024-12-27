@@ -1,0 +1,1156 @@
+#ERGEOX, DEFAULT TITLES CONFIG
+#- Rising Flames Title: Line 481
+#- Flame Absorption Title: Line 520
+#- Flame Machine Title: Line 573
+#- Sun Shelter Title: Line 731
+###
+ergeoxKRSpawnAnimation:
+  Skills:
+  - gcd{t=105}
+  - setAI{ai=false} @Self
+  - model{m=ergeox;n=false;radius=80} @Self
+  - submodel{model=ergeox;subpart=ergeox_bullet1;r=true} @Self
+  - partvisibility{m=ergeox;p=sword_spawn;v=false;delay=1} @Self
+  - sound{s=entity.witch.throw;p=0.4;v=6;delay=22} @Self
+  - partvisibility{m=ergeox;p=sword_spawn;v=true;delay=22} @Self
+  - setspeed{speed=1.25;type=walking} @Self
+  - potion{t=DAMAGE_RESISTANCE;d=170;l=20} @Self
+  - delay 1
+  - partvisibility{m=ergeox;p=sword;v=false} @Self 
+  - partvisibility{m=ergeox;p=gun;v=false;delay=1} @Self
+  - partvisibility{m=ergeox;p=body;v=false} @Self
+  - partvisibility{m=ergeox;p=sub_body;v=false} @Self
+  - partvisibility{m=ergeox;p=arm;v=false;em=false} @Self
+  - partvisibility{m=ergeox;p=sub_arm;v=false;em=false} @Self
+  - partvisibility{m=ergeox;p=hand;v=false;em=false} @Self
+  - partvisibility{m=ergeox;p=head;v=false} @Self
+  - partvisibility{m=ergeox;p=turbine;v=false;em=false} @Self
+  - partvisibility{m=ergeox;p=cape;v=false} @Self
+  - partvisibility{m=ergeox;p=sub_cape;v=false} @Self
+  - partvisibility{m=ergeox;p=min_cape;v=false} @Self
+  - partvisibility{m=ergeox;p=back_gun;v=false} @Self
+  - partvisibility{m=ergeox;p=leg;v=false;em=false} @Self
+  - partvisibility{m=ergeox;p=sub_leg;v=false;em=false} @Self
+  - partvisibility{m=ergeox;p=foot;v=false;em=false} @Self
+  - delay 19
+  - aura{
+      auraName=ergeoxKRSpawnAnimationAura;
+      oT=[
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=0.1;vS=0.1} @ModelPart{m=ergeox;p=sword_spawn;offset=LOCAL}
+        - effect:particles{p=flame;amount=3;speed=0.15;hS=0.1;vS=0.1} @ModelPart{m=ergeox;p=sword_spawn;offset=LOCAL}
+      ];
+      oE=[
+        - effect:particlering{particle=explosion;radius=2.5;points=8;amount=6;hS=0.3;vS=0.2;s=0.18} @ModelPart{m=ergeox;p=sword_spawn;offset=MODEL;y=-4}
+        - effect:particlering{particle=flame;radius=2.5;points=8;amount=5;hS=0.3;vS=0.2;s=0.1} @ModelPart{m=ergeox;p=sword_spawn;offset=MODEL;y=-4}
+        - effect:blockmask{m=magma_block;r=7;n=0.2;d=100} @ModelPart{m=ergeox;p=sword_spawn;offset=LOCAL}
+        - effect:blockmask{m=bedrock;r=7;n=0.2;d=100} @ModelPart{m=ergeox;p=sword_spawn;offset=LOCAL}
+        - damage{a=<caster.var.ergeoxKRGroundImpactDamage>} @PlayersNearOrigin{r=6}
+        - sound{s=entity.iron_golem.damage;p=0.5;v=6} @Self
+        - sound{s=block.bell.use;p=0.1;v=6} @Self
+        - delay 20
+        - skill:ergeoxKRSpawnAnimationErgeox
+      ];i=1;d=10} @Self
+ergeoxKRSpawnAnimationErgeox:
+  Skills:
+  - partvisibility{m=ergeox;p=sword;v=false} @Self 
+  - sound{s=entity.witch.throw;p=0.3;v=6} @Self
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=3;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=3;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=3;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=3;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - effect:particles{p=explosion;amount=5;speed=0.15;hS=.470;vS=.470;repeat=10;repeatInterval=3} @ModelPart{m=ergeox;p=ergeox;offset=LOCAL;z=-0.5}
+  - effect:particles{p=smoke_large;amount=3;speed=0.15;hS=.470;vS=.470;repeat=10;repeatInterval=3} @ModelPart{m=ergeox;p=ergeox;offset=LOCAL;z=-0.5}
+  - sound{s=entity.phantom.ambient;p=0.5;v=6} @Self
+  - partvisibility{m=ergeox;p=body;v=true} @Self
+  - partvisibility{m=ergeox;p=sub_body;v=true} @Self
+  - partvisibility{m=ergeox;p=arm;v=true;em=false} @Self
+  - partvisibility{m=ergeox;p=sub_arm;v=true;em=false} @Self
+  - partvisibility{m=ergeox;p=hand;v=true;em=false} @Self
+  - partvisibility{m=ergeox;p=head;v=true} @Self
+  - partvisibility{m=ergeox;p=turbine;v=true;em=false} @Self
+  - partvisibility{m=ergeox;p=cape;v=true} @Self
+  - partvisibility{m=ergeox;p=sub_cape;v=true} @Self
+  - partvisibility{m=ergeox;p=min_cape;v=true} @Self
+  - partvisibility{m=ergeox;p=back_gun;v=true} @Self
+  - partvisibility{m=ergeox;p=leg;v=true;em=false} @Self
+  - partvisibility{m=ergeox;p=sub_leg;v=true;em=false} @Self
+  - partvisibility{m=ergeox;p=foot;v=true;em=false} @Self
+  - delay 17
+  - effect:particlering{particle=explosion;radius=3;points=8;amount=10;hS=0.3;vS=0.2;s=0.18} @Self
+  - effect:particlering{particle=smoke_large;radius=3;points=8;amount=6;hS=0.3;vS=0.2;s=0.18} @Self
+  - effect:particlering{particle=flame;radius=3;points=8;amount=6;hS=0.3;vS=0.2;s=0.18} @Self
+  - sound{s=entity.iron_golem.damage;p=0.5;v=6} @Self
+  - sound{s=entity.generic.explode;p=1.5;v=6} @Self
+  - effect:blockmask{m=cobblestone;r=4;n=0.40;d=80} @Self
+  - effect:blockmask{m=andesite;r=4;n=0.40;d=80} @Self
+  - damage{a=<caster.var.ergeoxKRGroundImpactDamage>} @PlayersNearOrigin{r=4.5}
+  - delay 15
+  - sound{s=entity.witch.throw;p=0.7;v=6} @Self
+  - delay 11
+  - sound{s=item.armor.equip_netherite;p=0.5;v=6} @Self
+  - effect:particles{p=explosion;amount=10;speed=0.13;hS=.25;vS=.25} @ModelPart{m=ergeox;p=hand1;offset=LOCAL}
+  - effect:particlering{particle=explosion;radius=4;points=8;amount=10;hS=0.3;vS=0.2;s=0.40} @Self
+  - delay 5
+  - sound{s=entity.iron_golem.damage;p=0.8;v=6} @Self
+  - effect:particles{p=lava;amount=3;speed=0.13;hS=.25;vS=.25} @ModelPart{m=ergeox;p=sword;offset=MODEL;y=-2.5}
+  - effect:particles{p=explosion;amount=5;speed=0.13;hS=.25;vS=.25} @ModelPart{m=ergeox;p=sword;offset=MODEL;y=-2}
+  - partvisibility{m=ergeox;p=sword;v=true} @Self
+  - submodel{model=ergeox;subpart=sword_spawn;r=true} @Self
+  - potion{t=SLOW;d=21;l=25;p=false} @Self
+  - delay 10
+  - gcd{t=170}
+  - potion{t=SLOW;d=159;l=25;p=false} @Self
+  - setvariable{var=skill.ergeoxKROrbitalyOffset;val=0;t=FLOAT} @Self
+  - setvariable{var=skill.ergeoxKRRingRadius;value=0} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - sound{s=entity.phantom.ambient;p=0.5;v=6} @Self
+  - potion{t=DAMAGE_RESISTANCE;d=120;l=1} @Self
+  - state{s=ergeox_cast_1} @Self
+  - variableadd{var=skill.ergeoxKROrbitalyOffset;amount=0.5;repeat=40;repeatInterval=1} @Self
+  - orbital{
+      oT=ergeoxKRSunShelteronTickOrbital;
+      points=25;interval=1;duration=20;oy=<skill.var.ergeoxKROrbitalyOffset>;hr=3} @Self
+  - orbital{
+      oT=ergeoxKRSunShelteronTickOrbital;
+      points=25;interval=1;duration=20;oy=<skill.var.ergeoxKROrbitalyOffset>;hr=3;roty=135} @Self
+  - sound{s=entity.witch.throw;p=0.9;v=6} @Self
+  - effect:particles{p=smoke_large;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=hand1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=hand2;offset=LOCAL}
+  - delay 20
+  - sound{s=entity.witch.throw;p=0.4;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=hand1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=hand2;offset=LOCAL}
+  - delay 11
+  - variableadd{var=skill.ergeoxKRRingRadius;amount=1;repeat=6;repeatInterval=2} @Self
+  - effect:particlering{particle=flame;speed=0.15;radius=<skill.var.ergeoxKRRingRadius>;points=20;amount=3;hS=0.4;vS=0.2;y=0.1;repeat=6;repeatInterval=2} @Self
+  - effect:particlering{particle=smoke_large;speed=0.15;radius=<skill.var.ergeoxKRRingRadius>;points=15;amount=1;hS=0.4;vS=0.2;y=0.1;repeat=6;repeatInterval=2} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=hand1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=hand2;offset=LOCAL}
+  - sound{s=entity.ender_dragon.growl;p=1.5;v=6} @Self
+  - delay 5
+  - aura{
+      auraName=ergeoxKRSunShelterAura;
+      oS=[
+        - setAI{ai=false} @Self
+        - delay 10
+        - effect:particles{p=flash;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=sword;offset=MODEL;y=5}
+        - delay 20
+        - sound{s=entity.wither.spawn;p=2;v=6} @Self
+        - skill:ergeoxKRSunShelterProjectiles
+      ];
+      oT=[       
+        - sound{s=entity.evoker.prepare_attack;p=2;v=6;cd=0.2} @Self
+        - delay 10
+        - effect:particlering{particle=explosion;radius=2.5;points=4;amount=1;hS=0.3;vS=0.2;s=0.48} @Self
+        - effect:particlering{particle=flame;radius=2.5;points=4;amount=1;hS=0.3;vS=0.2;s=0.48} @Self
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=hand1;offset=LOCAL}
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=hand2;offset=LOCAL}     
+        - sound{s=item.trident.thunder;p=2;v=6;cd=6} @Self
+        - effect:particlesphere{particle=flame;amount=5;radius=0.6} @ModelPart{m=ergeox;p=sword;offset=MODEL;y=5}
+      ];
+      oE=[     
+        - delay 13
+        - effect:particlesphere{particle=explosion;amount=5;radius=0.6;v=0.15} @ModelPart{m=ergeox;p=sword;offset=MODEL;y=5}
+        - setAI{ai=true} @Self
+        - skill:ergeoxKRMeleeAttackV @PlayersNearOrigin{r=35;ignore=creative,spectators}
+      ];i=3;d=110} @Self
+ergeoxKRMeleeAttackI:
+  Cooldown: 4.0
+  Conditions:
+  - incombat true
+  - offgcd true
+  TargetConditions:
+  - distance{d=<9} true
+  Skills:
+  - gcd{t=30}
+  - auraremove{aura=ergeoxKRFastWalkAura} @Self ?hasaura{n=ergeoxKRFastWalkAura}
+  - potion{t=SLOW;d=25;l=25;p=false} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - state{s=meleeattack_0} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - delay 10
+  - sound{s=block.iron_door.open;p=1.5;v=6} @Self
+  - effect:particleline{particle=flame;amount=5;hS=0.45;vS=0.45;s=0.1;fromOrigin=true;origin=@Forward{f=4;sideOffset=6;y=4}} @Forward{f=4;y=1;sideOffset=-6}
+  - effect:particleline{particle=smoke_large;amount=3;hS=0.45;vS=0.45;s=0.1;fromOrigin=true;origin=@Forward{f=4;sideOffset=5;y=4}} @Forward{f=4;y=1;sideOffset=-5}
+  - projectile{
+      fromOrigin=true;
+      origin=@Forward{f=4;sideOffset=-6;y=0};
+      oT=[
+        - effect:blockmask{m=fire;r=0;n=1;d=10} @Origin
+      ];v=30;i=1;hR=1;vR=1;mr=11;sso=0} @Forward{f=4;y=4.5;sideOffset=6} 
+  - sound{s=entity.witch.throw;p=1.5;v=6} @Self
+  - sound{s=entity.illusioner.cast_spell;p=1;v=6} @Self
+  - totem{
+      oS=[  
+        - damage{a=<caster.var.ergeoxKRMeleeAttackDamage>} @PlayersNearOrigin{r=4}  
+        - throw{v=10;vy=6} @PlayersNearOrigin{r=4}  
+      ];int=10;hR=3;md=1;yo=1;delay=2} @Forward{f=4;y=0.0}
+  - delay 20
+  - skill:ergeoxKRMeleeAttackIII @PIR{r=35;ignore=creative,spectators}
+ergeoxKRMeleeAttackII:
+  Cooldown: 4.0
+  Conditions:
+  - incombat true
+  - offgcd true
+  TargetConditions:
+  - distance{d=<9} true
+  Skills:
+  - gcd{t=34}
+  - auraremove{aura=ergeoxKRFastWalkAura} @Self ?hasaura{n=ergeoxKRFastWalkAura}
+  - potion{t=SLOW;d=29;l=25;p=false} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - state{s=meleeattack_1} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - delay 10
+  - sound{s=block.iron_door.open;p=1.5;v=6} @Self
+  - effect:particleline{particle=flame;amount=5;hS=0.45;vS=0.45;s=0.1;fromOrigin=true;origin=@Forward{f=4;sideOffset=-6;y=1}} @Forward{f=4;y=2;sideOffset=6}
+  - effect:particleline{particle=smoke_large;amount=3;hS=0.45;vS=0.45;s=0.1;fromOrigin=true;origin=@Forward{f=4;sideOffset=-5;y=1}} @Forward{f=4;y=2;sideOffset=5}
+  - projectile{
+      fromOrigin=true;
+      origin=@Forward{f=4;sideOffset=6;y=1};
+      oT=[
+        - effect:blockmask{m=fire;r=0;n=1;d=10} @Origin
+      ];v=30;i=1;hR=1;vR=1;mr=11;sso=0} @Forward{f=4;y=1.5;sideOffset=-6} #
+  - sound{s=entity.witch.throw;p=1.5;v=6} @Self
+  - sound{s=entity.illusioner.cast_spell;p=1;v=6} @Self
+  - totem{
+      oS=[  
+        - damage{a=<caster.var.ergeoxKRMeleeAttackDamage>} @PlayersNearOrigin{r=4}  
+        - throw{v=10;vy=6} @PlayersNearOrigin{r=4}  
+      ];int=10;hR=3;md=1;yo=1;delay=2} @Forward{f=4;y=0.0}
+  - delay 20
+  - skill:ergeoxKRMeleeAttackIII @PIR{r=35;ignore=creative,spectators}
+ergeoxKRMeleeAttackIII:
+  Cooldown: 4.0
+  Conditions:
+  - incombat true
+  - offgcd true
+  TargetConditions:
+  - distance{d=<22} true
+  Skills:
+  - gcd{t=34}
+  - auraremove{aura=ergeoxKRFastWalkAura} @Self ?hasaura{n=ergeoxKRFastWalkAura}
+  - potion{t=SLOW;d=29;l=25;p=false} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - state{s=meleeattack_2} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - delay 7
+  - sound{s=entity.witch.throw;p=0.5;v=6} @Self
+  - effect:particlering{particle=explosion;radius=2.5;points=8;amount=6;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particles{p=explosion;amount=10;speed=0.27;hS=0.1;vS=0.1} @ModelPart{m=ergeox;p=ergeox;offset=LOCAL}
+  - effect:particles{p=explosion;amount=4;speed=0.15;hS=.02;vS=.02;repeat=20;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - delay 15
+  - damage{a=<caster.var.ergeoxKRMeleeAttackDamage>} @PIR{r=4.5}
+  - effect:particlering{particle=explosion_large;radius=2.5;points=8;amount=2;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=smoke_large;radius=2.5;points=8;amount=5;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:blockmask{m=cobblestone;r=4;n=0.40;d=80} @Origin
+  - effect:blockmask{m=andesite;r=4;n=0.40;d=80} @Origin
+  - delay 2
+  - sound{s=entity.iron_golem.damage;p=0.5;v=6} @Self
+  - projectile{
+      oS=[
+        - sound{s=entity.ghast.shoot;p=0.5;v=6} @Self
+        - sound{s=entity.evoker.prepare_attack;p=0.5;v=6} @Self
+      ];
+      oT=[
+        - effect:blockmask{m=fire;r=0;n=0;d=5} @BlocksNearOrigin{radius=2;radiusy=0;noise=0.7;shape=cube;onlyair=true;noair=false}
+        - effect:blockmask{m=magma_block;r=0;n=0;d=60} @BlocksNearOrigin{radius=2;radiusy=1;noise=0.1;shape=cube;onlyair=false;noair=true;conditions=[  - yDiff{diff=<0} true  ]}
+      ];
+      oE=[
+        - damage{a=<caster.var.ergeoxKRMeleeAttackDamage>} @PlayersNearOrigin{r=4}
+        - throw{v=8;vy=7} @PlayersNearOrigin{r=4}
+        - ignite{t=100} @PlayersNearOrigin{r=4}
+        - effect:particles{p=smoke_large;amount=1;speed=0.15;hS=.02;vS=.02;repeat=3;repeatInterval=1} @Origin
+      ];v=13;i=1;hR=2;vR=1;mr=20;hs=true;hfs=0;sso=0} @Target
+ergeoxKRMeleeAttackIV:
+  Cooldown: 4.0
+  Conditions:
+  - incombat true
+  - offgcd true
+  TargetConditions:
+  - distance{d=<8} true
+  Skills:
+  - gcd{t=34}
+  - auraremove{aura=ergeoxKRFastWalkAura} @Self ?hasaura{n=ergeoxKRFastWalkAura}
+  - potion{t=SLOW;d=29;l=25;p=false} @Self
+  - setvariable{var=skill.ergeoxKROrbitalyOffset;val=0;t=FLOAT} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - state{s=meleeattack_3} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - delay 11
+  - effect:particlering{particle=explosion;radius=2.5;points=8;amount=6;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particles{p=explosion;amount=10;speed=0.27;hS=0.1;vS=0.1} @ModelPart{m=ergeox;p=ergeox;offset=LOCAL}
+  - delay 2
+  - sound{s=block.iron_door.open;p=1.5;v=6} @Self
+  - variableadd{var=skill.ergeoxKROrbitalyOffset;amount=0.5;repeat=40;repeatInterval=1} @Self
+  - effect:particles{p=smoke_large;amount=1;speed=0.15;hS=.02;vS=.02;repeat=15;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - orbital{
+      oH=ergeoxKRMeleeAttackIVonHitOrbital;
+      oT=ergeoxKRMeleeAttackIVonTickOrbital;
+      points=15;interval=1;duration=20;oy=<skill.var.ergeoxKROrbitalyOffset>;hr=3} @Self
+  - orbital{
+      oH=ergeoxKRMeleeAttackIVonHitOrbital;
+      oT=ergeoxKRMeleeAttackIVonTickOrbital;
+      points=15;interval=1;duration=20;oy=<skill.var.ergeoxKROrbitalyOffset>;hr=3;roty=135} @Self
+  - sound{s=entity.witch.throw;p=0.5;v=6} @Self
+  - sound{s=entity.illusioner.cast_spell;p=1;v=6} @Self
+  - delay 19
+  - sound{s=entity.iron_golem.damage;p=0.5;v=6} @Self
+  - damage{a=<caster.var.ergeoxKRGroundImpactDamage>} @PIR{r=4.5}
+  - effect:particlering{particle=explosion_large;radius=2.5;points=8;amount=2;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=smoke_large;radius=2.5;points=8;amount=5;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:blockmask{m=cobblestone;r=4;n=0.40;d=80} @Origin
+  - effect:blockmask{m=andesite;r=4;n=0.40;d=80} @Origin
+  - delay 10
+  - randomskill{s=ergeoxKRPushForward,ergeoxKRMeleeAttackII}
+ergeoxKRMeleeAttackIVonHitOrbital:
+  Skills:
+  - damage{a=<caster.var.ergeoxKRMeleeAttackDamage>}
+  - throw{v=10;vy=6}
+  - ignite{t=100}
+ergeoxKRMeleeAttackIVonTickOrbital:
+  Skills:
+  - effect:blockmask{m=fire;r=0;n=1;d=20} @Origin
+  - effect:particles{p=flame;amount=6;speed=0.12;hS=0.1;vS=0.1} @Origin
+  - effect:particles{p=smoke_large;amount=6;speed=0.17;hS=0.1;vS=0.1} @Origin
+ergeoxKRMeleeAttackV:
+  Cooldown: 4.0
+  Conditions:
+  - incombat true
+  - offgcd true
+  TargetConditions:
+  - distance{d=>7} true
+  - distance{d=>15} castinstead ergeoxKRPushForward
+  Skills:
+  - gcd{t=45}
+  - auraremove{aura=ergeoxKRFastWalkAura} @Self ?hasaura{n=ergeoxKRFastWalkAura}
+  - skill:ergeoxKRMeleeAttackVAirAttack{delay=14}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - state{s=meleeattack_4} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - delay 11
+  - lockmodel{lock=true} @Self
+  - aura{
+      auraName=ergeoxKRPushForwardAura;
+      oS=[
+        - sound{s=block.lava.extinguish;p=0.4;v=6} @Self
+        - sound{s=block.piston.extend;p=0.8;v=6} @Self
+        - skill:ergeoxKRPushForwardVerticalCircle @ModelPart{m=ergeox;p=ergeox;offset=LOCAL;z=-3;y=0.2}
+        - sound{s=entity.witch.throw;p=0.5;v=6} @Self
+        - effect:particlering{particle=explosion;radius=2.5;points=8;amount=10;hS=0.3;vS=0.2;s=0.18} @Self
+        - effect:particlering{particle=explosion;radius=2.5;points=8;amount=2;hS=0.3;vS=0.2;s=0.40} @Self
+        - lunge{velocity=0.9;repeat=8;repeatInterval=3} @Target
+      ];
+      oT=[              
+        - effect:particles{p=explosion;amount=1;speed=0.27;hS=0.1;vS=0.1} @ModelPart{m=ergeox;p=ergeox;offset=LOCAL;z=-0.5}
+        - effect:particles{p=smoke_large;amount=2;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine1;offset=LOCAL;z=-1;y=-0.5}
+        - effect:particles{p=lava;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine1;offset=LOCAL;z=-1;y=-0.5}
+        - effect:particles{p=smoke_large;amount=2;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine2;offset=LOCAL;z=-1;y=-0.5}
+        - effect:particles{p=lava;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine2;offset=LOCAL;z=-1;y=-0.5}
+      ];
+      oE=[         
+        - potion{t=SLOW;d=3;l=25;p=false} @Self
+        - sound{s=entity.iron_golem.damage;p=0.5;v=6} @Self
+        - damage{a=<caster.var.ergeoxKRGroundImpactDamage>} @PlayersNearOrigin{r=4.5}
+        - effect:particlering{particle=explosion;radius=2.5;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+        - sound{s=block.lava.extinguish;p=1.5;v=6} @Self
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+        - effect:particlering{particle=smoke_large;radius=2.5;points=8;amount=5;hS=0.3;vS=0.2;s=0.15} @Self
+        - effect:blockmask{m=cobblestone;r=4;n=0.40;d=80} @Self
+        - effect:blockmask{m=andesite;r=4;n=0.40;d=80} @Self
+        - lockmodel{lock=false} @Self
+      ];i=1;d=28} @Self
+ergeoxKRMeleeAttackVAirAttack:
+  Skills:
+  - effect:particles{p=smoke_large;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - delay 10
+  - sound{s=block.iron_door.open;p=1.5;v=6} @Self
+  - effect:particleline{particle=flame;amount=5;hS=0.45;vS=0.45;s=0.1;fromOrigin=true;origin=@Forward{f=4;sideOffset=6;y=4}} @Forward{f=4;y=1;sideOffset=-6}
+  - effect:particleline{particle=smoke_large;amount=3;hS=0.45;vS=0.45;s=0.1;fromOrigin=true;origin=@Forward{f=4;sideOffset=5;y=4}} @Forward{f=4;y=1;sideOffset=-5}
+  - projectile{
+      fromOrigin=true;
+      origin=@Forward{f=4;sideOffset=-6;y=0};
+      oT=[
+        - effect:blockmask{m=fire;r=0;n=1;d=10} @Origin
+      ];v=30;i=1;hR=1;vR=1;mr=11;sso=0} @Forward{f=4;y=4.5;sideOffset=6} 
+  - sound{s=entity.witch.throw;p=1.5;v=6} @Self
+  - sound{s=entity.illusioner.cast_spell;p=1;v=6} @Self
+  - totem{
+      oS=[  
+        - damage{a=<caster.var.ergeoxKRMeleeAttackDamage>} @PlayersNearOrigin{r=7}  
+        - throw{v=10;vy=6} @PlayersNearOrigin{r=7}  
+      ];int=10;hR=3;md=1;yo=1} @Forward{f=1;y=1}
+ergeoxKRMeleeAttackVI:
+  Cooldown: 4.0
+  Conditions:
+  - incombat true
+  - offgcd true
+  TargetConditions:
+  - distance{d=<8} true
+  Skills:
+  - gcd{t=35}
+  - auraremove{aura=ergeoxKRFastWalkAura} @Self ?hasaura{n=ergeoxKRFastWalkAura}
+  - potion{t=SLOW;d=45;l=25;p=false} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - state{s=meleeattack_5} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - delay 10
+  - sound{s=block.iron_door.open;p=1.5;v=6} @Self
+  - sound{s=entity.witch.throw;p=1.5;v=6} @Self
+  - sound{s=entity.illusioner.cast_spell;p=1;v=6} @Self
+  - effect:particlering{particle=smoke_large;radius=4;points=15;amount=5;hS=0.3;vS=0.2;s=0.15;y=1;repeat=3;repeatInterval=1} @Self
+  - effect:particlering{particle=flame;radius=4;points=15;amount=8;hS=0.3;vS=0.2;s=0.15;y=1;repeat=3;repeatInterval=1} @Self
+  - delay 1
+  - damage{a=<caster.var.ergeoxKRGroundImpactDamage>} @PIR{r=7}
+  - throw{v=10;vy=6} @PIR{r=7}
+  - delay 17
+  - effect:particlering{particle=explosion;radius=3;points=10;amount=6;hS=0.3;vS=0.2;s=0.40} @Self
+  - delay 18
+  - randomskill{s=ergeoxKRMeleeAttackI,ergeoxKRMeleeAttackIV,ergeoxKRPushForward} @PIR{r=35;ignore=creative,spectators}
+ergeoxKRRisingFlames:
+  Cooldown: 20.0
+  Conditions:
+  - incombat true
+  - offgcd true
+  - playerwithin{d=12} true
+  Skills:
+  - gcd{t=66}
+  - auraremove{aura=ergeoxKRFastWalkAura} @Self ?hasaura{n=ergeoxKRFastWalkAura}
+  - potion{t=SLOW;d=55;l=25;p=false} @Self
+  - setvariable{var=skill.ergeoxKRRisingFlamesRadius;val=1} @Self
+  - setvariable{var=skill.ergeoxKRRisingFlamesPoints;val=5} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - sendtitle{title="";subtitle="<#D4530A>Ergeox &fsummons &6Rising Flames";d=60} @PIR{r=80}
+  - sound{s=entity.phantom.ambient;p=0.5;v=6} @Self
+  - state{s=ergeox_cast_0} @Self
+  - effect:particles{p=smoke_large;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - delay 10
+  - sound{s=entity.witch.throw;p=0.5;v=6} @Self
+  - effect:particlering{particle=explosion;radius=2.5;points=8;amount=6;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particles{p=explosion;amount=10;speed=0.27;hS=0.1;vS=0.1} @ModelPart{m=ergeox;p=ergeox;offset=LOCAL}
+  - effect:particles{p=explosion;amount=4;speed=0.15;hS=.02;vS=.02;repeat=10;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - delay 12
+  - sound{s=entity.generic.explode;p=0.3;v=6} @Self
+  - sound{s=entity.blaze.ambient;p=0.1;v=6} @Self
+  - effect:blockmask{m=magma_block;r=8;n=0.4;d=100} @Origin
+  - variableadd{var=skill.ergeoxKRRisingFlamesRadius;amount=1;repeat=12;repeatInterval=2} @Self
+  - variableadd{var=skill.ergeoxKRRisingFlamesPoints;amount=5;repeat=12;repeatInterval=2} @Self
+  - damage{a=<caster.var.ergeoxKRRisingFlamesDamage>;repeat=12;repeatInterval=2} @PIR{r=<skill.var.ergeoxKRRisingFlamesRadius>;ignore=creative,spectators}
+  - ignite{t=150;repeat=12;repeatInterval=2} @PIR{r=<skill.var.ergeoxKRRisingFlamesRadius>;ignore=creative,spectators}
+  - throw{v=2;vy=3;repeat=12;repeatInterval=2} @PIR{r=<skill.var.ergeoxKRRisingFlamesRadius>;ignore=creative,spectators}
+  - effect:particlering{particle=smoke_large;radius=<skill.var.ergeoxKRRisingFlamesRadius>;points=25;amount=3;hS=0.3;vS=0.2;s=0;repeat=12;repeatInterval=2} @SelfLocation
+  - effect:particlering{particle=lava;radius=<skill.var.ergeoxKRRisingFlamesRadius>;points=5;amount=5;hS=0.3;vS=0.2;s=0;repeat=12;repeatInterval=2} @SelfLocation
+  - blockwave{d=15;m=fire;r=0;radiusY=3;v=2;shape=cube;n=1;repeat=12;repeatInterval=2} @Ring{r=<skill.var.ergeoxKRRisingFlamesRadius>;p=<skill.var.ergeoxKRRisingFlamesPoints>;yOffset=0}
+  - sound{s=block.nether_bricks.break;v=3;p=0.1;repeat=12;repeatInterval=2} @Self
+ergeoxKRFlameAbsorption:
+  Cooldown: 35.0
+  Conditions:
+  - incombat true
+  - offgcd true
+  Skills:
+  - gcd{t=105}
+  - auraremove{aura=ergeoxKRFastWalkAura} @Self ?hasaura{n=ergeoxKRFastWalkAura}
+  - setAI{ai=false} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - sendtitle{title="";subtitle="<#D4530A>Ergeox &fsummons &cFlame Absorption";d=60} @PIR{r=80}
+  - sound{s=entity.phantom.ambient;p=0.5;v=6} @Self
+  - state{s=ergeox_cast_0} @Self
+  - effect:particles{p=smoke_large;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - delay 10
+  - sound{s=entity.witch.throw;p=0.5;v=6} @Self
+  - effect:particlering{particle=explosion;radius=2.5;points=8;amount=6;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particles{p=explosion;amount=10;speed=0.27;hS=0.1;vS=0.1} @ModelPart{m=ergeox;p=ergeox;offset=LOCAL}
+  - effect:particles{p=explosion;amount=4;speed=0.15;hS=.02;vS=.02;repeat=10;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - delay 12
+  - sound{s=entity.generic.explode;p=0.3;v=6} @Self
+  - effect:particlering{particle=explosion;radius=3;points=8;amount=12;hS=0.3;vS=0.2;s=0.18} @Self
+  - effect:particlering{particle=explosion;radius=5;points=8;amount=14;hS=0.3;vS=0.2;s=0.18} @Self
+  - effect:particlering{particle=smoke_large;radius=3;points=8;amount=8;hS=0.3;vS=0.2;s=0.18} @Self
+  - effect:blockmask{m=magma_block;r=8;n=0.2;d=100} @Origin
+  - effect:blockmask{m=bedrock;r=8;n=0.2;d=100} @Origin
+  - projectile{
+      oS=[
+        - sound{s=block.lava.extinguish;p=2;v=6} @Self
+      ];
+      oT=[  
+        - effect:blockmask{m=fire;r=0;d=4;oa=true;na=true;n=0.60} @Origin
+      ];
+      oE=ergeoxKRFlameAbsorptionEndProjectile;
+      v=15;i=1;hR=1;vR=1;mr=40;syo=<random.5to15>;mr=80;sfo=<random.-5to5>;sso=<random.-40to40>;repeat=35;repeatInterval=5} @Target
+  - delay 33
+  - setAI{ai=true} @Self
+ergeoxKRFlameAbsorptionEndProjectile:
+  Skills:
+  - sound{s=entity.generic.explode;p=1;v=6} @Self
+  - effect:particles{p=explosion_large;amount=5;speed=0;hS=.65;vS=.65} @Origin
+  - effect:particles{p=lava;amount=3;speed=0.17;hS=.55;vS=.55} @Origin
+  - damage{a=<caster.var.ergeoxKRFlameAbsorptionDamage>} @PlayersNearOrigin{r=5}
+  - ignite{t=40} @PlayersNearOrigin{r=5}
+  - effect:blockmask{m=bedrock;r=4;n=0.2;d=90} @Origin
+ergeoxKRFlameMachine:
+  Cooldown: 30.0
+  Conditions:
+  - incombat true
+  - offgcd true
+  Skills:
+  - gcd{t=142}
+  - auraremove{aura=ergeoxKRFastWalkAura} @Self ?hasaura{n=ergeoxKRFastWalkAura}
+  - potion{t=SLOW;d=160;l=25;p=false} @Self
+  - variableUnSet{var=caster.ergeoxKRRangedAttacks} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - sendtitle{title="";subtitle="<#D4530A>Ergeox &fsummons &6Flame Machine";d=60} @PIR{r=80}
+  - sound{s=entity.phantom.ambient;p=0.5;v=6} @Self
+  - potion{t=DAMAGE_RESISTANCE;d=100;l=1} @Self
+  - state{s=take_save_gun} @Self
+  - effect:particles{p=smoke_large;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - delay 17
+  - sound{s=item.armor.equip_netherite;p=0.5;v=6} @Self
+  - effect:particles{p=explosion;amount=10;speed=0.13;hS=.25;vS=.25} @ModelPart{m=ergeox;p=gun;offset=MODEL;z=-0.5}
+  - partvisibility{m=ergeox;p=back_gun;v=false} @Self
+  - partvisibility{m=ergeox;p=gun;v=true} @Self
+  - delay 10
+  - state{s=ergeox_cast_2} @Self
+  - delay 15
+  - sound{s=entity.blaze.ambient;p=0.1;v=6} @Self
+  - projectile{
+      fromOrigin=true;
+      origin=@ModelPart{m=ergeox;p=gun;offset=MODEL;y=-0.5;z=0.5};
+      oS=[
+        - sound{s=entity.shulker.shoot;p=1;v=6} @Self
+        - effect:particles{p=smoke_large;amount=5;speed=0.17;hS=.65;vS=.65} @ModelPart{m=ergeox;p=gun;offset=MODEL;y=0;z=1}
+        - effect:particlering{particle=explosion;radius=2.5;points=4;amount=1;hS=0.3;vS=0.2;s=0.48} @Self
+      ];
+      oT=[
+        - effect:blockmask{m=fire;r=0;d=4;oa=true;na=true;n=0.60} @Origin
+        - effect:particles{p=flame;amount=1;speed=0.05;hS=0.1;vS=0.1} @Origin
+      ];
+      oE=[
+        - damage{a=<caster.var.ergeoxKRFlameMachineDamage>} @PlayersNearOrigin{r=3}
+        - effect:particles{p=smoke_large;amount=2;speed=0.05;hS=0.1;vS=0.1} @Origin
+      ];v=35;i=1;hR=1;vR=1;hnp=true;mr=45;repeat=73;repeatInterval=1} @Target
+  - delay 85
+  - state{s=take_save_gun} @Self
+  - delay 15
+  - sound{s=item.armor.equip_netherite;p=0.5;v=6} @Self
+  - effect:particles{p=explosion;amount=10;speed=0.13;hS=.25;vS=.25} @ModelPart{m=ergeox;p=gun;offset=MODEL;y=1.5;z=0.5}
+  - partvisibility{m=ergeox;p=gun;v=false} @Self
+  - partvisibility{m=ergeox;p=back_gun;v=true} @Self
+  - delay 13
+  - skill:ergeoxKRPushForward
+ergeoxKRTripleShoot:
+  Cooldown: 25.0
+  TargetConditions:
+  - distance{d=>7} true
+  Conditions:
+  - incombat true
+  - offgcd true
+  - variableisset{var=caster.ergeoxKRRangedAttacks} castinstead ergeoxKRFlameMachine
+  Skills:
+  - gcd{t=142}
+  - auraremove{aura=ergeoxKRFastWalkAura} @Self ?hasaura{n=ergeoxKRFastWalkAura}
+  - potion{t=SLOW;d=147;l=25;p=false} @Self
+  - setvariable{var=caster.ergeoxKRRangedAttacks;value=0} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - sound{s=entity.phantom.ambient;p=0.5;v=6} @Self
+  - state{s=take_save_gun} @Self
+  - effect:particles{p=smoke_large;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - delay 17
+  - sound{s=item.armor.equip_netherite;p=0.5;v=6} @Self
+  - effect:particles{p=explosion;amount=10;speed=0.13;hS=.25;vS=.25} @ModelPart{m=ergeox;p=gun;offset=MODEL;z=-0.5}
+  - partvisibility{m=ergeox;p=back_gun;v=false} @Self
+  - partvisibility{m=ergeox;p=gun;v=true} @Self
+  - delay 10
+  - state{s=ergeox_triple_shoot} @Self
+  - delay 15
+  - projectile{
+      fromOrigin=true;
+      origin=@ModelPart{m=ergeox;p=gun;offset=MODEL;y=-1.8;z=1.5};
+      bulletType=MOB;
+      mob=ergeoxGunBullet;
+      oS=ergeoxKRTripleShootonStartProjectile;
+      oT=ergeoxKRTripleShootonTickProjectile;
+      onBounce=[  - sound{s=block.iron_trapdoor.open;p=1.5;v=6;repeat=15;repeatInterval=1} @Self  ];
+      oE=ergeoxKRTripleShootonEndProjectile;v=20;i=1;hR=1;vR=1;hnp=true;bounce=true;g=0.5;mr=40;d=20;bulletSpin=15} @Target
+  - delay 24
+  - projectile{
+      fromOrigin=true;
+      origin=@ModelPart{m=ergeox;p=gun;offset=MODEL;y=-1.8;z=1.5};
+      bulletType=MOB;
+      mob=ergeoxGunBullet;
+      oS=ergeoxKRTripleShootonStartProjectile;
+      oT=ergeoxKRTripleShootonTickProjectile;
+      onBounce=[  - sound{s=block.iron_trapdoor.open;p=1.5;v=6;repeat=15;repeatInterval=1} @Self  ];
+      oE=ergeoxKRTripleShootonEndProjectile;v=20;i=1;hR=1;vR=1;hnp=true;bounce=true;g=0.5;mr=40;d=20;bulletSpin=15} @Target 
+  - delay 25
+  - projectile{
+      fromOrigin=true;
+      origin=@ModelPart{m=ergeox;p=gun;offset=MODEL;y=-1.8;z=1.5};
+      bulletType=MOB;
+      mob=ergeoxGunBullet;
+      oS=ergeoxKRTripleShootonStartProjectile;
+      oT=ergeoxKRTripleShootonTickProjectile;
+      onBounce=[  - sound{s=block.iron_trapdoor.open;p=1.5;v=6;repeat=15;repeatInterval=1} @Self  ];
+      oE=ergeoxKRTripleShootonEndProjectile;v=20;i=1;hR=1;vR=1;hnp=true;bounce=true;g=0.5;mr=40;d=20;bulletSpin=15} @Target
+  - delay 24
+  - state{s=take_save_gun} @Self
+  - delay 17
+  - sound{s=item.armor.equip_netherite;p=0.5;v=6} @Self
+  - effect:particles{p=explosion;amount=10;speed=0.13;hS=.25;vS=.25} @ModelPart{m=ergeox;p=gun;offset=MODEL;y=1.5;z=0.5}
+  - partvisibility{m=ergeox;p=gun;v=false} @Self
+  - partvisibility{m=ergeox;p=back_gun;v=true} @Self
+  - delay 10
+  - skill:ergeoxKRPushForward
+ergeoxKRTripleShootonStartProjectile:
+  Skills:
+  - effect:particles{p=smoke_large;amount=15;speed=0.17;hS=.65;vS=.65} @ModelPart{m=ergeox;p=gun;offset=MODEL;y=1.5;z=0.5}
+  - effect:particles{p=flame;amount=10;speed=0.17;hS=.65;vS=.65} @ModelPart{m=ergeox;p=gun;offset=MODEL;y=1.5;z=0.5}
+  - effect:particlering{particle=explosion;radius=2.5;points=8;amount=6;hS=0.3;vS=0.2;s=0.48} @Self
+  - sound{s=entity.ghast.shoot;p=1;v=6} @Self
+ergeoxKRTripleShootonTickProjectile:
+  Skills:
+  - effect:particles{p=campfire_cosy_smoke;amount=1;speed=0.05;hS=0.1;vS=0.1} @Origin
+ergeoxKRTripleShootonEndProjectile:
+  Skills:
+  - sound{s=entity.generic.explode;p=1;v=6} @Self
+  - effect:particles{p=explosion_large;amount=5;speed=0;hS=.65;vS=.65} @Origin
+  - effect:particles{p=lava;amount=3;speed=0.17;hS=.55;vS=.55} @Origin
+  - damage{a=<caster.var.ergeoxKRTripleShootDamage>} @PlayersNearOrigin{r=5}
+  - ignite{t=80} @PlayersNearOrigin{r=5}
+  - projectile{
+      fromOrigin=true;
+      origin=@Origin{yOffset=-2};
+      oT=[
+        - effect:particles{p=flame;amount=4;speed=0;hS=0.05;vS=0.05} @Origin
+      ];
+      oE=[
+        - damage{a=<caster.var.ergeoxKRTripleShootDamage>} @PlayersNearOrigin{r=3}
+        - ignite{t=150} @PlayersNearOrigin{r=3}
+        - effect:blockmask{m=magma_block;r=4;n=0.020;d=80} @Origin
+        - effect:particles{p=explosion_large;amount=1;speed=0;hS=.15;vS=.15} @Origin
+        - sound{s=entity.firework_rocket.large_blast_far;p=<random.float.0.9to1.2>;v=6} @Origin
+      ];v=30;i=1;hR=1;vR=1;hnp=true;mr=18;repeat=13;repeatInterval=5;tyo=<random.1-10>;g=1} @RingAroundOrigin{radius=5;points=<random.5-15>}
+  - effect:blockmask{m=magma_block;r=4;n=0.2;d=90} @Origin
+ergeoxKRSunShelter:
+  Cooldown: 45.0
+  Conditions:
+  - incombat true
+  - offgcd true
+  Skills:
+  - gcd{t=170}
+  - auraremove{aura=ergeoxKRFastWalkAura} @Self ?hasaura{n=ergeoxKRFastWalkAura}
+  - potion{t=SLOW;d=159;l=25;p=false} @Self
+  - setvariable{var=skill.ergeoxKROrbitalyOffset;val=0;t=FLOAT} @Self
+  - setvariable{var=skill.ergeoxKRRingRadius;value=0} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - sendtitle{title="";subtitle="<#D4530A>Ergeox &fsummons &6Sun Shelter";d=60} @PIR{r=80}
+  - sound{s=entity.phantom.ambient;p=0.5;v=6} @Self
+  - potion{t=DAMAGE_RESISTANCE;d=120;l=1} @Self
+  - state{s=ergeox_cast_1} @Self
+  - variableadd{var=skill.ergeoxKROrbitalyOffset;amount=0.5;repeat=40;repeatInterval=1} @Self
+  - orbital{
+      oT=ergeoxKRSunShelteronTickOrbital;
+      points=25;interval=1;duration=20;oy=<skill.var.ergeoxKROrbitalyOffset>;hr=3} @Self
+  - orbital{
+      oT=ergeoxKRSunShelteronTickOrbital;
+      points=25;interval=1;duration=20;oy=<skill.var.ergeoxKROrbitalyOffset>;hr=3;roty=135} @Self
+  - sound{s=entity.witch.throw;p=0.9;v=6} @Self
+  - effect:particles{p=smoke_large;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sword;offset=MODEL;x=1.8;y=1}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=hand1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=hand2;offset=LOCAL}
+  - delay 20
+  - sound{s=entity.witch.throw;p=0.4;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=hand1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=hand2;offset=LOCAL}
+  - delay 11
+  - variableadd{var=skill.ergeoxKRRingRadius;amount=1;repeat=6;repeatInterval=2} @Self
+  - effect:particlering{particle=flame;speed=0.15;radius=<skill.var.ergeoxKRRingRadius>;points=20;amount=3;hS=0.4;vS=0.2;y=0.1;repeat=6;repeatInterval=2} @Self
+  - effect:particlering{particle=smoke_large;speed=0.15;radius=<skill.var.ergeoxKRRingRadius>;points=15;amount=1;hS=0.4;vS=0.2;y=0.1;repeat=6;repeatInterval=2} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=hand1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=hand2;offset=LOCAL}
+  - sound{s=entity.ender_dragon.growl;p=1.5;v=6} @Self
+  - delay 5
+  - aura{
+      auraName=ergeoxKRSunShelterAura;
+      oS=[
+        - setAI{ai=false} @Self
+        - delay 10
+        - effect:particles{p=flash;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=sword;offset=MODEL;y=5}
+        - delay 20
+        - sound{s=entity.wither.spawn;p=2;v=6} @Self
+        - skill:ergeoxKRSunShelterProjectiles 
+      ];
+      oT=[       
+        - sound{s=entity.evoker.prepare_attack;p=2;v=6;cd=0.2} @Self
+        - delay 10
+        - effect:particlering{particle=explosion;radius=2.5;points=4;amount=1;hS=0.3;vS=0.2;s=0.48} @Self
+        - effect:particlering{particle=flame;radius=2.5;points=4;amount=1;hS=0.3;vS=0.2;s=0.48} @Self
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=hand1;offset=LOCAL}
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=hand2;offset=LOCAL}     
+        - sound{s=item.trident.thunder;p=2;v=6;cd=6} @Self
+        - effect:particlesphere{particle=flame;amount=5;radius=0.6} @ModelPart{m=ergeox;p=sword;offset=MODEL;y=5}
+      ];
+      oE=[     
+        - delay 13
+        - effect:particlesphere{particle=explosion;amount=5;radius=0.6;v=0.15} @ModelPart{m=ergeox;p=sword;offset=MODEL;y=5}
+        - setAI{ai=true} @Self
+        - skill:ergeoxKRMeleeAttackV @PlayersNearOrigin{r=35;ignore=creative,spectators}
+      ];i=3;d=110} @Self
+ergeoxKRSunShelteronTickOrbital:
+  Skills:
+  - effect:particles{p=flame;amount=6;speed=0.12;hS=0.1;vS=0.1} @Origin
+  - effect:particles{p=smoke_large;amount=6;speed=0.17;hS=0.1;vS=0.1} @Origin
+ergeoxKRSunShelterProjectiles:
+  Skills:
+  - randomskill{
+      s=[
+        - projectile{
+            bulletType=BLOCK;
+            material=shroomlight;
+            fromOrigin=true;
+            origin=@ModelPart{m=ergeox;p=sword;offset=MODEL;y=4.5;z=-1};
+            oT=[
+              - effect:particles{p=flame;amount=1;speed=0.05;hS=0.01;vS=0.01} @Origin
+              - effect:particles{p=smoke;amount=3;speed=0.05;hS=0.01;vS=0.01} @Origin
+            ];
+            oE=[
+              - damage{a=<caster.var.ergeoxKRSunShelterDamage>} @PlayersNearOrigin{r=3}
+              - ignite{t=150} @PlayersNearOrigin{r=3}
+              - effect:blockmask{m=magma_block;r=4;n=0.010;d=100} @Origin
+            ];v=17;i=1;hR=1;vR=1;hnp=true;mr=30}
+      ],
+      [
+        - projectile{
+            bulletType=BLOCK;
+            material=magma_block;
+            fromOrigin=true;
+            origin=@ModelPart{m=ergeox;p=sword;offset=MODEL;y=4.5;z=-1};
+            oT=[
+              - effect:particles{p=flame;amount=1;speed=0.05;hS=0.01;vS=0.01} @Origin
+              - effect:particles{p=smoke;amount=3;speed=0.05;hS=0.01;vS=0.01} @Origin
+            ];
+            oE=[
+              - damage{a=<caster.var.ergeoxKRSunShelterDamage>} @PlayersNearOrigin{r=3}
+              - ignite{t=150} @PlayersNearOrigin{r=3}
+              - effect:blockmask{m=magma_block;r=4;n=0.010;d=100} @Origin
+            ];v=17;i=1;hR=1;vR=1;hnp=true;mr=30} 
+      ];repeat=17;repeatInterval=5} @Sphere{radius=15;points=20}  
+ergeoxKRPushForward:
+  Cooldown: 10.0
+  Conditions:
+  - incombat true
+  - offgcd true
+  TargetConditions:
+  - distance{d=>7} true
+  Skills:
+  - gcd{t=48}
+  - auraremove{aura=ergeoxKRFastWalkAura} @Self ?hasaura{n=ergeoxKRFastWalkAura}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - state{s=push_forward} @Self
+  - delay 11
+  - lockmodel{lock=true} @Self
+  - aura{
+      auraName=ergeoxKRPushForwardAura;
+      oS=[
+        - sound{s=block.lava.extinguish;p=0.4;v=6} @Self
+        - sound{s=block.piston.extend;p=0.8;v=6} @Self
+        - skill:ergeoxKRPushForwardVerticalCircle @ModelPart{m=ergeox;p=ergeox;offset=LOCAL;z=-3;y=0.2}
+        - sound{s=entity.witch.throw;p=0.5;v=6} @Self
+        - effect:particlering{particle=explosion;radius=2.5;points=8;amount=10;hS=0.3;vS=0.2;s=0.18} @Self
+        - effect:particlering{particle=explosion;radius=2.5;points=8;amount=2;hS=0.3;vS=0.2;s=0.40} @Self
+        - lunge{velocity=0.9;repeat=8;repeatInterval=3} @Target
+      ];
+      oT=[              
+        - effect:particles{p=explosion;amount=1;speed=0.27;hS=0.1;vS=0.1} @ModelPart{m=ergeox;p=ergeox;offset=LOCAL;z=-0.5}
+        - effect:particles{p=smoke_large;amount=2;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine1;offset=LOCAL;z=-1;y=-0.5}
+        - effect:particles{p=lava;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine1;offset=LOCAL;z=-1;y=-0.5}
+        - effect:particles{p=smoke_large;amount=2;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine2;offset=LOCAL;z=-1;y=-0.5}
+        - effect:particles{p=lava;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine2;offset=LOCAL;z=-1;y=-0.5}
+        - skill:ergeoxKRPushForwardCheckPlayers
+      ];oE=ergeoxKRPushForwardonEndAura;i=1;d=28} @Self
+  - delay 40
+  - randomskill{s=ergeoxKRMeleeAttackIV,ergeoxKRMeleeAttackVI} @PIR{r=35;ignore=creative,spectators}
+ergeoxKRPushForwardonEndAura:
+  Conditions:
+  - stance{s=ergeoxKRPushForwardCheckPlayersOFF;str=true} true
+  Skills: 
+  - potion{t=SLOW;d=3;l=25;p=false} @Self  
+  - sound{s=entity.iron_golem.damage;p=0.5;v=6} @Self
+  - damage{a=<caster.var.ergeoxKRGroundImpactDamage>} @PlayersNearOrigin{r=4.5}
+  - effect:particlering{particle=explosion;radius=2.5;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - sound{s=block.lava.extinguish;p=1.5;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - effect:particlering{particle=smoke_large;radius=2.5;points=8;amount=5;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:blockmask{m=cobblestone;r=4;n=0.40;d=80} @Self
+  - effect:blockmask{m=andesite;r=4;n=0.40;d=80} @Self
+  - lockmodel{lock=false} @Self
+  - delay 10
+  - randomskill{s=ergeoxKRMeleeAttackVI,ergeoxKRMeleeAttackIII} @PlayersNearOrigin{r=35;ignore=creative,spectators}
+ergeoxKRPushForwardCheckPlayers:
+  Conditions:
+  - playerwithin{d=4} true
+  Skills:
+  - setstance{stance=ergeoxKRPushForwardCheckPlayersON} @Self
+  - auraremove{aura=ergeoxKRPushForwardAura} @Self
+  - state{s=push_forward;r=true} @Self
+  - state{s=push_end} @Self
+  - lockmodel{lock=false} @Self
+  - delay 10
+  - potion{t=SLOW;d=3;l=25;p=false} @Self  
+  - sound{s=entity.iron_golem.damage;p=0.5;v=6} @Self
+  - damage{a=<caster.var.ergeoxKRGroundImpactDamage>} @PlayersNearOrigin{r=4.5}
+  - effect:particlering{particle=explosion;radius=2.5;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - sound{s=block.lava.extinguish;p=1.5;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - effect:particlering{particle=smoke_large;radius=2.5;points=8;amount=5;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:blockmask{m=cobblestone;r=4;n=0.40;d=80} @Self
+  - effect:blockmask{m=andesite;r=4;n=0.40;d=80} @Self
+  - delay 10
+  - randomskill{s=ergeoxKRMeleeAttackVI,ergeoxKRMeleeAttackIII} @PIR{r=35;ignore=creative,spectators}
+  - setstance{stance=ergeoxKRPushForwardCheckPlayersOFF} @Self
+ergeoxKRPushForwardVerticalCircle:
+  Skills:
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=0.5356707;sideOffset=2.9517887}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=1.0541245;sideOffset=2.8087046}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=1.5386977;sideOffset=2.5753465}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=1.9738162;sideOffset=2.2592144}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=2.3454945;sideOffset=1.8704695}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=2.6417866;sideOffset=1.4216061}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=2.8531694;sideOffset=0.927051}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=2.9728494;sideOffset=0.4027}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=2.9969792;sideOffset=-0.13459456}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=2.9247837;sideOffset=-0.66756314}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=2.7585833;sideOffset=-1.1790752}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=2.5037198;sideOffset=-1.6526909}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=2.1683848;sideOffset=-2.0731878}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=1.7633557;sideOffset=-2.427051}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=1.301651;sideOffset=-2.7029068}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=0.7981105;sideOffset=-2.8918886}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=0.26891756;sideOffset=-2.987923}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-0.2689186;sideOffset=-2.987923}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-0.7981115;sideOffset=-2.8918884}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-1.3016523;sideOffset=-2.7029061}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-1.763357;sideOffset=-2.42705}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-2.168386;sideOffset=-2.0731866}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-2.5037208;sideOffset=-1.6526896}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-2.758584;sideOffset=-1.1790733}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-2.924784;sideOffset=-0.66756165}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-2.9969792;sideOffset=-0.134593}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-2.9728491;sideOffset=0.4027016}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-2.853169;sideOffset=0.9270525}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-2.6417859;sideOffset=1.4216071}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-2.345494;sideOffset=1.8704699}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-1.9738159;sideOffset=2.2592146}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-1.5386982;sideOffset=2.5753462}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-1.0541251;sideOffset=2.8087044}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-0.535672;sideOffset=2.9517884}
+  - particles{particle=explosion;amount=3;hS=0.2;vS=0.2;speed=0.1;yOffset=-1.5707964E-6;sideOffset=3.0}
+ergeoxKRPushBehind:
+  Cooldown: 20.0
+  Conditions:
+  - incombat true
+  - offgcd true
+  - playerwithin{d=8} true
+  Skills:
+  - gcd{t=48}
+  - auraremove{aura=ergeoxKRFastWalkAura} @Self ?hasaura{n=ergeoxKRFastWalkAura}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - state{s=push_behind} @Self
+  - delay 11
+  - lockmodel{lock=true} @Self
+  - aura{
+      auraName=ergeoxKRPushBehindAura;
+      oS=[
+        - sound{s=block.lava.extinguish;p=0.4;v=6} @Self
+        - sound{s=block.piston.extend;p=0.8;v=6} @Self
+        - sound{s=entity.witch.throw;p=0.5;v=6} @Self
+        - effect:particlering{particle=explosion;radius=2.5;points=8;amount=10;hS=0.3;vS=0.2;s=0.18} @Self
+        - effect:particlering{particle=explosion;radius=2.5;points=8;amount=2;hS=0.3;vS=0.2;s=0.40} @Self
+        - lunge{velocity=0.9;repeat=8;repeatInterval=3} @Forward{f=-1}
+      ];
+      oT=[              
+        - effect:particles{p=explosion;amount=1;speed=0.27;hS=0.1;vS=0.1} @ModelPart{m=ergeox;p=ergeox;offset=LOCAL;z=0.5}
+        - effect:particles{p=smoke_large;amount=2;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine1;offset=LOCAL;z=-1;y=-0.5}
+        - effect:particles{p=lava;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine1;offset=LOCAL;z=-1;y=-0.5}
+        - effect:particles{p=smoke_large;amount=2;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine2;offset=LOCAL;z=-1;y=-0.5}
+        - effect:particles{p=lava;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine2;offset=LOCAL;z=-1;y=-0.5}
+      ];
+      oE=[       
+        - potion{t=SLOW;d=3;l=25;p=false} @Self
+        - sound{s=entity.iron_golem.damage;p=0.5;v=6} @Self
+        - damage{a=<caster.var.ergeoxKRGroundImpactDamage>} @PlayersNearOrigin{r=4.5}
+        - effect:particlering{particle=explosion;radius=2.5;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+        - sound{s=block.lava.extinguish;p=1.5;v=6} @Self
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+        - effect:particlering{particle=smoke_large;radius=2.5;points=8;amount=5;hS=0.3;vS=0.2;s=0.15} @Self
+        - effect:blockmask{m=cobblestone;r=4;n=0.40;d=80} @Self
+        - effect:blockmask{m=andesite;r=4;n=0.40;d=80} @Self
+        - lockmodel{lock=false} @Self
+      ];i=1;d=28} @Self
+  - delay 38
+  - skill:ergeoxKRTripleShoot @PIR{r=35;ignore=creative,spectators}
+ergeoxKRPushRight:
+  Cooldown: 15.0
+  Conditions:
+  - incombat true
+  - offgcd true
+  - playerwithin{d=8} true
+  Skills:
+  - gcd{t=48}
+  - auraremove{aura=ergeoxKRFastWalkAura} @Self ?hasaura{n=ergeoxKRFastWalkAura}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - state{s=push_right} @Self
+  - delay 11
+  - lockmodel{lock=true} @Self
+  - aura{
+      auraName=ergeoxKRPushRightAura;
+      oS=[
+        - sound{s=block.lava.extinguish;p=0.4;v=6} @Self
+        - sound{s=block.piston.extend;p=0.8;v=6} @Self
+        - sound{s=entity.witch.throw;p=0.5;v=6} @Self
+        - effect:particlering{particle=explosion;radius=2.5;points=8;amount=10;hS=0.3;vS=0.2;s=0.18} @Self
+        - effect:particlering{particle=explosion;radius=2.5;points=8;amount=2;hS=0.3;vS=0.2;s=0.40} @Self
+        - lunge{velocity=0.9;repeat=8;repeatInterval=3} @Forward{f=0;sideOffset=-1}
+      ];
+      oT=[              
+        - effect:particles{p=explosion;amount=1;speed=0.27;hS=0.1;vS=0.1} @ModelPart{m=ergeox;p=ergeox;offset=LOCAL;z=0.5}
+        - effect:particles{p=smoke_large;amount=2;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine1;offset=LOCAL;z=-1;y=-0.5}
+        - effect:particles{p=lava;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine1;offset=LOCAL;z=-1;y=-0.5}
+        - effect:particles{p=smoke_large;amount=2;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine2;offset=LOCAL;z=-1;y=-0.5}
+        - effect:particles{p=lava;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine2;offset=LOCAL;z=-1;y=-0.5}
+      ];
+      oE=[         
+        - potion{t=SLOW;d=3;l=25;p=false} @Self
+        - sound{s=entity.iron_golem.damage;p=0.5;v=6} @Self
+        - damage{a=<caster.var.ergeoxKRGroundImpactDamage>} @PlayersNearOrigin{r=4.5}
+        - effect:particlering{particle=explosion;radius=2.5;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+        - sound{s=block.lava.extinguish;p=1.5;v=6} @Self
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+        - effect:particlering{particle=smoke_large;radius=2.5;points=8;amount=5;hS=0.3;vS=0.2;s=0.15} @Self
+        - effect:blockmask{m=cobblestone;r=4;n=0.40;d=80} @Self
+        - effect:blockmask{m=andesite;r=4;n=0.40;d=80} @Self
+        - lockmodel{lock=false} @Self
+      ];i=1;d=28} @Self
+  - delay 35
+  - skill:ergeoxKRTripleShoot @PIR{r=35;ignore=creative,spectators} 0.75
+ergeoxKRPushLeft:
+  Cooldown: 15.0
+  Conditions:
+  - incombat true
+  - offgcd true
+  - playerwithin{d=8} true
+  Skills:
+  - gcd{t=48}
+  - auraremove{aura=ergeoxKRFastWalkAura} @Self ?hasaura{n=ergeoxKRFastWalkAura}
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particlering{particle=smoke_large;radius=2;points=8;amount=3;hS=0.3;vS=0.2;s=0.15} @Self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+  - state{s=push_left} @Self
+  - delay 11
+  - lockmodel{lock=true} @Self
+  - aura{
+      auraName=ergeoxKRPushLeftAura;
+      oS=[
+        - sound{s=block.lava.extinguish;p=0.4;v=6} @Self
+        - sound{s=block.piston.extend;p=0.8;v=6} @Self
+        - sound{s=entity.witch.throw;p=0.5;v=6} @Self
+        - effect:particlering{particle=explosion;radius=2.5;points=8;amount=10;hS=0.3;vS=0.2;s=0.18} @Self
+        - effect:particlering{particle=explosion;radius=2.5;points=8;amount=2;hS=0.3;vS=0.2;s=0.40} @Self
+        - lunge{velocity=0.9;repeat=8;repeatInterval=3} @Forward{f=0;sideOffset=1}
+      ];
+      oT=[              
+        - effect:particles{p=explosion;amount=1;speed=0.27;hS=0.1;vS=0.1} @ModelPart{m=ergeox;p=ergeox;offset=LOCAL;z=0.5}
+        - effect:particles{p=smoke_large;amount=2;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine1;offset=LOCAL;z=-1;y=-0.5}
+        - effect:particles{p=lava;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine1;offset=LOCAL;z=-1;y=-0.5}
+        - effect:particles{p=smoke_large;amount=2;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine2;offset=LOCAL;z=-1;y=-0.5}
+        - effect:particles{p=lava;amount=1;speed=0.15;hS=.02;vS=.02} @ModelPart{m=ergeox;p=turbine2;offset=LOCAL;z=-1;y=-0.5}
+      ];
+      oE=[         
+        - potion{t=SLOW;d=3;l=25;p=false} @Self
+        - sound{s=entity.iron_golem.damage;p=0.5;v=6} @Self
+        - damage{a=<caster.var.ergeoxKRGroundImpactDamage>} @PlayersNearOrigin{r=4.5}
+        - effect:particlering{particle=explosion;radius=2.5;points=8;amount=10;hS=0.3;vS=0.2;s=0.15} @Self
+        - sound{s=block.lava.extinguish;p=1.5;v=6} @Self
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+        - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=6;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+        - effect:particlering{particle=smoke_large;radius=2.5;points=8;amount=5;hS=0.3;vS=0.2;s=0.15} @Self
+        - effect:blockmask{m=cobblestone;r=4;n=0.40;d=80} @Self
+        - effect:blockmask{m=andesite;r=4;n=0.40;d=80} @Self
+        - lockmodel{lock=false} @Self
+      ];i=1;d=28} @Self
+  - delay 35
+  - skill:ergeoxKRTripleShoot @PIR{r=35;ignore=creative,spectators} 0.75
+ergeoxKRFastWalk:
+  Cooldown: 25.0
+  Conditions:
+  - offgcd true
+  - incombat true
+  - moving true
+  TargetConditions:
+  - distance{d=>10} true
+  Skills:
+  - aura{
+      auraName=ergeoxKRFastWalkAura;
+      oS=[
+        - sound{s=entity.phantom.ambient;p=0.1;v=6} @Self
+        - setspeed{speed=2.1;type=walking} @Self
+        - state{s=fast_walk} @Self
+      ];
+      oT=[       
+        - effect:particles{p=explosion;amount=3;speed=0.15;hS=.470;vS=.470} @ModelPart{m=ergeox;p=ergeox;offset=LOCAL;z=-0.5}
+        - auraremove{aura=ergeoxKRFastWalkAura} @Self ?playerwithin{d=6} 
+        - auraremove{aura=ergeoxKRFastWalkAura} @Self ?!incombat
+      ];
+      oE=[
+        - effect:particlering{particle=explosion;radius=2;points=8;amount=4;hS=0.3;vS=0.2;s=0.15} @Self
+        - state{s=fast_walk;r=true} @Self
+        - setspeed{speed=1.25;type=walking} @Self
+        - randomskill{s=ergeoxKRMeleeAttackVI,ergeoxKRMeleeAttackIII} @PlayersNearOrigin{r=35;ignore=creative,spectators}
+      ];i=1;d=400} @Self
+ergeoxGunBulletSpawn:
+  Skills:
+  - model{m=ergeox_bullet;n=false} @Self
+  - state{s=idle} @Self
+ergeoxKRDeath:
+  Skills:
+  - setAI{ai=true} @Self
+  - sound{s=entity.iron_golem.death;p=0.5;v=6} @Self
+  - sound{s=entity.phantom.death;p=0.9;v=6} @Self
+  - sound{s=entity.iron_golem.damage;p=0.5;v=6;repeat=1;repeatInterval=10;delay=10} @Self
+  - lunge{velocity=0.1;repeat=1;repeatInterval=10;delay=10} @Forward{f=-0.5}
+  - effect:particlering{particle=explosion;radius=2.5;points=8;amount=5;hS=0.3;vS=0.2;s=0.18} @Self
+  - effect:particlering{particle=smoke_large;radius=2.5;points=8;amount=5;hS=0.3;vS=0.2;s=0.18} @Self
+  - effect:particlering{particle=lava;radius=2.5;points=8;amount=2;hS=0.3;vS=0.2;s=0.18} @Self
+  - delay 5
+  - sound{s=block.lava.extinguish;p=0.9;v=6} @Self
+  - sound{s=block.iron_door.close;p=0.7;v=6} @Self
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=45;repeatInterval=1} @ModelPart{m=ergeox;p=arm1;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=45;repeatInterval=1} @ModelPart{m=ergeox;p=arm2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=45;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg2;offset=LOCAL}
+  - effect:particles{p=explosion;amount=1;speed=0.15;hS=.02;vS=.02;repeat=45;repeatInterval=1} @ModelPart{m=ergeox;p=sug_leg3;offset=LOCAL}
+  - delay 15
+  - lunge{velocity=0.1} @Forward{f=-0.5}
+  - sound{s=entity.illusioner.cast_spell;p=0.9;v=6} @Self
+  - delay 10
+  - lunge{velocity=0.1} @Forward{f=-1}
+  - sound{s=entity.iron_golem.damage;p=0.1;v=6} @Self
+  - sound{s=entity.generic.explode;p=0.5;v=6} @Self
+  - effect:particlering{particle=explosion;radius=2.5;points=8;amount=10;hS=0.3;vS=0.2;s=0.25} @Self
+  - delay 170
+  - effect:particlering{particle=explosion;radius=2;points=8;amount=15;hS=0.3;vS=0.2;s=0.40} @Self
+#oWSWd1ZvBVNa1US5gDT3ljdJRVWwkEVPRzYU50MFRUT4VkeZplT4hWVyREOthXe3UEcwcmM

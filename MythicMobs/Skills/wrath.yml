@@ -1,0 +1,10 @@
+Wrath:
+  Cooldown: 0
+  Conditions:
+  - crouching false
+  Skills:
+  - summon{type=doombringer_axe_Wrath;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=0;y=0;sideOffset=0;lockpitch=true}
+  - effect:sound{s=doombringer_axe_sounds:samus.dash_ubi;volume=1;pitch=1} @self
+  - effect:particles{particle=lava;amount=7;hS=0.3;vS=0.5;speed=0;repeat=4;repeatinterval=3} @self
+  - delay 4
+  - lunge{velocity=4;velocityY=0.2} @forward{f=12;y=0.1;lockpitch=true}

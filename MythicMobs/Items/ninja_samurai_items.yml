@@ -1,0 +1,475 @@
+blood_cut_1:
+  Id: paper
+  Display: "&6"
+  Model: 2873
+  Hide:
+  - ATTRIBUTES
+ 
+blood_cut_2:
+  Id: paper
+  Display: "&6"
+  Model: 2874
+  Hide:
+  - ATTRIBUTES
+
+blood_cut_3:
+  Id: paper
+  Display: "&6"
+  Model: 2875
+  Hide:
+  - ATTRIBUTES
+  
+blood_cut_4:
+  Id: paper
+  Display: "&6"
+  Model: 2876
+  Hide:
+  - ATTRIBUTES
+  
+blood_cut_5:
+  Id: paper
+  Display: "&6"
+  Model: 2877
+  Hide:
+  - ATTRIBUTES
+  
+blood_cut_6:
+  Id: paper
+  Display: "&6"
+  Model: 2878
+  Hide:
+  - ATTRIBUTES
+  
+blood_cut_7:
+  Id: paper
+  Display: "&6"
+  Model: 2879
+  Hide:
+  - ATTRIBUTES
+  
+blood_cut_8:
+  Id: paper
+  Display: "&6"
+  Model: 2880
+  Hide:
+  - ATTRIBUTES
+
+death_mark_1:
+  Id: paper
+  Display: "&6"
+  Model: 2881
+  Hide:
+  - ATTRIBUTES
+ 
+death_mark_2:
+  Id: paper
+  Display: "&6"
+  Model: 2882
+  Hide:
+  - ATTRIBUTES
+
+death_mark_3:
+  Id: paper
+  Display: "&6"
+  Model: 2883
+  Hide:
+  - ATTRIBUTES
+  
+death_mark_4:
+  Id: paper
+  Display: "&6"
+  Model: 2884
+  Hide:
+  - ATTRIBUTES
+  
+death_mark_5:
+  Id: paper
+  Display: "&6"
+  Model: 2885
+  Hide:
+  - ATTRIBUTES
+
+ground_pound_1:
+  Id: paper
+  Display: "&6"
+  Model: 2886
+  Hide:
+  - ATTRIBUTES
+  
+ground_pound_2:
+  Id: paper
+  Display: "&6"
+  Model: 2887
+  Hide:
+  - ATTRIBUTES
+  
+ground_pound_3:
+  Id: paper
+  Display: "&6"
+  Model: 2888
+  Hide:
+  - ATTRIBUTES
+  
+ground_pound_4:
+  Id: paper
+  Display: "&6"
+  Model: 2889
+  Hide:
+  - ATTRIBUTES
+  
+ground_pound_5:
+  Id: paper
+  Display: "&6"
+  Model: 2890
+  Hide:
+  - ATTRIBUTES
+  
+ground_pound_6:
+  Id: paper
+  Display: "&6"
+  Model: 2891
+  Hide:
+  - ATTRIBUTES
+ 
+ground_pound_7:
+  Id: paper
+  Display: "&6"
+  Model: 2892
+  Hide:
+  - ATTRIBUTES
+
+laceration_dash_1:
+  Id: paper
+  Display: "&6"
+  Model: 2893
+  Hide:
+  - ATTRIBUTES
+  
+laceration_dash_2:
+  Id: paper
+  Display: "&6"
+  Model: 2894
+  Hide:
+  - ATTRIBUTES
+  
+laceration_dash_3:
+  Id: paper
+  Display: "&6"
+  Model: 2895
+  Hide:
+  - ATTRIBUTES
+  
+laceration_dash_4:
+  Id: paper
+  Display: "&6"
+  Model: 2896
+  Hide:
+  - ATTRIBUTES
+  
+laceration_dash_5:
+  Id: paper
+  Display: "&6"
+  Model: 2897
+  Hide:
+  - ATTRIBUTES
+  
+laceration_dash_6:
+  Id: paper
+  Display: "&6"
+  Model: 2898
+  Hide:
+  - ATTRIBUTES
+ 
+laceration_slash_1:
+  Id: paper
+  Display: "&6"
+  Model: 2899
+  Hide:
+  - ATTRIBUTES
+
+laceration_slash_2:
+  Id: paper
+  Display: "&6"
+  Model: 2900
+  Hide:
+  - ATTRIBUTES
+  
+laceration_slash_3:
+  Id: paper
+  Display: "&6"
+  Model: 2901
+  Hide:
+  - ATTRIBUTES
+  
+laceration_slash_4:
+  Id: paper
+  Display: "&6"
+  Model: 2902
+  Hide:
+  - ATTRIBUTES
+  
+laceration_slash_5:
+  Id: paper
+  Display: "&6"
+  Model: 2903
+  Hide:
+  - ATTRIBUTES
+
+ninja_shadow_1_1:
+  Id: paper
+  Display: "&6"
+  Model: 2939
+  Hide:
+  - ATTRIBUTES
+  
+ninja_shadow_1_2:
+  Id: paper
+  Display: "&6"
+  Model: 2940
+  Hide:
+  - ATTRIBUTES
+  
+ninja_shadow_1_3:
+  Id: paper
+  Display: "&6"
+  Model: 2904
+  Hide:
+  - ATTRIBUTES
+  
+ninja_shadow_1_4:
+  Id: paper
+  Display: "&6"
+  Model: 2905
+  Hide:
+  - ATTRIBUTES
+  
+ninja_shadow_2_1:
+  Id: paper
+  Display: "&6"
+  Model: 2906
+  Hide:
+  - ATTRIBUTES
+  
+ninja_shadow_2_2:
+  Id: paper
+  Display: "&6"
+  Model: 2907
+  Hide:
+  - ATTRIBUTES
+  
+ninja_shadow_2_3:
+  Id: paper
+  Display: "&6"
+  Model: 2908
+  Hide:
+  - ATTRIBUTES
+  
+ninja_shadow_2_4:
+  Id: paper
+  Display: "&6"
+  Model: 2909
+  Hide:
+  - ATTRIBUTES
+ 
+ninja_shadow_3_1:
+  Id: paper
+  Display: "&6"
+  Model: 2910
+  Hide:
+  - ATTRIBUTES
+
+ninja_shadow_3_2:
+  Id: paper
+  Display: "&6"
+  Model: 2911
+  Hide:
+  - ATTRIBUTES
+  
+ninja_shadow_3_3:
+  Id: paper
+  Display: "&6"
+  Model: 2912
+  Hide:
+  - ATTRIBUTES
+  
+ninja_shadow_3_4:
+  Id: paper
+  Display: "&6"
+  Model: 2913
+  Hide:
+  - ATTRIBUTES
+  
+ninja_shadow_4_1:
+  Id: paper
+  Display: "&6"
+  Model: 2914
+  Hide:
+  - ATTRIBUTES
+  
+ninja_shadow_4_2:
+  Id: paper
+  Display: "&6"
+  Model: 2915
+  Hide:
+  - ATTRIBUTES
+  
+ninja_shadow_4_3:
+  Id: paper
+  Display: "&6"
+  Model: 2916
+  Hide:
+  - ATTRIBUTES
+ 
+ninja_shadow_4_4:
+  Id: paper
+  Display: "&6"
+  Model: 2917
+  Hide:
+  - ATTRIBUTES
+
+shadow_cut_1:
+  Id: paper
+  Display: "&6"
+  Model: 2918
+  Hide:
+  - ATTRIBUTES
+  
+shadow_cut_2:
+  Id: paper
+  Display: "&6"
+  Model: 2919
+  Hide:
+  - ATTRIBUTES
+  
+shadow_cut_3:
+  Id: paper
+  Display: "&6"
+  Model: 2920
+  Hide:
+  - ATTRIBUTES
+  
+shadow_cut_4:
+  Id: paper
+  Display: "&6"
+  Model: 2921
+  Hide:
+  - ATTRIBUTES
+  
+shadow_cut_5:
+  Id: paper
+  Display: "&6"
+  Model: 2922
+  Hide:
+  - ATTRIBUTES
+  
+shadow_cut_6:
+  Id: paper
+  Display: "&6"
+  Model: 2923
+  Hide:
+  - ATTRIBUTES
+  
+shadow_cut_7:
+  Id: paper
+  Display: "&6"
+  Model: 2924
+  Hide:
+  - ATTRIBUTES
+  
+shadow_cut_8:
+  Id: paper
+  Display: "&6"
+  Model: 2925
+  Hide:
+  - ATTRIBUTES
+
+shadow_slash_1:
+  Id: paper
+  Display: "&6"
+  Model: 2926
+  Hide:
+  - ATTRIBUTES
+  
+shadow_slash_2:
+  Id: paper
+  Display: "&6"
+  Model: 2927
+  Hide:
+  - ATTRIBUTES
+  
+shadow_slash_3:
+  Id: paper
+  Display: "&6"
+  Model: 2928
+  Hide:
+  - ATTRIBUTES
+  
+shadow_slash_4:
+  Id: paper
+  Display: "&6"
+  Model: 2929
+  Hide:
+  - ATTRIBUTES
+  
+shadow_slash_5:
+  Id: paper
+  Display: "&6"
+  Model: 2930
+  Hide:
+  - ATTRIBUTES
+  
+shadow_slash_6:
+  Id: paper
+  Display: "&6"
+  Model: 2931
+  Hide:
+  - ATTRIBUTES
+ 
+shadow_slash_7:
+  Id: paper
+  Display: "&6"
+  Model: 2932
+  Hide:
+  - ATTRIBUTES
+
+shadow_spin:
+  Id: paper
+  Display: "&6"
+  Model: 2933
+  Hide:
+  - ATTRIBUTES
+
+shadow_pierce_1:
+  Id: paper
+  Display: "&6"
+  Model: 2934
+  Hide:
+  - ATTRIBUTES
+  
+shadow_pierce_2:
+  Id: paper
+  Display: "&6"
+  Model: 2935
+  Hide:
+  - ATTRIBUTES
+  
+shadow_pierce_3:
+  Id: paper
+  Display: "&6"
+  Model: 2936
+  Hide:
+  - ATTRIBUTES
+  
+shadow_pierce_4:
+  Id: paper
+  Display: "&6"
+  Model: 2937
+  Hide:
+  - ATTRIBUTES
+ 
+shadow_pierce_5:
+  Id: paper
+  Display: "&6"
+  Model: 2938
+  Hide:
+  - ATTRIBUTES

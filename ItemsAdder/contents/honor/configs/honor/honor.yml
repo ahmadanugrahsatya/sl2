@@ -1,0 +1,76 @@
+info:
+  namespace: honor
+items:
+  scythe_of_antares:
+    display_name: "scythe_of_antares"
+    permission: scythe_of_antares
+    resource:
+      material: STICK
+      model_id: 1518
+      generate: false
+      model_path: honor_model/scythe_of_antares
+  graph_slash_1:
+    display_name: "graph_slash_1"
+    permission: graph_slash_1
+    resource:
+      material: PAPER
+      model_id: 100019
+      generate: false
+      model_path: honor_model/graph_slash_1
+  graph_slash_2:
+    display_name: "graph_slash_2"
+    permission: graph_slash_2
+    resource:
+      material: PAPER
+      model_id: 100026
+      generate: false
+      model_path: honor_model/graph_slash_2
+  graph_slash_3:
+    display_name: "graph_slash_3"
+    permission: graph_slash_3
+    resource:
+      material: PAPER
+      model_id: 100027
+      generate: false
+      model_path: honor_model/graph_slash_3
+  graph_slash_4:
+    display_name: "graph_slash_4"
+    permission: graph_slash_4
+    resource:
+      material: PAPER
+      model_id: 100028
+      generate: false
+      model_path: honor_model/graph_slash_4
+  graph_slash_5:
+    display_name: "graph_slash_5"
+    permission: graph_slash_5
+    resource:
+      material: PAPER
+      model_id: 100029
+      generate: false
+      model_path: honor_model/graph_slash_5
+  graph_slash_6:
+    display_name: "graph_slash_6"
+    permission: graph_slash_6
+    resource:
+      material: PAPER
+      model_id: 100030
+      generate: false
+      model_path: reaper_model/graph_slash_6
+  graph_slash_6:
+    display_name: "graph_slash_6"
+    permission: graph_slash_6
+    resource:
+      material: PAPER
+      model_id: 100031
+      generate: false
+      model_path: honor_model/graph_slash_6
+  graph_slash_8:
+    display_name: "graph_slash_8"
+    permission: graph_slash_8
+    resource:
+      material: PAPER
+      model_id: 100032
+      generate: false
+      model_path: honor_model/graph_slash_8
+ 

@@ -1,0 +1,54 @@
+DARKNESSHELMET:
+  base:
+    material: NETHERITE_HELMET
+    name: '&cDarkness Helmet'
+    lore:
+    - '&7Sebuah armor yang dilapisi oleh aura sang kegelapan...'
+    - '&7Armor ini sudah ditempa dengan &cprotection &k10'
+    custom-nbt: []
+    enchants:
+      protection: 10.0
+    hide-enchants: true
+    disable-droping: true
+    unbreakable: true
+DARKNESSCHESTPLATE:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: '&cDarkness Chestplate'
+    lore:
+    - '&7Sebuah armor yang dilapisi oleh aura sang kegelapan...'
+    - '&7Armor ini sudah ditempa dengan &cprotection &k10'
+    custom-nbt: []
+    enchants:
+      protection: 10.0
+    hide-enchants: true
+    disable-droping: true
+    unbreakable: true
+DARKNESSLEGGINGS:
+  base:
+    material: NETHERITE_LEGGINGS
+    name: '&cDarkness Leggings'
+    lore:
+    - '&7Sebuah armor yang dilapisi oleh aura sang kegelapan...'
+    - '&7Armor ini sudah ditempa dengan &cprotection &k10'
+    custom-nbt: []
+    enchants:
+      protection: 10.0
+    hide-enchants: true
+    disable-droping: true
+    unbreakable: true
+DARKNESSBOOTS:
+  base:
+    material: NETHERITE_BOOTS
+    name: '&cDarkness Boots'
+    lore:
+    - '&7Sebuah armor yang dilapisi oleh aura sang kegelapan...'
+    - '&7Armor ini sudah ditempa dengan &cprotection &k10'
+    custom-nbt: []
+    enchants:
+      protection: 10.0
+    hide-enchants: true
+    disable-droping: true
+    unbreakable: true
+
+

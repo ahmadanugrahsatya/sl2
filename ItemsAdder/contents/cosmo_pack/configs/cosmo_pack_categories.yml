@@ -1,0 +1,34 @@
+info:
+  namespace: cosmo_pack
+categories:
+  cosmo_pack:
+    enabled: true
+    skip_if_already: false
+    icon: "cosmo_pack:cosmo_pack_sword"
+    name: Cosmo Weapons & Tools Set
+    permission: cosmo_pack.menu
+    items:
+      - "cosmo_pack:cosmo_chestplate"
+      - "cosmo_pack:cosmo_leggings"
+      - "cosmo_pack:cosmo_boots"
+      - "cosmo_pack:cosmo_helmet"
+      - "cosmo_pack:cosmo_pack_axe"
+      - "cosmo_pack:cosmo_pack_battle_axe"
+      - "cosmo_pack:cosmo_pack_blade"
+      - "cosmo_pack:cosmo_pack_bow"
+      - "cosmo_pack:cosmo_pack_chest"
+      - "cosmo_pack:cosmo_pack_dagger"
+      - "cosmo_pack:cosmo_pack_fishing_rod"
+      - "cosmo_pack:cosmo_pack_halberd"
+      - "cosmo_pack:cosmo_pack_hoe"
+      - "cosmo_pack:cosmo_pack_key"
+      - "cosmo_pack:cosmo_pack_pickaxe"
+      - "cosmo_pack:cosmo_pack_shield"
+      - "cosmo_pack:cosmo_pack_shovel"
+      - "cosmo_pack:cosmo_pack_sickle"
+      - "cosmo_pack:cosmo_pack_spear"
+      - "cosmo_pack:cosmo_pack_staff"
+      - "cosmo_pack:cosmo_pack_sword"
+      - "cosmo_pack:cosmo_pack_wings"
+
+    

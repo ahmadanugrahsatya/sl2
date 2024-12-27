@@ -1,0 +1,4 @@
+SATAN_STRIKE:
+    mythicmobs-skill-id: Satan_Strike
+    modifiers:
+    - damage

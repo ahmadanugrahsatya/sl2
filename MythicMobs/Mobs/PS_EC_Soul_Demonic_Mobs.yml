@@ -1,0 +1,470 @@
+# |
+# |     Made By  : ★ Purple Star
+# |
+# |     Pack Name: Soul Demonic
+# |     Pack Type: Exclusive Character
+# |
+
+
+##################################################
+##                                              ##
+##                  Soul Slash                  ##
+##                                              ##
+##################################################
+
+
+PS_EC_Soul_Demonic_Soul_Slash_1:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=false} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=soul_slash_1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_2;delay=1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_3;delay=2} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_4;delay=3} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_5;delay=4} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_6;delay=5} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_7;delay=6} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_8;delay=7} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_9;delay=8} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_10;delay=9} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_11;delay=10} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_12;delay=11} @self ~onSpawn
+  - remove{delay=11} @self ~onSpawn
+
+PS_EC_Soul_Demonic_Soul_Slash_2:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=false} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=soul_slash_2} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_2;delay=1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_3;delay=2} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_4;delay=3} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_5;delay=4} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_6;delay=5} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_7;delay=6} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_8;delay=7} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_9;delay=8} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_10;delay=9} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_11;delay=10} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_12;delay=11} @self ~onSpawn
+  - remove{delay=11} @self ~onSpawn
+
+PS_EC_Soul_Demonic_Soul_Slash_Impact_1:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=false} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=soul_slash_impact_1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_impact_vfx_1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_impact_vfx_2;delay=2} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_impact_vfx_3;delay=4} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_impact_vfx_4;delay=6} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_impact_vfx_5;delay=8} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_impact_vfx_6;delay=10} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_impact_vfx_7;delay=12} @self ~onSpawn
+  - remove{delay=14} @self ~onSpawn
+
+PS_EC_Soul_Demonic_Soul_Slash_Impact_2:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=false} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=soul_slash_impact_2} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_impact_vfx_1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_impact_vfx_2;delay=2} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_impact_vfx_3;delay=4} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_impact_vfx_4;delay=6} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_impact_vfx_5;delay=8} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_impact_vfx_6;delay=10} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_impact_vfx_7;delay=12} @self ~onSpawn
+  - remove{delay=14} @self ~onSpawn
+
+
+####################################################
+##                                                ##
+##                  Soul Capture                  ##
+##                                                ##
+####################################################
+
+
+PS_EC_Soul_Demonic_Soul_Capture_VFX:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+#
+  - sound{s=minecraft:entity.iron_golem.damage;v=1;p=0;delay=5} @modelpart{mid=ps_ec_soul_demonic_vfx_1;pid=hand} ~onSpawn
+  - sound{s=minecraft:entity.iron_golem.damage;v=1;p=0.25;delay=5} @modelpart{mid=ps_ec_soul_demonic_vfx_1;pid=hand} ~onSpawn
+  - sound{s=minecraft:entity.iron_golem.damage;v=1;p=0.5;delay=5} @modelpart{mid=ps_ec_soul_demonic_vfx_1;pid=hand} ~onSpawn
+  - sound{s=minecraft:entity.ravager.attack;v=1;p=1;delay=15} @modelpart{mid=ps_ec_soul_demonic_vfx_1;pid=hand} ~onSpawn
+  - sound{s=minecraft:entity.warden.attack_impact;v=1;p=1;delay=15} @modelpart{mid=ps_ec_soul_demonic_vfx_1;pid=hand} ~onSpawn
+#
+  - effect:particles{particle=reddust;color=#00cdf9;hS=0.5;vS=0.5;amount=1;size=2;y=1} @modelpart{mid=ps_ec_soul_demonic_vfx_1;pid=arm} ~onTimer:1
+  - effect:particles{particle=reddust;color=#00cdf9;hS=0;vS=0;amount=1;size=1} @modelpart{mid=ps_ec_soul_demonic_vfx_1;pid=fg_1_2} ~onTimer:1
+  - effect:particles{particle=reddust;color=#00cdf9;hS=0;vS=0;amount=1;size=1} @modelpart{mid=ps_ec_soul_demonic_vfx_1;pid=fg_2_2} ~onTimer:1
+  - effect:particles{particle=reddust;color=#00cdf9;hS=0;vS=0;amount=1;size=1} @modelpart{mid=ps_ec_soul_demonic_vfx_1;pid=fg_3_2} ~onTimer:1
+  - effect:particles{particle=reddust;color=#00cdf9;hS=0;vS=0;amount=1;size=1} @modelpart{mid=ps_ec_soul_demonic_vfx_1;pid=fg_4_2} ~onTimer:1
+  - effect:particles{particle=reddust;color=#00cdf9;hS=0;vS=0;amount=1;size=1} @modelpart{mid=ps_ec_soul_demonic_vfx_1;pid=fg_5_2} ~onTimer:1
+  - effect:particles{particle=block;material=stone;amount=10;hS=0.5;vS=0.5;y=1;repeat=10;repeatInterval=2;speed=1;delay=5} @modelpart{mid=ps_ec_soul_demonic_vfx_1;pid=arm} ~onSpawn
+#
+  - projectile{onHit=PS_EC_Soul_Demonic_Soul_Capture_Hit;v=15;i=1;hR=1.5;vR=1;mr=6;hnp=true;hO=0;vO=0;sE=false;sB=false;tyo=2;hs=true;hfs=1} @Forward{f=10;y=0} ~onSpawn
+  - model{mid=ps_ec_soul_demonic_vfx_soul_capture;d=false;i=true;lp=false} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx_soul_capture;s=soul_capture} @self ~onSpawn
+  - remove{delay=80} @self ~onSpawn
+
+
+#################################################
+##                                             ##
+##                  Devastate                  ##
+##                                             ##
+#################################################
+
+
+PS_EC_Soul_Demonic_Devastate:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+#
+  - sound{s=minecraft:entity.iron_golem.damage;v=1;p=0.5} @self ~onSpawn
+  - sound{s=minecraft:entity.iron_golem.damage;v=1;p=1} @self ~onSpawn
+  - sound{s=minecraft:entity.lightning_bolt.impact;v=0.5;p=1} @self ~onSpawn
+#
+  - effect:particles{particle=block;material=stone;amount=10;hS=0.5;vS=0.5;y=1;repeat=1;repeatInterval=3} @Forward{f=1;lockpitch=true} ~onSpawn
+  - effect:particles{particle=block;material=stone;amount=10;hS=0.5;vS=0.5;y=1;repeat=1;repeatInterval=3} @Forward{f=3;lockpitch=true} ~onSpawn
+  - effect:particles{particle=block;material=stone;amount=10;hS=0.5;vS=0.5;y=1;repeat=1;repeatInterval=3} @Forward{f=5;lockpitch=true} ~onSpawn
+  - effect:particles{particle=reddust;color=#00cdf9;amount=20;hS=0.5;vS=1;y=1;repeat=2;repeatInterval=3;size=1} @modelpart{mid=ps_ec_soul_demonic_vfx;pid=vfx} ~onSpawn
+#
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=true} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=devastate} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=devastate_vfx_1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=devastate_vfx_2;delay=5} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=devastate_vfx_3;delay=6} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=devastate_vfx_4;delay=7} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=devastate_vfx_5;delay=8} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=devastate_vfx_6;delay=9} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=devastate_vfx_7;delay=10} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=devastate_vfx_8;delay=11} @self ~onSpawn
+  - remove{delay=60} @self ~onSpawn
+
+PS_EC_Soul_Demonic_Devastate_Slash:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=true} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=devastate_slash} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_2;delay=1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_3;delay=2} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_4;delay=3} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_5;delay=4} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_6;delay=5} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_7;delay=6} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_8;delay=7} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_9;delay=8} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_10;delay=9} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_11;delay=10} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=soul_slash_vfx_12;delay=11} @self ~onSpawn
+  - remove{delay=11} @self ~onSpawn
+
+
+#####################################################
+##                                                 ##
+##                  Death Landing                  ##
+##                                                 ##
+#####################################################
+
+
+PS_EC_Soul_Demonic_Death_Landing:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+#
+  - sound{s=minecraft:block.beacon.power_select;v=2;p=1} @self ~onSpawn
+  - sound{s=minecraft:entity.evoker.cast_spell;v=2;p=1} @self ~onSpawn
+  - sound{s=minecraft:entity.evoker.prepare_summon;v=2;p=1} @self ~onSpawn
+#
+  - summon{type=PS_EC_Soul_Demonic_Death_Landing_Summoner;os=true} @origin{y=-0.7} ~onSpawn
+  - summon{type=PS_EC_Soul_Demonic_Death_Landing_Cooldown;os=true} @origin{y=-0.7} ~onSpawn
+  - summon{type=PS_EC_Soul_Demonic_Death_Landing_Radius;os=true} @origin{y=-0.7} ~onSpawn
+#
+  - summon{type=PS_EC_Soul_Demonic_Death_Landing_Ground_VFX;os=true;delay=50} @self ~onSpawn
+  - remove{delay=65} @self ~onSpawn
+
+PS_EC_Soul_Demonic_Death_Landing_Summoner:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=true} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_vfx_summoner} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=death_landing_summon} @self ~onSpawn
+  - remove{delay=60} @self ~onSpawn
+
+PS_EC_Soul_Demonic_Death_Landing_Cooldown:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=true} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_vfx_cooldown} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=death_landing_cooldown} @self ~onSpawn
+  - remove{delay=60} @self ~onSpawn
+
+PS_EC_Soul_Demonic_Death_Landing_Radius:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=true} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_vfx_radius} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=death_landing_radius} @self ~onSpawn
+  - remove{delay=60} @self ~onSpawn
+
+PS_EC_Soul_Demonic_Death_Landing_Wing:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=ps_ec_soul_demonic_vfx_death_landing;d=false;i=true;lp=true} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx_death_landing;s=death_landing} @self ~onSpawn
+  - remove{delay=45} @self ~onSpawn
+
+PS_EC_Soul_Demonic_Death_Landing_Fly_VFX:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=true} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=death_landing} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_vfx_1;delay=5} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_vfx_2;delay=6} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_vfx_3;delay=7} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_vfx_4;delay=8} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_vfx_5;delay=9} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_vfx_6;delay=10} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_vfx_7;delay=11} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_vfx_8;delay=12} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_vfx_9;delay=13} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_vfx_10;delay=14} @self ~onSpawn
+  - remove{delay=15} @self ~onSpawn
+
+PS_EC_Soul_Demonic_Death_Landing_Ground_VFX:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+#
+  - effect:particles{particle=block;material=stone;amount=100;hS=6;vS=1;y=1;repeat=1;repeatInterval=2;delay=12} @self ~onSpawn
+  - effect:particles{particle=reddust;color=#00cdf9;amount=30;hS=2;vS=5;y=2;size=1;delay=12} @self ~onSpawn
+  - effect:particles{particle=reddust;color=#00cdf9;amount=30;hS=2;vS=5;y=2;size=2;delay=12} @self ~onSpawn
+  - effect:particles{particle=campfire_cosy_smoke;amount=20;speed=0.03;hS=4;vS=1;delay=12} @self ~onSpawn
+#
+  - sound{s=minecraft:entity.wither.spawn;v=2;p=1;delay=12} @self ~onSpawn
+  - sound{s=minecraft:entity.iron_golem.damage;v=2;p=1;delay=12} @self ~onSpawn
+  - sound{s=minecraft:entity.iron_golem.damage;v=2;p=0.5;delay=12} @self ~onSpawn
+  - sound{s=minecraft:entity.iron_golem.damage;v=2;p=0.25;delay=12} @self ~onSpawn
+  - sound{s=minecraft:entity.lightning_bolt.impact;v=2;p=1;delay=12} @self ~onSpawn
+#
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=true} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=death_landing_ground} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_ground_vfx_0} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_ground_vfx_1;delay=10} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_ground_vfx_2;delay=11} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_ground_vfx_3;delay=12} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_ground_vfx_4;delay=13} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_ground_vfx_5;delay=14} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_ground_vfx_6;delay=15} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_ground_vfx_7;delay=16} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_ground_vfx_8;delay=17} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_ground_vfx_9;delay=18} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_ground_vfx_10;delay=19} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=death_landing_ground_vfx_11;delay=20} @self ~onSpawn
+  - summon{type=PS_EC_Soul_Demonic_Smoke_Ring_2;os=true;delay=10} @origin{y=2} ~onSpawn
+  - summon{type=PS_EC_Soul_Demonic_Smoke_Ring_3;os=true;delay=10} @origin{y=2} ~onSpawn
+  - summon{type=PS_EC_Soul_Demonic_Smoke_Ring_4;os=true;delay=10} @origin{y=2} ~onSpawn
+  - remove{delay=180} @self ~onSpawn
+
+
+#################################################
+##                                             ##
+##                  Other VFX                  ##
+##                                             ##
+#################################################
+
+
+PS_EC_Soul_Demonic_Smoke_Ring_1:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=true} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=smoke_ring_1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_2;delay=2} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_3;delay=4} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_4;delay=6} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_5;delay=8} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_6;delay=10} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_7;delay=12} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_8;delay=14} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_9;delay=16} @self ~onSpawn
+  - remove{delay=18} @self ~onSpawn
+
+PS_EC_Soul_Demonic_Smoke_Ring_2:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=true} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=smoke_ring_2} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_2;delay=2} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_3;delay=4} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_4;delay=6} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_5;delay=8} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_6;delay=10} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_7;delay=12} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_8;delay=14} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_9;delay=16} @self ~onSpawn
+  - remove{delay=18} @self ~onSpawn
+
+PS_EC_Soul_Demonic_Smoke_Ring_3:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=true} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=smoke_ring_3} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_2;delay=2} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_3;delay=4} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_4;delay=6} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_5;delay=8} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_6;delay=10} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_7;delay=12} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_8;delay=14} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_9;delay=16} @self ~onSpawn
+  - remove{delay=18} @self ~onSpawn
+
+PS_EC_Soul_Demonic_Smoke_Ring_4:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=true} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=smoke_ring_4} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_2;delay=2} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_3;delay=4} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_4;delay=6} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_5;delay=8} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_6;delay=10} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_7;delay=12} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_8;delay=14} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_9;delay=16} @self ~onSpawn
+  - remove{delay=18} @self ~onSpawn
+
+PS_EC_Soul_Demonic_Smoke_Ring_5:
+  Type: ARMOR_STAND
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{mid=ps_ec_soul_demonic_vfx;d=false;i=true;lp=true} @self ~onSpawn
+  - state{mid=ps_ec_soul_demonic_vfx;s=smoke_ring_5} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_1} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_2;delay=2} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_3;delay=4} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_4;delay=6} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_5;delay=8} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_6;delay=10} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_7;delay=12} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_8;delay=14} @self ~onSpawn
+  - changepart{m=ps_ec_soul_demonic_vfx;pid=vfx;nm=ps_ec_soul_demonic_vfx_part;npid=smoke_ring_vfx_9;delay=16} @self ~onSpawn
+  - remove{delay=18} @self ~onSpawn

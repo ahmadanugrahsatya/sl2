@@ -1,0 +1,35 @@
+info:
+  namespace: draculaset
+items:
+  dracula_cosmetics_wings:
+    display_name: Dracula Wings Cosmetics
+    permission: draculaset.dracula_cosmetics_wings
+    resource:
+      generate: false
+      model_path: wings_cosmetic
+      material: POTION
+      model_id: 7990900
+  dracula_cosmetics_wings_self:
+    display_name: Dracula Wings Cosmetics Self
+    permission: draculaset.dracula_cosmetics_wings_self
+    resource:
+      generate: false
+      model_path: wings_cosmetic_self
+      material: POTION
+      model_id: 7990901
+  dracula_cosmetics_wings_self_2:
+    display_name: Dracula Wings Cosmetics Self 2
+    permission: draculaset.dracula_cosmetics_wings_self_2
+    resource:
+      generate: false
+      model_path: wings_cosmetic_self_2
+      material: POTION
+      model_id: 7990902
+  dracula_cosmetics_wings_normal_2:
+    display_name: Dracula Wings Cosmetics Normal 2
+    permission: draculaset.dracula_cosmetics_wings_normal_2
+    resource:
+      generate: false
+      model_path: wings_cosmetic_normal_2
+      material: POTION
+      model_id: 7990903

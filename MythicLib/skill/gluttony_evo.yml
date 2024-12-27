@@ -1,0 +1,25 @@
+BLADE_SLASH_EVO:
+    mythicmobs-skill-id: Blade_Slash_Evo
+    modifiers:
+    - damage
+    
+PIERCING_SHURIKEN:
+    mythicmobs-skill-id: Piercing_Shuriken
+    passive-type: TIMER
+    modifiers:
+    - damage
+    
+DEATH_CHARGE:
+    mythicmobs-skill-id: Death_Charge
+    modifiers:
+    - damage
+    
+SOUL_SURGE:
+    mythicmobs-skill-id: Soul_Surge
+    modifiers:
+    - damage
+    
+EVO_SHADOW_WALK:
+    mythicmobs-skill-id: Evo_Shadow_Walk
+    modifiers:
+    - duration

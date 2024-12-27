@@ -1,0 +1,80 @@
+Permaflame_Greatsword1:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=fx_permaflame_greatsword;lockpitch=true} @self ~onSpawn
+  - state{s=ult} @self ~onSpawn
+  - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  
+Permaflame_Greatsword2:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=fx_permaflame_greatsword;lockpitch=true} @self ~onSpawn
+  - state{s=ult2} @self ~onSpawn
+  - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  
+Permaflame_Greatsword3:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=fx_permaflame_greatsword;lockpitch=true} @self ~onSpawn
+  - state{s=ult3} @self ~onSpawn
+  - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  
+Permaflame_Greatsword_PRO:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=fx_permaflame_greatsword;lockpitch=true} @self ~onSpawn
+  - state{s=pro} @self ~onSpawn
+  - BodyRotation{playermode=true;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  
+Permaflame_Greatsword4:
+  Type: ARMOR_STAND
+  Pose:
+      Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - model{usestatemachine=true;mid=fx_permaflame_greatsword;lockpitch=true} @self ~onSpawn
+  - partvis{m=fx_permafrost_lance;p=body;v=false} @self ~onSpawn
+  - partvis{m=fx_permafrost_lance;p=body;v=true;delay=2} @self ~onSpawn
+  
+  - state{s=pro2} @self ~onSpawn
+  - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+  - effect:particles{particle=snowflake;amount=20;hS=0.15;vS=0.15;y=0;speed=0;forwardOffset=0;sideOffset=0;delay=59} @modelpart{mid=fx_permaflame_greatsword;pid=p;em=false} ~onSpawn
+  - remove{delay=60} @self ~onSpawn
+  

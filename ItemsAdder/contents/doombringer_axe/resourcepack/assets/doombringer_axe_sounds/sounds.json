@@ -1,0 +1,61 @@
+{
+  "samus.flamos_slash": {
+    "category": "master",
+    "sounds": [
+      "doombringer_axe:samus/doombringer_axe/flamos_slash_1",
+	  "doombringer_axe:samus/doombringer_axe/flamos_slash_2",
+	  "doombringer_axe:samus/doombringer_axe/flamos_slash"
+    ]
+  },
+  "samus.flamos_big_slash": {
+    "category": "master",
+    "sounds": [
+      "doombringer_axe:samus/doombringer_axe/flamos_big_slash_1",
+	  "doombringer_axe:samus/doombringer_axe/flamos_big_slash_2",
+	  "doombringer_axe:samus/doombringer_axe/flamos_big_slash"
+     ] 
+   },
+  "samus.dash_ubi": {
+    "category": "master",
+    "sounds": [
+      "doombringer_axe:samus/doombringer_axe/dash_ubi"
+    ]
+  },
+  "samus.flamos_ult": {
+    "category": "master",
+    "sounds": [
+      "doombringer_axe:samus/doombringer_axe/flamos_ult"
+    ]
+  },
+  "samus.flamos_leap": {
+    "category": "master",
+    "sounds": [
+      "doombringer_axe:samus/doombringer_axe/flamos_leap"
+    ]
+  },
+  "samus.ror": {
+    "category": "master",
+    "sounds": [
+      "doombringer_axe:samus/doombringer_axe/ror"
+    ]
+  },
+  "samus.warrior_charge": {
+    "category": "master",
+    "sounds": [
+      "doombringer_axe:samus/doombringer_axe/warrior_charge"
+    ]
+  },
+  "samus.whirlwind": {
+    "category": "master",
+    "sounds": [
+      "doombringer_axe:samus/doombringer_axe/whirlwind"
+    ]
+  },
+  "samus.warrior_slash": {
+    "category": "master",
+    "sounds": [
+      "doombringer_axe:samus/doombringer_axe/warrior_slash1",
+	  "doombringer_axe:samus/doombringer_axe/warrior_slash2"
+    ]
+  }
+}

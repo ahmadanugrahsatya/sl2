@@ -1,0 +1,4 @@
+java.lang.NullPointerException
+
+MythicMobs version: 5.3.3-8b903e32
+Bukkit version: git-Paper-196 (MC: 1.20.1)

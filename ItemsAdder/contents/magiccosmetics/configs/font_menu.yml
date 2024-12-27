@@ -1,0 +1,198 @@
+info:
+  namespace: magiccosmetics
+font_images:
+  cmenu:
+    path: "menu/menu.png"
+    suggest_in_command: false
+    symbol: ""
+    y_position: 45
+    scale_ratio: 255
+  cmenu2:
+    permission: "menu2.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "menu/menu2.png"
+    y_position: 59
+    scale_ratio: 255
+  trade:
+    permission: "trade.menu"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "menu/trade.png"
+    y_position: 98
+    scale_ratio: 255
+  screen:
+    permission: "menu2.admin"
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/screen.png"
+    y_position: 70
+    scale_ratio: 1500
+  frame_slot:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/slot_selected.png"
+    symbol: "쌃"
+    y_position: -4
+    scale_ratio: 23
+  frame_slot_spray:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/slot_selected.png"
+    symbol: ""
+    y_position: -94
+    scale_ratio: 20
+  b1:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/black.png"
+    symbol: ""
+    y_position: -5000
+    scale_ratio: 5
+  b3:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/pixel_split.png"
+    symbol: ""
+    y_position: -32768
+    scale_ratio: -3
+  b4:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/pixel_split.png"
+    symbol: ""
+    y_position: -32678
+    scale_ratio: -4
+  b5:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/pixel_split.png"
+    symbol: ""
+    y_position: -32768
+    scale_ratio: -5
+  b6:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/pixel_split.png"
+    symbol: ""
+    y_position: -32768
+    scale_ratio: -6
+  b7:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/pixel_split.png"
+    symbol: ""
+    y_position: -32768
+    scale_ratio: -7
+  b8:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/pixel_split.png"
+    symbol: ""
+    y_position: -32768
+    scale_ratio: -8
+  b9:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/pixel_split.png"
+    symbol: ""
+    y_position: -32768
+    scale_ratio: -9
+  b10:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/pixel_split.png"
+    symbol: ""
+    y_position: -32768
+    scale_ratio: -10
+  b18:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/pixel_split.png"
+    symbol: ""
+    y_position: -32768
+    scale_ratio: -18
+  b34:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/pixel_split.png"
+    symbol: ""
+    y_position: -32768
+    scale_ratio: -34
+  b66:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/pixel_split.png"
+    symbol: ""
+    y_position: -32768
+    scale_ratio: -66
+  slot1:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/slot_locked.png"
+    symbol: "쌥"
+    y_position: -40
+    scale_ratio: 32
+  slot2:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/slot_locked.png"
+    symbol: "쌦"
+    y_position: -58
+    scale_ratio: 32
+  slot3:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/slot_locked.png"
+    symbol: "쌧"
+    y_position: -76
+    scale_ratio: 32
+  slot4:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/slot_locked.png"
+    symbol: "쌨"
+    y_position: -94
+    scale_ratio: 32
+  frame1:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/selected.png"
+    symbol: "쌉"
+    y_position: -3
+    scale_ratio: 32
+  frame2:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/selected.png"
+    symbol: "쌊"
+    y_position: -21
+    scale_ratio: 32
+  frame3:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/selected.png"
+    symbol: "쌋"
+    y_position: -39
+    scale_ratio: 32
+  frame4:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/selected.png"
+    symbol: "쌌"
+    y_position: -57
+    scale_ratio: 32
+  frame5:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/selected.png"
+    symbol: "쌍"
+    y_position: -75
+    scale_ratio: 32
+  frame6:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "menu/selected.png"
+    symbol: "쌎"
+    y_position: -93
+    scale_ratio: 32

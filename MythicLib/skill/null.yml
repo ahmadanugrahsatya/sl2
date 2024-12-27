@@ -1,0 +1,20 @@
+VOID_ARROW:
+    mythicmobs-skill-id: Void_Arrow
+
+RETREAT:
+    mythicmobs-skill-id: Retreat
+    
+GRAVITATIONAL_BOOST:
+    mythicmobs-skill-id: Gravitational_Boost
+    passive-type: TIMER
+    timer: 5
+    
+BLACKHOLE_SHOT:
+    mythicmobs-skill-id: Blackhole_Shot
+    modifiers:
+    
+VOID_RAIN:
+    mythicmobs-skill-id: Void_Rain
+    
+PULSE_MODE:
+    mythicmobs-skill-id: Pulse_Mode

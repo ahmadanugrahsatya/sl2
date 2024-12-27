@@ -1,0 +1,4 @@
+DEATH_LANDING:
+    mythicmobs-skill-id: PS_EC_Soul_Demonic_Death_Landing
+    modifiers:
+    - damage
